@@ -110,6 +110,18 @@ Route::match(["post", "get"], "/customer/convert", [AccountController::class, "c
 // plan
 Route::match(["get", "post"], "/customer/plan/{name}", [AccountController::class, "plans"])->middleware(["auth"])->name("user.plan.view");
 
+// plan
+Route::match(["get", "post"], "/customer/plan1/{name}", [AccountController::class, "plans1"])->middleware(["auth"])->name("user.plan1.view");
+// plan
+Route::match(["get", "post"], "/customer/plan2/{name}", [AccountController::class, "plans2"])->middleware(["auth"])->name("user.plan2.view");
+// plan
+Route::match(["get", "post"], "/customer/plan3/{name}", [AccountController::class, "plans3"])->middleware(["auth"])->name("user.plan3.view");
+// plan
+Route::match(["get", "post"], "/customer/plan4/{name}", [AccountController::class, "plans4"])->middleware(["auth"])->name("user.plan4.view");
+// plan
+Route::match(["get", "post"], "/customer/plan5/{name}", [AccountController::class, "plans5"])->middleware(["auth"])->name("user.plan5.view");
+
+
 // statistics
 Route::get("/customer/statistics", [AccountController::class, "statistics"])->middleware(["auth"])->name("user.statistics.view");
 

@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Stableincome'),
+    'name' => env('APP_NAME', 'Coastaltrustcapitals'),
     'description' => env('APP_DESCRIPTION', 'Grow Your Passive Income Hourly and Increase Your Earnings Hourly'),
-    'chat_link' => env('CHAT_LINK', 'Stableincome'),
+    'chat_link' => env('CHAT_LINK', 'Coastaltrustcapitals'),
     'email' => env('APP_EMAIL', ''),
     'facebook' => env('APP_FACEBOOK', ''),
     'twitter' => env('APP_TWITTER', ''),
@@ -28,7 +28,7 @@ return [
     "ranks"=>["green"=>"1000","bronze"=>"10000","silver"=>"100000","gold"=>"1000000","black"=>"10000000"],
 
 
-    "type"=>["total-return-swap","currency-swap","commodity-swap","nfp-swap"],
+    "type"=>["Cryptocurrency","Stocks","Real Estate","Medical Hedgefunds","Tech Startups"],
     "currency"=>["USD","BTC","ETH"],
     'transaction_type'=>["deposit","investment","withdrawal","exchange"],
     "tx_status"=>[1=>"processing",2=>"completed",3=>"cancled"],
@@ -40,7 +40,7 @@ return [
     "domain"=> "Iqiglobalfx",
     "referral_initial_percent"=>10,
     "referral_consequent_percent"=>10,
-    "admin_mail"=>"support@Iqiglobalfx.com",
+    "admin_mail"=>"support@coastaltrustcapitals.com",
     "verify_mail"=>"{{ route('user.completeverifyEmail') }}",
 
     /*

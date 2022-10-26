@@ -170,7 +170,10 @@
                         r(
                           "a",
                           { onClick: o, className: "navbar-brand" },
-                          r("img", { src: "/img/logo.png", alt: "logo" })
+                          r("img", {
+                            src: "assets/newfile3/img/logo.png",
+                            alt: "logo",
+                          })
                         )
                       ),
                       r(
@@ -195,7 +198,7 @@
                         r(
                           "ul",
                           { className: "navbar-nav m-auto" },
-                          
+
                           r(
                             "li",
                             { className: "nav-item" },
@@ -249,7 +252,7 @@
                                 r(
                                   t.a,
                                   {
-                                    href: "/blog-grid",
+                                    href: "/realEstate",
                                     activeClassName: "active",
                                   },
                                   r(
@@ -281,7 +284,7 @@
                                 r(
                                   t.a,
                                   {
-                                    href: "/blog-right-sidebar",
+                                    href: "/medHedgeFunds",
                                     activeClassName: "active",
                                   },
                                   r(
@@ -297,7 +300,7 @@
                                 r(
                                   t.a,
                                   {
-                                    href: "/blog-details",
+                                    href: "/techStartup",
                                     activeClassName: "active",
                                   },
                                   r(
@@ -371,11 +374,7 @@
                             r(
                               t.a,
                               { href: "/register" },
-                              r(
-                                "a",
-                                { className: "default-btn" },
-                                "REGISTER"
-                              )
+                              r("a", { className: "default-btn" }, "REGISTER")
                             )
                           )
                         )
@@ -631,9 +630,9 @@
                     null,
                     s(
                       "a",
-                      { href: "mailto:hello@info.com" },
+                      { href: "mailto:support@coastaltrustcapitals.com" },
                       s("i", { className: "bx bxs-paper-plane" }),
-                      "Email: hello@info66.com"
+                      "Email: support@coastaltrustcapitals.com"
                     )
                   )
                 )

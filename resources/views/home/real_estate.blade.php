@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Resido - Residence & Real Estate HTML Template</title>
+    <title>CoastalTrustCapital-Real-Estate</title>
     <!-- Custom CSS -->
     <link href="{{ asset('assets/newfile1/css/styles.css') }}" rel="stylesheet">
     <!-- Custom Color Option -->
@@ -105,9 +105,10 @@
                     <div class="col-lg-7 col-md-10 text-center">
                         <div style="margin-top: 100px" class="sec-heading ">
                             <h2>Explore Good places</h2>
-                            <p style="margin-top: 50px">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores</p>
+                            <p style="margin-top: 50px">We deal on any property used for residential purposes. Examples
+                                include
+                                single-family homes, condos, cooperatives, duplexes, townhouses, and multifamily
+                                residences.</p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +228,8 @@
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
                                     <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
-                                            width="18" alt="" />210 Zirak Road, Canada</div>
+                                            width="18" alt="" />9572 Trusel Ave.
+                                        VA</div>
                                 </div>
                                 <div class="footer-flex">
                                     <a href="property-detail.html" class="prt-view">Invest</a>
@@ -289,7 +291,8 @@
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
                                     <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
-                                            width="18" alt="" />210 Zirak Road, Canada</div>
+                                            width="18" alt="" />7 Magnolia
+                                        Anaheim, CA</div>
                                 </div>
                                 <div class="footer-flex">
                                     <a href="property-detail.html" class="prt-view">Invest</a>
@@ -351,7 +354,8 @@
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
                                     <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
-                                            width="18" alt="" />210 Zirak Road, Canada</div>
+                                            width="18" alt="" />83 Vale Street
+                                        Elgin, IL</div>
                                 </div>
                                 <div class="footer-flex">
                                     <a href="property-detail.html" class="prt-view">Invest</a>
@@ -385,7 +389,7 @@
                                                 class="prt-link-detail">Found Property Group</a></h4>
                                     </div>
                                     <div class="listing-short-detail-flex">
-                                        <h6 class="listing-card-info-price">$2,850</h6>
+                                        <h6 class="listing-card-info-price">$25,850</h6>
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +417,8 @@
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
                                     <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
-                                            width="18" alt="" />210 Zirak Road, Canada</div>
+                                            width="18" alt="" />481 High Dr.
+                                        Media, PA</div>
                                 </div>
                                 <div class="footer-flex">
                                     <a href="property-detail.html" class="prt-view">Invest</a>
@@ -447,7 +452,7 @@
                                                 class="prt-link-detail">Strive Partners Realty</a></h4>
                                     </div>
                                     <div class="listing-short-detail-flex">
-                                        <h6 class="listing-card-info-price">$8,100</h6>
+                                        <h6 class="listing-card-info-price">$37,100</h6>
                                     </div>
                                 </div>
                             </div>
@@ -475,7 +480,8 @@
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
                                     <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
-                                            width="18" alt="" />210 Zirak Road, Canada</div>
+                                            width="18" alt="" />8 San Pablo St.
+                                        New Kensington, PA</div>
                                 </div>
                                 <div class="footer-flex">
                                     <a href="property-detail.html" class="prt-view">Invest</a>
@@ -489,12 +495,12 @@
 
                 </div>
 
-                <div class="row">
+                {{-- <div class="row" style="margin-bottom: 50px">
                     <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <a href="listings-list-with-sidebar.html" class="btn btn-theme-light-2 rounded">Browse More
+                        <a href="#" class="btn btn-theme-light-2 rounded">Browse More
                             Properties</a>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </section>
@@ -508,9 +514,10 @@
                     <div class="col-lg-7 col-md-10 text-center">
                         <div style="margin-top: 100px" class="sec-heading">
                             <h2>Find By Locations</h2>
-                            <p style="margin-top: 50px">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores</p>
+                            <p style="margin-top: 50px">We deal on any property used exclusively for business purposes,
+                                such as
+                                apartment complexes, gas stations, grocery stores, hospitals, hotels, offices, parking
+                                facilities, restaurants, shopping centers, stores, and theaters.</p>
                         </div>
                     </div>
                 </div>
@@ -520,9 +527,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-1.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-1.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -530,8 +536,7 @@
                                     <span>12 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -540,9 +545,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-2.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-2.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -550,8 +554,7 @@
                                     <span>142 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -560,9 +563,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-3.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-3.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -570,8 +572,7 @@
                                     <span>17 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -580,9 +581,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-4.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-4.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -590,8 +590,7 @@
                                     <span>72 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -600,9 +599,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-5.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-5.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -610,8 +608,7 @@
                                     <span>102 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -620,9 +617,8 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="listings-list-with-sidebar.html"><img
-                                        src="{{ asset('assets/newfile1/img/c-6.png') }}" class="img-fluid"
-                                        alt="" /></a>
+                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-6.png') }}"
+                                        class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
@@ -630,8 +626,7 @@
                                     <span>95 Properties</span>
                                 </div>
                                 <div class="lp-content-right">
-                                    <a href="listings-list-with-sidebar.html" class="lp-property-view"><i
-                                            class="ti-angle-right"></i></a>
+                                    <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -641,7 +636,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <a href="listings-list-with-sidebar.html" class="btn btn-theme-light rounded">Browse More
+                        <a href="#" class="btn btn-theme-light rounded">Browse More
                             Locations</a>
                     </div>
                 </div>
@@ -655,9 +650,9 @@
                     <div class="col-lg-7 col-md-10 text-center">
                         <div style="margin-top: 100px" class="sec-heading">
                             <h2>Featured Property For Sale</h2>
-                            <p style="margin-top: 50px">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores</p>
+                            <p style="margin-top: 50px">Investors and analysts keep a close eye on housing starts
+                                because the numbers can provide a general sense of economic direction. Moreover, the
+                                types of new housing starts can give clues about how the economy is developing</p>
                         </div>
                     </div>
                 </div>
@@ -689,12 +684,12 @@
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star"></i>
-                                                <span class="reviews_text">(42 Reviews)</span>
+                                                <span class="reviews_text">(90 Reviews)</span>
                                             </div>
                                             <span class="prt-types sale">For Sale</span>
                                         </div>
                                         <div class="list-price">
-                                            <h6 class="listing-card-info-price">$7,000</h6>
+                                            <h6 class="listing-card-info-price">$70,000</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -721,11 +716,12 @@
 
                                 <div class="listing-footer-wrapper">
                                     <div class="listing-locate">
-                                        <span class="listing-location"><i class="ti-location-pin"></i>Quice Market,
-                                            Canada</span>
+                                        <span class="listing-location"><i class="ti-location-pin"></i>70 E.
+                                            Meadowbrook Lane
+                                            Chula Vista</span>
                                     </div>
                                     <div class="listing-detail-btn">
-                                        <a href="single-property-2.html" class="more-btn">Invest</a>
+                                        <a href="{{ route('user.register') }}" class="more-btn">Invest</a>
                                     </div>
                                 </div>
 
@@ -741,8 +737,8 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails7') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg61.webp') }}" class="img-fluid mx-auto"
-                                        alt="" />
+                                    <img src="{{ asset('assets/newfile1/img/0mg61.webp') }}"
+                                        class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
 
@@ -760,12 +756,12 @@
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star"></i>
-                                                <span class="reviews_text">(42 Reviews)</span>
+                                                <span class="reviews_text">(62 Reviews)</span>
                                             </div>
                                             <span class="prt-types rent">For Rent</span>
                                         </div>
                                         <div class="list-price">
-                                            <h6 class="listing-card-info-price">$6,800</h6>
+                                            <h6 class="listing-card-info-price">$64,800</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -792,11 +788,11 @@
 
                                 <div class="listing-footer-wrapper">
                                     <div class="listing-locate">
-                                        <span class="listing-location"><i class="ti-location-pin"></i>Quice Market,
-                                            Canada</span>
+                                        <span class="listing-location"><i class="ti-location-pin"></i>9151 Third St.
+                                            Vallejo, CA </span>
                                     </div>
                                     <div class="listing-detail-btn">
-                                        <a href="single-property-2.html" class="more-btn">Invest</a>
+                                        <a href="{{ route('user.register') }}" class="more-btn">Invest</a>
                                     </div>
                                 </div>
 
@@ -812,8 +808,8 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails8') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg68.webp') }}" class="img-fluid mx-auto"
-                                        alt="" />
+                                    <img src="{{ asset('assets/newfile1/img/0mg68.webp') }}"
+                                        class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
 
@@ -831,12 +827,12 @@
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star"></i>
-                                                <span class="reviews_text">(42 Reviews)</span>
+                                                <span class="reviews_text">(34 Reviews)</span>
                                             </div>
                                             <span class="prt-types rent">For Rent</span>
                                         </div>
                                         <div class="list-price">
-                                            <h6 class="listing-card-info-price">$7,000</h6>
+                                            <h6 class="listing-card-info-price">$35,000</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -863,11 +859,12 @@
 
                                 <div class="listing-footer-wrapper">
                                     <div class="listing-locate">
-                                        <span class="listing-location"><i class="ti-location-pin"></i>Quice Market,
-                                            Canada</span>
+                                        <span class="listing-location"><i class="ti-location-pin"></i>8508 Country
+                                            Club Lane
+                                            Los Angeles, CA</span>
                                     </div>
                                     <div class="listing-detail-btn">
-                                        <a href="single-property-2.html" class="more-btn">Invest</a>
+                                        <a href="{{ route('user.register') }}" class="more-btn">Invest</a>
                                     </div>
                                 </div>
 
@@ -883,8 +880,8 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails9') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg76.webp') }}" class="img-fluid mx-auto"
-                                        alt="" />
+                                    <img src="{{ asset('assets/newfile1/img/0mg76.webp') }}"
+                                        class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
 
@@ -902,12 +899,12 @@
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star"></i>
-                                                <span class="reviews_text">(42 Reviews)</span>
+                                                <span class="reviews_text">(22 Reviews)</span>
                                             </div>
                                             <span class="prt-types sale">For Sale</span>
                                         </div>
                                         <div class="list-price">
-                                            <h6 class="listing-card-info-price">$8,100</h6>
+                                            <h6 class="listing-card-info-price">$80,100</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -934,11 +931,12 @@
 
                                 <div class="listing-footer-wrapper">
                                     <div class="listing-locate">
-                                        <span class="listing-location"><i class="ti-location-pin"></i>Quice Market,
-                                            Canada</span>
+                                        <span class="listing-location"><i class="ti-location-pin"></i>8343 Canterbury
+                                            St.
+                                            Fremont, CA</span>
                                     </div>
                                     <div class="listing-detail-btn">
-                                        <a href="single-property-2.html" class="more-btn">Invest</a>
+                                        <a href="{{ route('user.register') }}" class="more-btn">Invest</a>
                                     </div>
                                 </div>
 
@@ -952,12 +950,12 @@
                 </div>
 
                 <!-- Pagination -->
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <a href="listings-list-with-sidebar.html" class="btn btn-theme-light-2 rounded">Browse More
+                        <a href="#" class="btn btn-theme-light-2 rounded">Browse More
                             Properties</a>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </section>
@@ -971,9 +969,10 @@
                     <div class="col-lg-7 col-md-10 text-center">
                         <div style="margin-top: 100px" class="sec-heading ">
                             <h2>Good Reviews by Customers</h2>
-                            <p style="margin-top: 50px">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores</p>
+                            <p style="margin-top: 50px">Ultimately, while we always hope our clients will be completely
+                                satisfied, some may have unmet expectations and some may be downright unhappy. At the
+                                end of the day, both types of clients are able to give testimonials. these are some of
+                                what our client says</p>
                         </div>
                     </div>
                 </div>
@@ -998,13 +997,13 @@
                                     </div>
 
                                     <div class="smart-tes-content">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti.</p>
+                                        <p>Since i joined Coastaltrustcapital real estate investments a couple of months
+                                            ago, i have seen more reasons to join the real estate industry fulltime</p>
                                     </div>
 
                                     <div class="st-author-info">
                                         <h4 class="st-author-title">Adam Williams</h4>
-                                        <span class="st-author-subtitle">CEO Of Microwoft</span>
+                                        <span class="st-author-subtitle">New Jersey</span>
                                     </div>
                                 </div>
                             </div>
@@ -1023,13 +1022,13 @@
                                     </div>
 
                                     <div class="smart-tes-content">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti.</p>
+                                        <p>i have never regreted the descision i maade to invest money in this company
+                                            real estate packages</p>
                                     </div>
 
                                     <div class="st-author-info">
                                         <h4 class="st-author-title">Retha Deowalim</h4>
-                                        <span class="st-author-subtitle">CEO Of Apple</span>
+                                        <span class="st-author-subtitle">Dallas</span>
                                     </div>
                                 </div>
                             </div>
@@ -1048,66 +1047,17 @@
                                     </div>
 
                                     <div class="smart-tes-content">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti.</p>
+                                        <p>I strongly advice you to decide on making the move on Coastaltrustcapitals
+                                            real estate investments because it will benefit you immensly</p>
                                     </div>
 
                                     <div class="st-author-info">
                                         <h4 class="st-author-title">Sam J. Wasim</h4>
-                                        <span class="st-author-subtitle">Pio Founder</span>
+                                        <span class="st-author-subtitle">Portland</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Single Item -->
-                            <div class="item">
-                                <div class="item-box">
-                                    <div class="smart-tes-author">
-                                        <div class="st-author-box">
-                                            <div class="st-author-thumb">
-                                                <div class="quotes bg-primary"><i class="ti-quote-right"></i></div>
-                                                <img src="{{ asset('assets/newfile1/img/user-5.jpg') }}"
-                                                    class="img-fluid" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="smart-tes-content">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti.</p>
-                                    </div>
-
-                                    <div class="st-author-info">
-                                        <h4 class="st-author-title">Usan Gulwarm</h4>
-                                        <span class="st-author-subtitle">CEO Of Facewarm</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Item -->
-                            <div class="item">
-                                <div class="item-box">
-                                    <div class="smart-tes-author">
-                                        <div class="st-author-box">
-                                            <div class="st-author-thumb">
-                                                <div class="quotes bg-success"><i class="ti-quote-right"></i></div>
-                                                <img src="{{ asset('assets/newfile1/img/user-6.jpg') }}"
-                                                    class="img-fluid" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="smart-tes-content">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                                            praesentium voluptatum deleniti.</p>
-                                    </div>
-
-                                    <div class="st-author-info">
-                                        <h4 class="st-author-title">Shilpa Shethy</h4>
-                                        <span class="st-author-subtitle">CEO Of Zapple</span>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
@@ -1125,9 +1075,10 @@
                     <div class="col-lg-7 col-md-10 text-center">
                         <div style="margin-top: 100px" class="sec-heading">
                             <h2>See our packages</h2>
-                            <p style="margin-top: 50px">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium
-                                voluptatum deleniti atque corrupti quos dolores</p>
+                            <p style="margin-top: 50px">Having something to fallback on in times of crises or
+                                post-retirement is a major reason to have an investment. It is never advisable to spend
+                                every cash you have whenever it comes in. it is prudent to save and invest a percentage
+                                of your income, no matter how little.</p>
                         </div>
                     </div>
                 </div>
@@ -1254,10 +1205,10 @@
                         <div class="modal-divider"><span>Or login via</span></div>
                         <div class="social-login mb-3">
                             <ul>
-                                <li><a href="#" class="btn connect-fb"><i
-                                            class="ti-facebook"></i>Facebook</a></li>
-                                <li><a href="#" class="btn connect-google"><i
-                                            class="ti-google"></i>Google+</a></li>
+                                <li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Facebook</a>
+                                </li>
+                                <li><a href="#" class="btn connect-google"><i class="ti-google"></i>Google+</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="text-center">
@@ -1267,9 +1218,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Modal -->
 
-        <!-- Sign Up Modal -->
         <div class="modal fade signup" id="signup" tabindex="-1" role="dialog" aria-labelledby="sign-up"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
@@ -1286,8 +1235,7 @@
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-group">
                                             <div class="input-with-icon">
-                                                <input type="text" class="form-control"
-                                                    placeholder="Full Name">
+                                                <input type="text" class="form-control" placeholder="Full Name">
                                                 <i class="ti-user"></i>
                                             </div>
                                         </div>
@@ -1355,24 +1303,21 @@
                         <div class="modal-divider"><span>Or login via</span></div>
                         <div class="social-login mb-3">
                             <ul>
-                                <li><a href="#" class="btn connect-fb"><i
-                                            class="ti-facebook"></i>Facebook</a></li>
-                                <li><a href="#" class="btn connect-google"><i
-                                            class="ti-google"></i>Google+</a></li>
+                                <li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Facebook</a>
+                                </li>
+                                <li><a href="#" class="btn connect-google"><i class="ti-google"></i>Google+</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="text-center">
-                            <p class="mt-5"><i class="ti-user mr-1"></i>Already Have An Account? <a
-                                    href="#" class="link">Go For LogIn</a></p>
+                            <p class="mt-5"><i class="ti-user mr-1"></i>Already Have An Account? <a href="#"
+                                    class="link">Go For LogIn</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Modal -->
 
-        {{-- <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i
-                class="ti-arrow-up"></i></a> --}}
 
 
     </div>
@@ -1387,6 +1332,7 @@
     <script src="{{ asset('assets/newfile1/js/lightbox.js') }}"></script>
     <script src="{{ asset('assets/newfile1/js/imagesloaded.js') }}"></script>
     <script src="{{ asset('assets/newfile1/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/newfile2/js/main.js') }}"></script>
 </body>
 
 

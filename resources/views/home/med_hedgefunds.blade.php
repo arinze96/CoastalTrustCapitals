@@ -7,7 +7,7 @@
 <head>
     <link rel="icon" type="image/png" href="{{ asset('assets/newfile4/img/favicon.png') }}" />
     <meta charSet="utf-8" />
-    <title>Corf - React Medical Health &amp; Clinic Template</title>
+    <title>CoastalTrustCapital-Medical Hedgefunds</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Corf - React Medical Health &amp; Clinic Template" />
     <meta name="og:title" property="og:title" content="Corf - React Medical Health &amp; Clinic Template" />
@@ -54,10 +54,7 @@
                                     <h1 style="animation-name:none;visibility:hidden;animation-delay:1s"
                                         class="fadeInUp">We are Committed to Your Best Health</h1>
                                     <p style="animation-name:none;visibility:hidden;animation-delay:1s"
-                                        class="fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua gravida. Risus
-                                        commodo.</p>
+                                        class="fadeInUp">We invest in high tech medical facilities that help solve specialized medical issues.</p>
                                     <div class="banner-btn fadeInUp"
                                         style="animation-name:none;visibility:hidden;animation-delay:1s"><a
                                             class="default-btn" href="appointment.html">Book An Appointment</a><a
@@ -250,8 +247,7 @@
             <div class="container">
                 <div class="section-title"><span class="top-title">Our Doctors</span>
                     <h2>Our Specialist Doctors</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-                        blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+                    <p>A specialist is a medical doctor who is an expert in a specific area of medicine. To see a specialist, you will need to get a letter of referral from your local doctor first. Specialists work in clinics, and in both private and public hospitals.</p>
                 </div>
             </div>
         </div>
@@ -420,7 +416,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-blog"><a href="blog-details.html"><img
                                     src="{{ asset('assets/newfile4/img/blog/blog1.jpg') }}" alt="Image" /></a><span>10 May
-                                2020</span>
+                                202</span>
                             <div class="blog-content">
                                 <ul>
                                     <li><a href="#">Medical</a></li>

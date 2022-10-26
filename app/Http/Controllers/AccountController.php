@@ -464,6 +464,706 @@ class AccountController extends Controller
         }
     }
 
+     /**
+     * This function is used to view plans
+     */
+    public function plans1(Request $request, $name)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $plan = [];
+
+            // $plans = Plan::orderBy('currency', 'desc')->get();
+            $plans = Plan::where("type", "=", "Cryptocurrency")->get();
+            // dd($plans);
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
+            $application = Application::where("id", "=", "1")->get()->first();
+            $investments = Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])->get()->all();
+            // dd($investments);
+            return view("customer.plan1", ["application" => $application, "account" => $userAccount, "plans" => $plans]);
+        }
+
+        $data = (object) $request->all();
+     
+        $user = $request->user();
+        $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+        $plan = Plan::where('id', '=', $data->planId)->get()->first();
+        if (!empty($plan)) {
+            $url = url("/customer/deposit/usd");
+            $key = config("app.iso_account")[$plan->currency];
+          
+
+            if ($userAccount->{$key . "_balance"} < $data->amount) {
+                return response()->json(["error" => true, "message" => "insufficient fund to perform this investment", "url" => $url]);
+            }
+
+            // update his account detail
+            Account::where("user_id", "=", $user->id)->update([
+                $key . "_balance" => $userAccount->{$key . "_balance"} - $data->amount,
+                $key . "_invested" => $userAccount->{$key . "_invested"} + $data->amount,
+            ]);
+
+            $amount = $data->amount;
+            $commission = ($amount * (int)$plan->commission) / 100;
+            // $total = $amount + $commission;
+            $daily = $commission / preg_replace('~\D~', '', $plan->duration);
+            
+            $exploded = explode(' ', $plan->duration);
+            $numeric = (int) $exploded[0];
+            $final_growth_amount = $amount + ($daily * $numeric);
+            $modified_close_date = $numeric + 1;
+            $new_one = array( $modified_close_date, 'days');
+            $new_close_date = implode(" ", $new_one);
+            
+
+
+            Transaction::insert([
+                'currency' => $plan->currency,
+                'type' => config("app.transaction_type")[1],
+                'user_id' => $user->id,
+                'message' => 'investment of ' . $data->amount . ' ' . $plan->currency,
+                'amount' => $data->amount,
+                'growth_amount' => $data->amount,
+                'plan_name' => $plan->type,
+                'duration' => $plan->duration,
+                'percent_commission' => $plan->commission,
+                'close_date' => date('Y-m-d H:i:s', strtotime($new_close_date))
+                // 'close_date' => date('Y-m-d H:i:s', strtotime($plan->duration))
+            ]);
+
+            // $start = strtotime($data->created_at);
+            // $stop = strtotime($plan->duration);
+            // $today = time();
+            $closing_date_formatted =  date('Y-m-d H:i:s', strtotime($plan->duration));
+            // $days_diff = $stop - $start;
+            // $remaining_days = ($today - $start) / 86400;
+            // $no_of_days = $plan->duration;
+
+            // if(date('Y-m-d H:i:s', strtotime($plan->duration))){
+            //     Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])
+            //     ->where("close_date", "=", $closing_date_formatted)->update([
+            //         "amount" =>$data->amount + $final_growth_amount
+            //     ]);
+            // }
+
+            if (!$user->referral == null) {
+                $userReferral = User::where("username", "=", $user->referral)->get()->first();
+                $userReferralAccount = Account::where("user_id", "=", $userReferral->id)->get()->first();
+                $amountToUpdate = ($user->referral_count == 0) ? ((config("app.referral_initial_percent") * $data->amount) / 100) : ((config("app.referral_consequent_percent") * $data->amount) / 100);
+
+                Account::where("user_id", "=", $userReferral->id)->update([
+                    "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate,
+                    "dolla_balance" => $userReferralAccount->dolla_balance + $amountToUpdate
+                ]);
+
+                // if ($user->referral_count == 0) {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => 1,
+                //     ]);
+                // } else {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => $user->referral_count + 1,
+                //     ]);
+                // }
+            }
+
+
+
+            $message_amount = ($plan->currency == "USD") ? number_format($data->amount, 0, ".", ",") : $data->amount;
+            $details = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => $user->username,
+                "content" => "Hello <b>$user->username!</b><br><br>
+                            Your investment of $message_amount $plan->currency in $plan->type is successfull <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            $admindetails13 = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => "Admin",
+                "content" => "Admin <b>$user->username!</b><br><br>
+                            made an investment of $message_amount $plan->currency in $plan->type <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            try {
+                Mail::to($user->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($admindetails13));
+            } catch (\Exception $e) {
+                // Never reached
+            }
+
+            return response()->json(["success" => true, "message" => "Your investment has been created"]);
+        } else {
+            return response()->json(["error" => true, "message" => "something went wrong"]);
+        }
+    }
+
+     /**
+     * This function is used to view plans
+     */
+    public function plans2(Request $request, $name)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $plan = [];
+
+            // $plans = Plan::orderBy('currency', 'desc')->get();
+            $plans = Plan::where("type", "=", "Stocks")->get();
+            // dd($plans);
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
+            $application = Application::where("id", "=", "1")->get()->first();
+            $investments = Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])->get()->all();
+            // dd($investments);
+            return view("customer.plan2", ["application" => $application, "account" => $userAccount, "plans" => $plans]);
+        }
+
+        $data = (object) $request->all();
+     
+        $user = $request->user();
+        $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+        $plan = Plan::where('id', '=', $data->planId)->get()->first();
+        if (!empty($plan)) {
+            $url = url("/customer/deposit/usd");
+            $key = config("app.iso_account")[$plan->currency];
+          
+
+            if ($userAccount->{$key . "_balance"} < $data->amount) {
+                return response()->json(["error" => true, "message" => "insufficient fund to perform this investment", "url" => $url]);
+            }
+
+            // update his account detail
+            Account::where("user_id", "=", $user->id)->update([
+                $key . "_balance" => $userAccount->{$key . "_balance"} - $data->amount,
+                $key . "_invested" => $userAccount->{$key . "_invested"} + $data->amount,
+            ]);
+
+            $amount = $data->amount;
+            $commission = ($amount * (int)$plan->commission) / 100;
+            // $total = $amount + $commission;
+            $daily = $commission / preg_replace('~\D~', '', $plan->duration);
+            
+            $exploded = explode(' ', $plan->duration);
+            $numeric = (int) $exploded[0];
+            $final_growth_amount = $amount + ($daily * $numeric);
+            $modified_close_date = $numeric + 1;
+            $new_one = array( $modified_close_date, 'days');
+            $new_close_date = implode(" ", $new_one);
+            
+
+
+            Transaction::insert([
+                'currency' => $plan->currency,
+                'type' => config("app.transaction_type")[1],
+                'user_id' => $user->id,
+                'message' => 'investment of ' . $data->amount . ' ' . $plan->currency,
+                'amount' => $data->amount,
+                'growth_amount' => $data->amount,
+                'plan_name' => $plan->type,
+                'duration' => $plan->duration,
+                'percent_commission' => $plan->commission,
+                'close_date' => date('Y-m-d H:i:s', strtotime($new_close_date))
+                // 'close_date' => date('Y-m-d H:i:s', strtotime($plan->duration))
+            ]);
+
+            // $start = strtotime($data->created_at);
+            // $stop = strtotime($plan->duration);
+            // $today = time();
+            $closing_date_formatted =  date('Y-m-d H:i:s', strtotime($plan->duration));
+            // $days_diff = $stop - $start;
+            // $remaining_days = ($today - $start) / 86400;
+            // $no_of_days = $plan->duration;
+
+            // if(date('Y-m-d H:i:s', strtotime($plan->duration))){
+            //     Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])
+            //     ->where("close_date", "=", $closing_date_formatted)->update([
+            //         "amount" =>$data->amount + $final_growth_amount
+            //     ]);
+            // }
+
+            if (!$user->referral == null) {
+                $userReferral = User::where("username", "=", $user->referral)->get()->first();
+                $userReferralAccount = Account::where("user_id", "=", $userReferral->id)->get()->first();
+                $amountToUpdate = ($user->referral_count == 0) ? ((config("app.referral_initial_percent") * $data->amount) / 100) : ((config("app.referral_consequent_percent") * $data->amount) / 100);
+
+                Account::where("user_id", "=", $userReferral->id)->update([
+                    "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate,
+                    "dolla_balance" => $userReferralAccount->dolla_balance + $amountToUpdate
+                ]);
+
+                // if ($user->referral_count == 0) {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => 1,
+                //     ]);
+                // } else {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => $user->referral_count + 1,
+                //     ]);
+                // }
+            }
+
+
+
+            $message_amount = ($plan->currency == "USD") ? number_format($data->amount, 0, ".", ",") : $data->amount;
+            $details = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => $user->username,
+                "content" => "Hello <b>$user->username!</b><br><br>
+                            Your investment of $message_amount $plan->currency in $plan->type is successfull <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            $admindetails13 = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => "Admin",
+                "content" => "Admin <b>$user->username!</b><br><br>
+                            made an investment of $message_amount $plan->currency in $plan->type <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            try {
+                Mail::to($user->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($admindetails13));
+            } catch (\Exception $e) {
+                // Never reached
+            }
+
+            return response()->json(["success" => true, "message" => "Your investment has been created"]);
+        } else {
+            return response()->json(["error" => true, "message" => "something went wrong"]);
+        }
+    }
+
+     /**
+     * This function is used to view plans
+     */
+    public function plans3(Request $request, $name)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $plan = [];
+
+            // $plans = Plan::orderBy('currency', 'desc')->get();
+            $plans = Plan::where("type", "=", "Real Estate")->get();
+            // dd($plans);
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
+            $application = Application::where("id", "=", "1")->get()->first();
+            $investments = Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])->get()->all();
+            // dd($investments);
+            return view("customer.plan3", ["application" => $application, "account" => $userAccount, "plans" => $plans]);
+        }
+
+        $data = (object) $request->all();
+     
+        $user = $request->user();
+        $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+        $plan = Plan::where('id', '=', $data->planId)->get()->first();
+        if (!empty($plan)) {
+            $url = url("/customer/deposit/usd");
+            $key = config("app.iso_account")[$plan->currency];
+          
+
+            if ($userAccount->{$key . "_balance"} < $data->amount) {
+                return response()->json(["error" => true, "message" => "insufficient fund to perform this investment", "url" => $url]);
+            }
+
+            // update his account detail
+            Account::where("user_id", "=", $user->id)->update([
+                $key . "_balance" => $userAccount->{$key . "_balance"} - $data->amount,
+                $key . "_invested" => $userAccount->{$key . "_invested"} + $data->amount,
+            ]);
+
+            $amount = $data->amount;
+            $commission = ($amount * (int)$plan->commission) / 100;
+            // $total = $amount + $commission;
+            $daily = $commission / preg_replace('~\D~', '', $plan->duration);
+            
+            $exploded = explode(' ', $plan->duration);
+            $numeric = (int) $exploded[0];
+            $final_growth_amount = $amount + ($daily * $numeric);
+            $modified_close_date = $numeric + 1;
+            $new_one = array( $modified_close_date, 'days');
+            $new_close_date = implode(" ", $new_one);
+            
+
+
+            Transaction::insert([
+                'currency' => $plan->currency,
+                'type' => config("app.transaction_type")[1],
+                'user_id' => $user->id,
+                'message' => 'investment of ' . $data->amount . ' ' . $plan->currency,
+                'amount' => $data->amount,
+                'growth_amount' => $data->amount,
+                'plan_name' => $plan->type,
+                'duration' => $plan->duration,
+                'percent_commission' => $plan->commission,
+                'close_date' => date('Y-m-d H:i:s', strtotime($new_close_date))
+                // 'close_date' => date('Y-m-d H:i:s', strtotime($plan->duration))
+            ]);
+
+            // $start = strtotime($data->created_at);
+            // $stop = strtotime($plan->duration);
+            // $today = time();
+            $closing_date_formatted =  date('Y-m-d H:i:s', strtotime($plan->duration));
+            // $days_diff = $stop - $start;
+            // $remaining_days = ($today - $start) / 86400;
+            // $no_of_days = $plan->duration;
+
+            // if(date('Y-m-d H:i:s', strtotime($plan->duration))){
+            //     Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])
+            //     ->where("close_date", "=", $closing_date_formatted)->update([
+            //         "amount" =>$data->amount + $final_growth_amount
+            //     ]);
+            // }
+
+            if (!$user->referral == null) {
+                $userReferral = User::where("username", "=", $user->referral)->get()->first();
+                $userReferralAccount = Account::where("user_id", "=", $userReferral->id)->get()->first();
+                $amountToUpdate = ($user->referral_count == 0) ? ((config("app.referral_initial_percent") * $data->amount) / 100) : ((config("app.referral_consequent_percent") * $data->amount) / 100);
+
+                Account::where("user_id", "=", $userReferral->id)->update([
+                    "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate,
+                    "dolla_balance" => $userReferralAccount->dolla_balance + $amountToUpdate
+                ]);
+
+                // if ($user->referral_count == 0) {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => 1,
+                //     ]);
+                // } else {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => $user->referral_count + 1,
+                //     ]);
+                // }
+            }
+
+
+
+            $message_amount = ($plan->currency == "USD") ? number_format($data->amount, 0, ".", ",") : $data->amount;
+            $details = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => $user->username,
+                "content" => "Hello <b>$user->username!</b><br><br>
+                            Your investment of $message_amount $plan->currency in $plan->type is successfull <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            $admindetails13 = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => "Admin",
+                "content" => "Admin <b>$user->username!</b><br><br>
+                            made an investment of $message_amount $plan->currency in $plan->type <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            try {
+                Mail::to($user->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($admindetails13));
+            } catch (\Exception $e) {
+                // Never reached
+            }
+
+            return response()->json(["success" => true, "message" => "Your investment has been created"]);
+        } else {
+            return response()->json(["error" => true, "message" => "something went wrong"]);
+        }
+    }
+
+     /**
+     * This function is used to view plans
+     */
+    public function plans4(Request $request, $name)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $plan = [];
+
+            // $plans = Plan::orderBy('currency', 'desc')->get();
+            $plans = Plan::where("type", "=", "Medical Hedgefunds")->get();
+            // dd($plans);
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
+            $application = Application::where("id", "=", "1")->get()->first();
+            $investments = Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])->get()->all();
+            // dd($investments);
+            return view("customer.plan4", ["application" => $application, "account" => $userAccount, "plans" => $plans]);
+        }
+
+        $data = (object) $request->all();
+     
+        $user = $request->user();
+        $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+        $plan = Plan::where('id', '=', $data->planId)->get()->first();
+        if (!empty($plan)) {
+            $url = url("/customer/deposit/usd");
+            $key = config("app.iso_account")[$plan->currency];
+          
+
+            if ($userAccount->{$key . "_balance"} < $data->amount) {
+                return response()->json(["error" => true, "message" => "insufficient fund to perform this investment", "url" => $url]);
+            }
+
+            // update his account detail
+            Account::where("user_id", "=", $user->id)->update([
+                $key . "_balance" => $userAccount->{$key . "_balance"} - $data->amount,
+                $key . "_invested" => $userAccount->{$key . "_invested"} + $data->amount,
+            ]);
+
+            $amount = $data->amount;
+            $commission = ($amount * (int)$plan->commission) / 100;
+            // $total = $amount + $commission;
+            $daily = $commission / preg_replace('~\D~', '', $plan->duration);
+            
+            $exploded = explode(' ', $plan->duration);
+            $numeric = (int) $exploded[0];
+            $final_growth_amount = $amount + ($daily * $numeric);
+            $modified_close_date = $numeric + 1;
+            $new_one = array( $modified_close_date, 'days');
+            $new_close_date = implode(" ", $new_one);
+            
+
+
+            Transaction::insert([
+                'currency' => $plan->currency,
+                'type' => config("app.transaction_type")[1],
+                'user_id' => $user->id,
+                'message' => 'investment of ' . $data->amount . ' ' . $plan->currency,
+                'amount' => $data->amount,
+                'growth_amount' => $data->amount,
+                'plan_name' => $plan->type,
+                'duration' => $plan->duration,
+                'percent_commission' => $plan->commission,
+                'close_date' => date('Y-m-d H:i:s', strtotime($new_close_date))
+                // 'close_date' => date('Y-m-d H:i:s', strtotime($plan->duration))
+            ]);
+
+            // $start = strtotime($data->created_at);
+            // $stop = strtotime($plan->duration);
+            // $today = time();
+            $closing_date_formatted =  date('Y-m-d H:i:s', strtotime($plan->duration));
+            // $days_diff = $stop - $start;
+            // $remaining_days = ($today - $start) / 86400;
+            // $no_of_days = $plan->duration;
+
+            // if(date('Y-m-d H:i:s', strtotime($plan->duration))){
+            //     Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])
+            //     ->where("close_date", "=", $closing_date_formatted)->update([
+            //         "amount" =>$data->amount + $final_growth_amount
+            //     ]);
+            // }
+
+            if (!$user->referral == null) {
+                $userReferral = User::where("username", "=", $user->referral)->get()->first();
+                $userReferralAccount = Account::where("user_id", "=", $userReferral->id)->get()->first();
+                $amountToUpdate = ($user->referral_count == 0) ? ((config("app.referral_initial_percent") * $data->amount) / 100) : ((config("app.referral_consequent_percent") * $data->amount) / 100);
+
+                Account::where("user_id", "=", $userReferral->id)->update([
+                    "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate,
+                    "dolla_balance" => $userReferralAccount->dolla_balance + $amountToUpdate
+                ]);
+
+                // if ($user->referral_count == 0) {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => 1,
+                //     ]);
+                // } else {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => $user->referral_count + 1,
+                //     ]);
+                // }
+            }
+
+
+
+            $message_amount = ($plan->currency == "USD") ? number_format($data->amount, 0, ".", ",") : $data->amount;
+            $details = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => $user->username,
+                "content" => "Hello <b>$user->username!</b><br><br>
+                            Your investment of $message_amount $plan->currency in $plan->type is successfull <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            $admindetails13 = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => "Admin",
+                "content" => "Admin <b>$user->username!</b><br><br>
+                            made an investment of $message_amount $plan->currency in $plan->type <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            try {
+                Mail::to($user->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($admindetails13));
+            } catch (\Exception $e) {
+                // Never reached
+            }
+
+            return response()->json(["success" => true, "message" => "Your investment has been created"]);
+        } else {
+            return response()->json(["error" => true, "message" => "something went wrong"]);
+        }
+    }
+
+     /**
+     * This function is used to view plans
+     */
+    public function plans5(Request $request, $name)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $plan = [];
+
+            // $plans = Plan::orderBy('currency', 'desc')->get();
+            $plans = Plan::where("type", "=", "Tech Startups")->get();
+            // dd($plans);
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
+            $application = Application::where("id", "=", "1")->get()->first();
+            $investments = Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])->get()->all();
+            // dd($investments);
+            return view("customer.plan5", ["application" => $application, "account" => $userAccount, "plans" => $plans]);
+        }
+
+        $data = (object) $request->all();
+     
+        $user = $request->user();
+        $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+        $plan = Plan::where('id', '=', $data->planId)->get()->first();
+        if (!empty($plan)) {
+            $url = url("/customer/deposit/usd");
+            $key = config("app.iso_account")[$plan->currency];
+          
+
+            if ($userAccount->{$key . "_balance"} < $data->amount) {
+                return response()->json(["error" => true, "message" => "insufficient fund to perform this investment", "url" => $url]);
+            }
+
+            // update his account detail
+            Account::where("user_id", "=", $user->id)->update([
+                $key . "_balance" => $userAccount->{$key . "_balance"} - $data->amount,
+                $key . "_invested" => $userAccount->{$key . "_invested"} + $data->amount,
+            ]);
+
+            $amount = $data->amount;
+            $commission = ($amount * (int)$plan->commission) / 100;
+            // $total = $amount + $commission;
+            $daily = $commission / preg_replace('~\D~', '', $plan->duration);
+            
+            $exploded = explode(' ', $plan->duration);
+            $numeric = (int) $exploded[0];
+            $final_growth_amount = $amount + ($daily * $numeric);
+            $modified_close_date = $numeric + 1;
+            $new_one = array( $modified_close_date, 'days');
+            $new_close_date = implode(" ", $new_one);
+            
+
+
+            Transaction::insert([
+                'currency' => $plan->currency,
+                'type' => config("app.transaction_type")[1],
+                'user_id' => $user->id,
+                'message' => 'investment of ' . $data->amount . ' ' . $plan->currency,
+                'amount' => $data->amount,
+                'growth_amount' => $data->amount,
+                'plan_name' => $plan->type,
+                'duration' => $plan->duration,
+                'percent_commission' => $plan->commission,
+                'close_date' => date('Y-m-d H:i:s', strtotime($new_close_date))
+                // 'close_date' => date('Y-m-d H:i:s', strtotime($plan->duration))
+            ]);
+
+            // $start = strtotime($data->created_at);
+            // $stop = strtotime($plan->duration);
+            // $today = time();
+            $closing_date_formatted =  date('Y-m-d H:i:s', strtotime($plan->duration));
+            // $days_diff = $stop - $start;
+            // $remaining_days = ($today - $start) / 86400;
+            // $no_of_days = $plan->duration;
+
+            // if(date('Y-m-d H:i:s', strtotime($plan->duration))){
+            //     Transaction::where("user_id", "=", $user->id)->where("type", "=", config("app.transaction_type")[1])
+            //     ->where("close_date", "=", $closing_date_formatted)->update([
+            //         "amount" =>$data->amount + $final_growth_amount
+            //     ]);
+            // }
+
+            if (!$user->referral == null) {
+                $userReferral = User::where("username", "=", $user->referral)->get()->first();
+                $userReferralAccount = Account::where("user_id", "=", $userReferral->id)->get()->first();
+                $amountToUpdate = ($user->referral_count == 0) ? ((config("app.referral_initial_percent") * $data->amount) / 100) : ((config("app.referral_consequent_percent") * $data->amount) / 100);
+
+                Account::where("user_id", "=", $userReferral->id)->update([
+                    "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate,
+                    "dolla_balance" => $userReferralAccount->dolla_balance + $amountToUpdate
+                ]);
+
+                // if ($user->referral_count == 0) {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => 1,
+                //     ]);
+                // } else {
+                //     User::where("id", "=", $user->id)->update([
+                //         "referral_count" => $user->referral_count + 1,
+                //     ]);
+                // }
+            }
+
+
+
+            $message_amount = ($plan->currency == "USD") ? number_format($data->amount, 0, ".", ",") : $data->amount;
+            $details = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => $user->username,
+                "content" => "Hello <b>$user->username!</b><br><br>
+                            Your investment of $message_amount $plan->currency in $plan->type is successfull <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            $admindetails13 = [
+                "appName" => config("app.name"),
+                "title" => "Investment",
+                "username" => "Admin",
+                "content" => "Admin <b>$user->username!</b><br><br>
+                            made an investment of $message_amount $plan->currency in $plan->type <br>",
+                "year" => date("Y"),
+                "appMail" => config("app.email"),
+                "domain" => config("app.url")
+            ];
+            try {
+                Mail::to($user->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($admindetails13));
+            } catch (\Exception $e) {
+                // Never reached
+            }
+
+            return response()->json(["success" => true, "message" => "Your investment has been created"]);
+        } else {
+            return response()->json(["error" => true, "message" => "something went wrong"]);
+        }
+    }
+
     /**
      * This function is used to view statistics
      */

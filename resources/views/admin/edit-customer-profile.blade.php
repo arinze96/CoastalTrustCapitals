@@ -3,7 +3,7 @@
 
 <head>
     @include('includes.a_css')
-    <title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
+    <title>Coastaltrustcapitals</title>
 </head>
 
 <body>

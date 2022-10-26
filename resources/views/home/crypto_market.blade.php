@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Finlance - Financial Planning HTML Template</title>
+    <title>CoastalTrustCapital- Crypto market</title>
     @include('includes.home_css')
 
 </head>
@@ -87,7 +87,7 @@
                     <div class="approach-summary">
                         <span class="section-title">How we do</span>
                         <h2 class="section-summary">A fresh approach to financial services for entrepreneurs</h2>
-                        <a href="about.html" class="boxed-btn"><span>our approach</span></a>
+                        <a href="{{ route('about') }}" class="boxed-btn"><span>our approach</span></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -98,14 +98,14 @@
                             <div class="approach-text">
                                 <h4>Goals</h4>
                                 <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At Spring we help you.</p>
+                                    lifestyle goals At Coastaltrustcapitals we help you.</p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-organize"></i></div>
                             <div class="approach-text">
                                 <h4>Plans</h4>
-                                <p>Goals without a plan are just a dream – so at Spring our team of industry experts
+                                <p>Goals without a plan are just a dream – so at Coastaltrustcapitals our team of industry experts
                                     will work with you to develop strategic plans.</p>
                             </div>
                         </li>
@@ -113,7 +113,7 @@
                             <div class="approach-icon-wrapper"><i class="flaticon-reload"></i></div>
                             <div class="approach-text">
                                 <h4>Actions</h4>
-                                <p>Plans require action or they are just words – at Spring we work with you to implement
+                                <p>Plans require action or they are just words – at Coastaltrustcapitals we work with you to implement
                                     your strategic plans</p>
                             </div>
                         </li>
@@ -203,7 +203,7 @@
                     <div class="col-lg-6">
                         <span class="section-title">Expert Team</span>
                         <h2 class="section-summary">
-                            At BondCorp we have a team of financial experts with over 5 decades of experience in stocks
+                            At CoastalTrustCapital we have a team of financial experts with over 5 decades of experience in stocks
                             investment. You can count on use to manage you portfolio with high return on investment
                         </h2>
                     </div>

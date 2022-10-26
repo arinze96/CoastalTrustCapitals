@@ -13,16 +13,6 @@
                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
-                    <div class="language">
-                        <a class="language-btn" href="#"><i class="flaticon-worldwide"></i> English</a>
-                        <ul class="language-dropdown">
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">Bangla</a></li>
-                            <li><a href="#">French</a></li>
-                            <li><a href="#">Spanish</a></li>
-                            <li><a href="#">Arabic</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
             {{-- <img src="{{ asset("assets/images/logo/") }}" class="logo-icon" alt="logo icon"> --}}
         </div>
         <div>
-            <h5 class="logo-text" style="color: #77cc5e">Stableincome</h5>
+            <h6 class="logo-text" style="color: #77cc5e; font-size: 18px">Coastaltrustcapitals</h6>
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
@@ -13,13 +13,13 @@
     <ul class="metismenu" id="menu">
 
         {{-- //dashboard --}}
-        <li>
+        {{-- <li>
             <a href="{{ route("app.home") }}">
                 <div class="parent-icon"><i class="bx bxs-bank"></i>
                 </div>
                 <div class="menu-title">Home</div>
             </a>
-        </li>
+        </li> --}}
 
         <li>
             <a href="{{ route("user.dashboard.view") }}">
@@ -72,19 +72,25 @@
         </li>
 
         <li>
-            <a href="javascript:;" class="has-arrow">
+            <a href="{{ route('user.setting.view', ['general']) }}">
                 <div class="parent-icon"><i class="fa fa-cog" aria-hidden="true"></i>
                 </div>
-                <div class="menu-title">Profile Settings</div>
+                <div class="menu-title">General Setting</div>
             </a>
-            <ul>
-                <li> <a href="{{ route('user.setting.view', ['general']) }}"><i class="bx bx-right-arrow-alt"></i>General Setting</a>
-                </li>
-                <li> <a href="{{ route('user.setting.view', ['payment']) }}"><i class="bx bx-right-arrow-alt"></i>Payment Data</a>
-                </li>
-                <li> <a href="{{ route('user.setting.view', ['security']) }}"><i class="bx bx-right-arrow-alt"></i>Account Security</a>
-                </li>
-            </ul>
+        </li>
+        <li>
+            <a href="{{ route('user.setting.view', ['payment']) }}">
+                <div class="parent-icon"><i class="fa fa-pen" aria-hidden="true"></i>
+                </div>
+                <div class="menu-title">Payment Data</div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('user.setting.view', ['security']) }}">
+                <div class="parent-icon"><i class="fa fa-key" aria-hidden="true"></i>
+                </div>
+                <div class="menu-title">Account Security</div>
+            </a>
         </li>
 
         <li>

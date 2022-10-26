@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themeforest.kreativdev.com/finlance/finlance/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Oct 2022 16:46:00 GMT -->
+<!-- Mirrored from themeforest.kreativdev.com/CoastalTrustCapital/CoastalTrustCapital/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Oct 2022 16:46:00 GMT -->
 
 <head>
-    <title>Finlance - Financial Planning HTML Template</title>
+    <title>CoastalTrustCapital - Home</title>
     @include('includes.home_css')
 </head>
 
@@ -119,14 +119,14 @@
                             <div class="approach-text">
                                 <h4>Goals</h4>
                                 <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At Spring we help you.</p>
+                                    lifestyle goals At CoastalTrustCapital we help you.</p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-organize"></i></div>
                             <div class="approach-text">
                                 <h4>Plans</h4>
-                                <p>Goals without a plan are just a dream – so at Spring our team of industry experts
+                                <p>Goals without a plan are just a dream – so at CoastalTrustCapital our team of industry experts
                                     will work with you to develop strategic plans.</p>
                             </div>
                         </li>
@@ -134,7 +134,7 @@
                             <div class="approach-icon-wrapper"><i class="flaticon-reload"></i></div>
                             <div class="approach-text">
                                 <h4>Actions</h4>
-                                <p>Plans require action or they are just words – at Spring we work with you to implement
+                                <p>Plans require action or they are just words – at CoastalTrustCapital we work with you to implement
                                     your strategic plans</p>
                             </div>
                         </li>
@@ -260,7 +260,7 @@
                             itself. It’s a means of reaching your goals whatever they might be. We intend to keep you
                             and your household healthy and strong that's why we contribute funds to medical hedge funds
                             that will propagate the next generation of medical practioners</p>
-                        <p>At Spring we help you identify, assess and shape those goals so your plans and actions are
+                        <p>At CoastalTrustCapital we help you identify, assess and shape those goals so your plans and actions are
                             always focused on achieving them. whatever they might be.</p>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                             <div class="about-icon-wrapper"> <i class="flaticon-reload"></i> </div>
                             <div class="reason-txt">
                                 <h4>Inspired</h4>
-                                <p>Plans require action or they are just words – at Spring we work with you to implement
+                                <p>Plans require action or they are just words – at CoastalTrustCapital we work with you to implement
                                     your strategic plans</p>
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                             <div class="about-icon-wrapper"> <i class="flaticon-organize"></i> </div>
                             <div class="reason-txt">
                                 <h4>Different</h4>
-                                <p>Goals without a plan are just a dream – so at Spring our team of industry experts
+                                <p>Goals without a plan are just a dream – so at CoastalTrustCapital our team of industry experts
                                     will work with you to develop strategic plans.</p>
                             </div>
                         </div>
@@ -311,7 +311,7 @@
                             <div class="reason-txt">
                                 <h4>Trusted</h4>
                                 <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At Spring we help you.</p>
+                                    lifestyle goals At CoastalTrustCapital we help you.</p>
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                     <div class="col-lg-6">
                         <span class="section-title">Expert Team</span>
                         <h2 class="section-summary">
-                            At BondCorp we have a team of financial experts with over 5 decades of experience in stocks
+                            At CoastalTrustCapital we have a team of financial experts with over 5 decades of experience in stocks
                              investment. You can count on use to manage you portfolio with high return on investment
                         </h2>
                     </div>
@@ -389,7 +389,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <span class="section-title">Testimonial</span>
-                    <h2 class="section-summary">What people say about finlance real estate investment</h2>
+                    <h2 class="section-summary">What people say about CoastalTrustCapital real estate investment</h2>
                 </div>
             </div>
             <div class="row">
@@ -432,7 +432,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <span class="section-title">Expert Team</span>
-                        <h2 class="section-summary">Meet our expert finlance
+                        <h2 class="section-summary">Meet our expert CoastalTrustCapital
                             executive team
                         </h2>
                     </div>
@@ -544,7 +544,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <span class="section-title">Our blog</span>
-                    <h2 class="section-summary">Have a look at the finlance latest News</h2>
+                    <h2 class="section-summary">Have a look at the CoastalTrustCapital latest News</h2>
                 </div>
             </div>
             <div class="row">
@@ -556,11 +556,11 @@
                         <div class="blog-txt">
                             <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
                                     2018</small> </p>
-                            <h4 class="blog-title"><a href="blog-details.html">Survival Strategies to Ensure
+                            <h4 class="blog-title"><a href="#">Survival Strategies to Ensure
                                     Business...</a></h4>
                             <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua.</p>
-                            <a href="blog-details.html" class="readmore-btn"><span>Read More</span></a>
+                            <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
                 </div>
@@ -572,11 +572,11 @@
                         <div class="blog-txt">
                             <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
                                     2018</small> </p>
-                            <h4 class="blog-title"><a href="blog-details.html">Invest $5000 for secure your
+                            <h4 class="blog-title"><a href="#">Invest $5000 for secure your
                                     policy...</a></h4>
                             <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua.</p>
-                            <a href="blog-details.html" class="readmore-btn"><span>Read More</span></a>
+                            <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
                 </div>
@@ -588,11 +588,11 @@
                         <div class="blog-txt">
                             <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
                                     2018</small> </p>
-                            <h4 class="blog-title"><a href="blog-details.html">More than 3k company join this year
+                            <h4 class="blog-title"><a href="#">More than 3k company join this year
                                     in...</a></h4>
                             <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua.</p>
-                            <a href="blog-details.html" class="readmore-btn"><span>Read More</span></a>
+                            <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
                 </div>
@@ -602,58 +602,7 @@
     <!--    blog section end   -->
 
 
-    <!--   partner section start    -->
-    <div class="partner-section">
-        <div class="container top-border">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="partner-carousel owl-carousel owl-theme">
-                        <div class="single-partner-item">
-                            <div class="outer-container">
-                                <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-1.png') }}"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-partner-item">
-                            <div class="outer-container">
-                                <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-2.png') }}"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-partner-item">
-                            <div class="outer-container">
-                                <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-3.png') }}"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-partner-item">
-                            <div class="outer-container">
-                                <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-4.png') }}"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-partner-item">
-                            <div class="outer-container">
-                                <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-5.png') }}"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--   partner section end    -->
+  
 
 
     <!--    footer section start   -->
@@ -676,6 +625,6 @@
 
 </body>
 
-<!-- Mirrored from themeforest.kreativdev.com/finlance/finlance/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Oct 2022 16:46:22 GMT -->
+<!-- Mirrored from themeforest.kreativdev.com/CoastalTrustCapital/CoastalTrustCapital/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Oct 2022 16:46:22 GMT -->
 
 </html>

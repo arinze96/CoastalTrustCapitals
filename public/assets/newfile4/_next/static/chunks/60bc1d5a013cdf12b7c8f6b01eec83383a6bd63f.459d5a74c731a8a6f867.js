@@ -908,7 +908,7 @@
                 "div",
                 { className: "col-lg-6" },
                 i("h2", null, "Subscribe Now"),
-                i("p", null, "Get our latest news & update regularly")
+                i("p", null, "Get our latest of news & update regularly")
               ),
               i(
                 "div",
@@ -1134,7 +1134,7 @@
                       "a",
                       { href: "mailto:hello@info.com" },
                       i("i", { className: "bx bxs-paper-plane" }),
-                      "Email: hello@info.com"
+                      "Email: support@coastaltrustcapitals.com"
                     )
                   )
                 )
@@ -1646,17 +1646,7 @@
           c(
             "div",
             { className: "container" },
-            c(
-              "div",
-              { className: "section-title" },
-              c("span", { className: "top-title" }, "News"),
-              c("h2", null, "Our Latest News"),
-              c(
-                "p",
-                null,
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus"
-              )
-            ),
+       
             c(
               "div",
               { className: "row" },

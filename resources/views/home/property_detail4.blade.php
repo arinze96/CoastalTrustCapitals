@@ -244,14 +244,14 @@
         <div class="featured_slick_gallery gray">
             <div class="featured_slick_gallery-slide">
                 <div class="featured_slick_padd"><a href="{{ asset('assets/newFile1/img/0mg43.webp') }}"
-                    class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg43.webp') }}"
-                        class="img-fluid mx-auto" alt="" /></a>
-            </div>
+                        class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg43.webp') }}"
+                            class="img-fluid mx-auto" alt="" /></a>
+                </div>
                 <div class="featured_slick_padd"><a href="{{ asset('assets/newFile1/img/0mg35.webp') }}"
-                    class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg35.webp') }}"
-                        class="img-fluid mx-auto" alt="" /></a>
-            </div>
-         
+                        class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg35.webp') }}"
+                            class="img-fluid mx-auto" alt="" /></a>
+                </div>
+
                 <div class="featured_slick_padd"><a href="{{ asset('assets/newFile1/img/0mg40.webp') }}"
                         class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg40.webp') }}"
                             class="img-fluid mx-auto" alt="" /></a>
@@ -284,10 +284,11 @@
                         <div class="property_block_wrap style-2 p-4">
                             <div class="prt-detail-title-desc">
                                 <span class="prt-types sale" style="margin-bottom: 10px">For Sale</span>
-                                <h3 style="margin-bottom: 10px">Jannat Graynight Mood In Siver Colony, London</h3>
-                                <span style="margin-bottom: 10px"><i class="lni-map-marker"></i> 778 Country St. Panama
-                                    City, FL</span>
-                                <h3 class="prt-price-fix">$7,600<sub>/month</sub></h3>
+                                <h3 style="margin-bottom: 10px">481 High Dr.
+                                    Media, PA 19063</h3>
+                                <span style="margin-bottom: 10px"><i class="lni-map-marker"></i>481 High Dr.
+                                    Media, PA 19063</span>
+                                <h3 class="prt-price-fix">$25,850<sub>/month</sub></h3>
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
@@ -838,7 +839,8 @@
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
-                                            <h4><a href="{{ route('user.realEstateDetails1') }}">Loss vengel New Apartment</a></h4>
+                                            <h4><a href="{{ route('user.realEstateDetails1') }}">Loss vengel New
+                                                    Apartment</a></h4>
                                             <span><i class="ti-location-pin"></i>Sans Fransico</span>
                                             <div class="lists_property_price">
                                                 <div class="lists_property_types">
@@ -858,7 +860,8 @@
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
-                                            <h4><a href="{{ route('user.realEstateDetails2') }}">Montreal Quriqe Apartment</a></h4>
+                                            <h4><a href="{{ route('user.realEstateDetails2') }}">Montreal Quriqe
+                                                    Apartment</a></h4>
                                             <span><i class="ti-location-pin"></i>Liverpool, London</span>
                                             <div class="lists_property_price">
                                                 <div class="lists_property_types">
@@ -878,7 +881,8 @@
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
-                                            <h4><a href="{{ route('user.realEstateDetails3') }}">Curmic Studio For Office</a></h4>
+                                            <h4><a href="{{ route('user.realEstateDetails3') }}">Curmic Studio For
+                                                    Office</a></h4>
                                             <span><i class="ti-location-pin"></i>Montreal, Canada</span>
                                             <div class="lists_property_price">
                                                 <div class="lists_property_types">
@@ -898,7 +902,8 @@
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
-                                            <h4><a href="{{ route('user.realEstateDetails4') }}">Montreal Quebec City</a></h4>
+                                            <h4><a href="{{ route('user.realEstateDetails4') }}">Montreal Quebec
+                                                    City</a></h4>
                                             <span><i class="ti-location-pin"></i>Sreek View, New York</span>
                                             <div class="lists_property_price">
                                                 <div class="lists_property_types">

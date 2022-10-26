@@ -284,10 +284,11 @@
                         <div class="property_block_wrap style-2 p-4">
                             <div class="prt-detail-title-desc">
                                 <span class="prt-types sale" style="margin-bottom: 10px">For Sale</span>
-                                <h3 style="margin-bottom: 10px">Jannat Graynight Mood In Siver Colony, London</h3>
-                                <span style="margin-bottom: 10px"><i class="lni-map-marker"></i> 778 Country St. Panama
-                                    City, FL</span>
-                                <h3 class="prt-price-fix">$7,600<sub>/month</sub></h3>
+                                <h3 style="margin-bottom: 10px">70 E. Meadowbrook Lane
+                                    Chula Vista, CA 91910</h3>
+                                <span style="margin-bottom: 10px"><i class="lni-map-marker"></i>70 E. Meadowbrook Lane
+                                    Chula Vista, CA 91910</span>
+                                <h3 class="prt-price-fix">$70,000<sub>/month</sub></h3>
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
