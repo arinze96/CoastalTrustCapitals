@@ -49,7 +49,7 @@
                             <input type="checkbox" id="question1" name="q" class="questions">
                             <div class="plus">+</div>
                             <label for="question1" class="question">
-                                How do i get started as an investor with cardone capital?
+                                How do i get started as an investor with Coastaltrustcapitals?
                             </label>
                             <div class="answers">
                                 Click on the buttons above depending on which type of investor you are! The entire

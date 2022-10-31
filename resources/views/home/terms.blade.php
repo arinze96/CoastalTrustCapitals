@@ -39,13 +39,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <span class="section-title">CARDONE CAPITAL is committed to safeguarding the personal information
+                    <span class="section-title">Coastaltrustcapitals is committed to safeguarding the personal information
                         that you provide to us when using this website. Our Privacy Policy describes how we handle and
                         protect the personal information we collect about individuals who use our website or
                         services.</span>
                     <h3 class="section-summary">USE OF INFORMATION</h3>
                     <h6>
-                        CARDONE CAPITAL uses the Data you provide in a manner that is consistent with this Privacy
+                        Coastaltrustcapitals uses the Data you provide in a manner that is consistent with this Privacy
                         Policy. If you provide Data for a certain reason, we may use the Data in connection with the
                         reason for which it was provided. For instance, if you contact us by email, we will use the Data
                         you provide to answer your question or resolve your problem. Also, if you provide Data in order
@@ -56,7 +56,7 @@
                     </h6>
                     <br><br>
                     <h6>
-                        CARDONE CAPITAL will use your Data (1) to market our products and services to you, (2) to
+                        Coastaltrustcapitals will use your Data (1) to market our products and services to you, (2) to
                         provide services and products requested by you, (3) to enable our vendors and contractors to
                         provide and assist us in the marketing, operation, troubleshooting and analysis of our website
                         and other services, (4) to meet any regulatory requirements for the offer or sale of securities
@@ -67,14 +67,14 @@
                     </h6>
                     <br><br>
                     <h6>
-                        CARDONE CAPITAL and its affiliates (the “Affiliated Companies”) may also use your Data collected
+                        Coastaltrustcapitals and its affiliates (the “Affiliated Companies”) may also use your Data collected
                         through the Site to help us improve the content and functionality of the Site, to better
-                        understand our users and to improve our services. CARDONE CAPITAL and its Affiliated Companies
+                        understand our users and to improve our services. Coastaltrustcapitals and its Affiliated Companies
                         may use this information to communicate with you regarding our services or to tell you about
                         services we believe will be of interest to you. If at any time you wish not to receive any
                         future marketing communications or you wish to have your name deleted from our mailing lists,
                         please contact us as indicated below. Note however that as a user of our service we will send
-                        you administrative communications that are reasonably necessary. If CARDONE CAPITAL or its
+                        you administrative communications that are reasonably necessary. If Coastaltrustcapitals or its
                         Affiliated Companies intend on using any Data in any manner that is not consistent with this
                         Privacy Policy, you will be informed of such anticipated use prior to or at the time at which
                         the Data is collected.
@@ -101,7 +101,7 @@
                     </h6>
                     <br><br>
                     <h6>
-                        Agents, Consultants and Related Third Parties: CARDONE CAPITAL, like many businesses, sometimes
+                        Agents, Consultants and Related Third Parties: Coastaltrustcapitals, like many businesses, sometimes
                         hires other companies to perform certain business-related services. Examples of these services
                         from such third parties, companies, or individuals, may include ID verification,
                         accreditation/financial/credit verification, electronic document signing, payment storing and
@@ -112,9 +112,9 @@
                     </h6>
                     <br><br>
                     <h6>
-                        Legal and Regulatory Requirements: CARDONE CAPITAL may disclose your Data if required to do so
+                        Legal and Regulatory Requirements: Coastaltrustcapitals may disclose your Data if required to do so
                         by law or in the good faith belief that such action is necessary to (i) comply with a legal or
-                        regulatory obligation, (ii) protect and defend the rights or property of CARDONE CAPITAL.
+                        regulatory obligation, (ii) protect and defend the rights or property of Coastaltrustcapitals.
                     </h6>
                     <br><br>
                     <h6>
@@ -147,19 +147,19 @@
                     </h6>
                     <br><br>
                     <h6>
-                        CARDONE CAPITAL does not and will not sell any of your Personally Identifiable Information to
+                        Coastaltrustcapitals does not and will not sell any of your Personally Identifiable Information to
                         any third party for purposes of advertising, soliciting, or telemarketing.
                     </h6>
 
                     <h3 class="section-summary">EXCLUSIONS</h3>
                     <h6>
-                        This Privacy Policy does not apply to any Data collected by CARDONE CAPITAL other than Data
+                        This Privacy Policy does not apply to any Data collected by Coastaltrustcapitals other than Data
                         collected through the website. This Privacy Policy shall not apply to any unsolicited
-                        information you provide to CARDONE CAPITAL through this website or through any other means. This
+                        information you provide to Coastaltrustcapitals through this website or through any other means. This
                         includes, but is not limited to, information posted to any public areas of the website, any
                         ideas for new products or modifications to existing products, and other unsolicited submissions
                         (collectively, “Unsolicited Information”). All Unsolicited Information shall be deemed to be
-                        non-confidential and CARDONE CAPITAL shall be free to reproduce, use, disclose, distribute, and
+                        non-confidential and Coastaltrustcapitals shall be free to reproduce, use, disclose, distribute, and
                         exploit such Unsolicited Information without limitation or attribution.
                     </h6>
 
@@ -190,7 +190,7 @@
                     <h6>
                         THE SITE AND CONTENT ARE PROVIDED “AS IS” AND WITHOUT WARRANTIES OF ANY KIND. YOU BEAR ALL RISKS
                         ASSOCIATED WITH THE USE OF THE SITE AND CONTENT, INCLUDING WITHOUT LIMITATION, ANY RELIANCE ON
-                        THE ACCURACY, COMPLETENESS OR USEFULNESS OF ANY CONTENT AVAILABLE ON THE SITE. CARDONE CAPITAL
+                        THE ACCURACY, COMPLETENESS OR USEFULNESS OF ANY CONTENT AVAILABLE ON THE SITE. Coastaltrustcapitals
                         AND ITS EMPLOYEES, OFFICERS, DIRECTORS, , PARTNERS, AGENTS, REPRESENTATIVES, SUPPLIERS AND
                         SERVICE PROVIDERS, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION,
                         ALL WARRANTIES OF TITLE, NON-INFRINGEMENT, ACCURACY, COMPLETENESS, USEFULNESS, MERCHANTABILITY,
@@ -200,17 +200,17 @@
 
                     <h3 class="section-summary">THIRD PARTY LINKED SITES </h3>
                     <h6>
-                        As a convenience to you, CARDONE CAPITAL may provide hyperlinks to web sites operated by third
-                        parties. When you select these hyperlinks you will be leaving the CARDONE CAPITAL site. Because
-                        CARDONE CAPITAL has no control over such sites or their content, CARDONE CAPITAL is not
-                        responsible for the availability of such external sites or their content, and CARDONE CAPITAL
+                        As a convenience to you, Coastaltrustcapitals may provide hyperlinks to web sites operated by third
+                        parties. When you select these hyperlinks you will be leaving the Coastaltrustcapitals site. Because
+                        Coastaltrustcapitals has no control over such sites or their content, Coastaltrustcapitals is not
+                        responsible for the availability of such external sites or their content, and Coastaltrustcapitals
                         does not adopt, endorse or nor is responsible or liable for any such sites or content, including
                         advertising, products or other materials, on or available through such sites or resources. Other
                         web sites may provide links to the Site or Content with or without our authorization. CARDONE
                         CAPITAL does not endorse such sites and shall not be responsible or liable for any links from
                         those sites to the Site or Content, or for any content, advertising, products or other materials
                         available on or through such other sites, or any loss or damages incurred in connection
-                        therewith. CARDONE CAPITAL may, in its sole discretion, block links to the Site and Content
+                        therewith. Coastaltrustcapitals may, in its sole discretion, block links to the Site and Content
                         without prior notice
                     </h6>
                     <br><br>
@@ -221,7 +221,7 @@
                     </h6>
                     <h3 class="section-summary">USE OF COOKIES</h3>
                     <h6>
-                        CARDONE CAPITAL’s website utilizes different technologies to collect, store, and aggregate data
+                        Coastaltrustcapitals’s website utilizes different technologies to collect, store, and aggregate data
                         about website usage. We may use electronic tags called “cookies” to help us understand and
                         analyze use of our site. This work is either performed directly by us or by a third party we’ve
                         hired to assist us. We collect information about which pages have been accessed and for how
@@ -231,7 +231,7 @@
                     </h6>
                     <br><br>
                     <h6>
-                        Certain sections of CARDONE CAPITAL’s site require cookies to be enabled to enhance site
+                        Certain sections of Coastaltrustcapitals’s site require cookies to be enabled to enhance site
                         performance. For example, cookies provide a secure way for us to verify user identity during a
                         session and any return visits, they enable us to personalize a user’s experience on our sites,
                         and they help enhance site navigation. Cookies also help us to understand how people use our
