@@ -28,12 +28,12 @@
 							</ol>
 						</nav>
 					</div>
-					<div class="ms-auto">
+					{{-- <div class="ms-auto">
 						<div class="btn-group">
 							<button type="button" class="btn btn-success" >Copy Referral Link</button> &nbsp;
 							<button type="button" class="btn btn-primary" > <input type="text" placeholder="referral link" style="border-radius: 20px,"> </button>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 				<!--end breadcrumb-->
 				<h6 class="mb-0 text-uppercase">At a glance summary of your account. Have fun!!</h6>
