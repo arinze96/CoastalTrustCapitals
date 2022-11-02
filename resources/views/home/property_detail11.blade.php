@@ -229,9 +229,7 @@
 </head>
 
 <body class="blue-skin">
-    <div id="preloader">
-        <div class="preloader"><span></span><span></span></div>
-    </div>
+  
     <div id="main-wrapper">
         <!-- .navbar -->
         
