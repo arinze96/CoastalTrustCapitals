@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>CoastalTrustCapital-Real-Estate</title>
     <!-- Custom CSS -->
-    <link href="{{ asset('assets/newfile1/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/styles.css') }}" rel="stylesheet">
     <!-- Custom Color Option -->
-    <link href="{{ asset('assets/newfile1/css/colors.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/colors.css') }}" rel="stylesheet">
     @include('includes.home_css')
 </head>
 
@@ -24,7 +24,7 @@
         <!-- Top header  -->
 
 
-        <div class="image-cover hero-banner" style="background:#eff6ff url(assets/newfile1/img/pp0.png) no-repeat;">
+        <div class="image-cover hero-banner" style="background:#eff6ff url(assets/newFile1/img/pp0.png) no-repeat;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-md-11 col-sm-12">
@@ -67,7 +67,7 @@
                                             <div class="input-with-icon">
                                                 <input type="text" class="form-control"
                                                     placeholder="Search for a location">
-                                                <img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                                <img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                                     width="20"></i>
                                             </div>
                                         </div>
@@ -147,17 +147,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />210 Zirak Road, Canada</div>
                                 </div>
                                 <div class="footer-flex">
@@ -209,17 +209,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -227,7 +227,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />9572 Trusel Ave.
                                         VA</div>
                                 </div>
@@ -272,17 +272,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -290,7 +290,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />7 Magnolia
                                         Anaheim, CA</div>
                                 </div>
@@ -335,17 +335,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -353,7 +353,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />83 Vale Street
                                         Elgin, IL</div>
                                 </div>
@@ -374,7 +374,7 @@
                                 <div class="list-img-slide">
                                     <div class="click">
                                         <div><a href="{{ route('user.realEstateDetails4') }}"><img
-                                                    src="{{ asset('assets/newfile1/img/0mg34.webp') }}"
+                                                    src="{{ asset('assets/newFile1/img/0mg34.webp') }}"
                                                     class="img-fluid mx-auto" alt="" /></a></div>
                                     </div>
                                 </div>
@@ -398,17 +398,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -416,7 +416,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />481 High Dr.
                                         Media, PA</div>
                                 </div>
@@ -437,7 +437,7 @@
                                 <div class="list-img-slide">
                                     <div class="click">
                                         <div><a href="{{ route('user.realEstateDetails5') }}"><img
-                                                    src="{{ asset('assets/newfile1/img/0mg45.webp') }}"
+                                                    src="{{ asset('assets/newFile1/img/0mg45.webp') }}"
                                                     class="img-fluid mx-auto" alt="" /></a></div>
                                     </div>
                                 </div>
@@ -461,17 +461,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt="" /></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt="" /></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt="" /></div>800 sqft
                                     </div>
                                 </div>
@@ -479,7 +479,7 @@
 
                             <div class="listing-detail-footer">
                                 <div class="footer-first">
-                                    <div class="foot-location"><img src="{{ asset('assets/newfile1/img/pin.svg') }}"
+                                    <div class="foot-location"><img src="{{ asset('assets/newFile1/img/pin.svg') }}"
                                             width="18" alt="" />8 San Pablo St.
                                         New Kensington, PA</div>
                                 </div>
@@ -527,7 +527,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-1.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-1.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -545,7 +545,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-2.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-2.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -563,7 +563,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-3.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-3.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -581,7 +581,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-4.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-4.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -599,7 +599,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-5.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-5.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -617,7 +617,7 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newfile1/img/c-6.png') }}"
+                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-6.png') }}"
                                         class="img-fluid" alt="" /></a>
                             </div>
                             <div class="location-property-content">
@@ -665,7 +665,7 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails6') }}">
-                                    <img src="assets/newfile1/img/0mg52.webp" class="img-fluid mx-auto"
+                                    <img src="assets/newFile1/img/0mg52.webp" class="img-fluid mx-auto"
                                         alt="" />
                                 </a>
                             </div>
@@ -698,17 +698,17 @@
                                     <div class="list-fx-features">
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                     alt="" /></div>3 Beds
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bathtub.svg') }}"
+                                                    src="{{ asset('assets/newFile1/img/bathtub.svg') }}"
                                                     width="13" alt="" /></div>1 Bath
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                     alt="" /></div>800 sqft
                                         </div>
                                     </div>
@@ -737,7 +737,7 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails7') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg61.webp') }}"
+                                    <img src="{{ asset('assets/newFile1/img/0mg61.webp') }}"
                                         class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
@@ -770,17 +770,17 @@
                                     <div class="list-fx-features">
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                     alt="" /></div>3 Beds
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bathtub.svg') }}"
+                                                    src="{{ asset('assets/newFile1/img/bathtub.svg') }}"
                                                     width="13" alt="" /></div>1 Bath
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                     alt="" /></div>800 sqft
                                         </div>
                                     </div>
@@ -808,7 +808,7 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails8') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg68.webp') }}"
+                                    <img src="{{ asset('assets/newFile1/img/0mg68.webp') }}"
                                         class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
@@ -841,17 +841,17 @@
                                     <div class="list-fx-features">
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                     alt="" /></div>3 Beds
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bathtub.svg') }}"
+                                                    src="{{ asset('assets/newFile1/img/bathtub.svg') }}"
                                                     width="13" alt="" /></div>1 Bath
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                     alt="" /></div>800 sqft
                                         </div>
                                     </div>
@@ -880,7 +880,7 @@
 
                             <div class="listing-img-wrapper">
                                 <a href="{{ route('user.realEstateDetails9') }}">
-                                    <img src="{{ asset('assets/newfile1/img/0mg76.webp') }}"
+                                    <img src="{{ asset('assets/newFile1/img/0mg76.webp') }}"
                                         class="img-fluid mx-auto" alt="" />
                                 </a>
                             </div>
@@ -913,17 +913,17 @@
                                     <div class="list-fx-features">
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                     alt="" /></div>3 Beds
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/bathtub.svg') }}"
+                                                    src="{{ asset('assets/newFile1/img/bathtub.svg') }}"
                                                     width="13" alt="" /></div>1 Bath
                                         </div>
                                         <div class="listing-card-info-icon">
                                             <div class="inc-fleat-icon"><img
-                                                    src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                    src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                     alt="" /></div>800 sqft
                                         </div>
                                     </div>
@@ -990,7 +990,7 @@
                                         <div class="st-author-box">
                                             <div class="st-author-thumb">
                                                 <div class="quotes bg-blue"><i class="ti-quote-right"></i></div>
-                                                <img src="{{ asset('assets/newfile1/img/user-3.jpg') }}"
+                                                <img src="{{ asset('assets/newFile1/img/user-3.jpg') }}"
                                                     class="img-fluid" alt="" />
                                             </div>
                                         </div>
@@ -1015,7 +1015,7 @@
                                         <div class="st-author-box">
                                             <div class="st-author-thumb">
                                                 <div class="quotes bg-inverse"><i class="ti-quote-right"></i></div>
-                                                <img src="{{ asset('assets/newfile1/img/user-8.jpg') }}"
+                                                <img src="{{ asset('assets/newFile1/img/user-8.jpg') }}"
                                                     class="img-fluid" alt="" />
                                             </div>
                                         </div>
@@ -1040,7 +1040,7 @@
                                         <div class="st-author-box">
                                             <div class="st-author-thumb">
                                                 <div class="quotes bg-purple"><i class="ti-quote-right"></i></div>
-                                                <img src="{{ asset('assets/newfile1/img/user-4.jpg') }}"
+                                                <img src="{{ asset('assets/newFile1/img/user-4.jpg') }}"
                                                     class="img-fluid" alt="" />
                                             </div>
                                         </div>
@@ -1321,17 +1321,17 @@
 
 
     </div>
-    <script src="{{ asset('assets/newfile1/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/rangeslider.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/select2.min.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/slick.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/slider-bg.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/lightbox.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/imagesloaded.js') }}"></script>
-    <script src="{{ asset('assets/newfile1/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/rangeslider.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/select2.min.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/slick.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/slider-bg.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/lightbox.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/imagesloaded.js') }}"></script>
+    <script src="{{ asset('assets/newFile1/js/custom.js') }}"></script>
     <script src="{{ asset('assets/newfile2/js/main.js') }}"></script>
 </body>
 
