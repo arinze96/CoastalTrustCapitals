@@ -31,7 +31,7 @@
                             <a class="dropdown-btn" href="#">Investments</a>
                             <ul class="dropdown-lists">
                                 <li><a href="{{ route('user.realEstate') }}">Real Estate</a></li>
-                                <li><a href="#">Stocks Investment</a></li>
+                                <li><a href="{{ route('user.stocks') }}">Stocks Investment</a></li>
                                 <li><a href="{{ route('user.medHedgeFunds') }}">Medical Hedge Funds Investments</a></li>
                                 <li><a href="{{ route('user.techStartup') }}">Tech Startup Investments</a></li>
                             </ul>

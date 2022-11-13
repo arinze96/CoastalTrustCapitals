@@ -525,17 +525,17 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-1.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-1.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">San Francisco, California</h4>
                                     <span>12 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -543,17 +543,17 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-2.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-2.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">Dunao, California</h4>
                                     <span>142 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -561,17 +561,17 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-3.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-3.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">Liverpool, London</h4>
                                     <span>17 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -579,17 +579,17 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-4.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-4.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">San Francisco, New York</h4>
                                     <span>72 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -597,17 +597,17 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-5.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-5.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">New Orleans, Louisiana</h4>
                                     <span>102 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -615,29 +615,29 @@
                     <div class="col-lg-4 col-md-4">
                         <div class="location-property-wrap">
                             <div class="location-property-thumb">
-                                <a href="#"><img src="{{ asset('assets/newFile1/img/c-6.png') }}"
-                                        class="img-fluid" alt="" /></a>
+                                <span><img src="{{ asset('assets/newFile1/img/c-6.png') }}"
+                                        class="img-fluid" alt="" /></span>
                             </div>
                             <div class="location-property-content">
                                 <div class="lp-content-flex">
                                     <h4 class="lp-content-title">Los Angeles</h4>
                                     <span>95 Properties</span>
                                 </div>
-                                <div class="lp-content-right">
+                                {{-- <div class="lp-content-right">
                                     <a href="#" class="lp-property-view"><i class="ti-angle-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                         <a href="#" class="btn btn-theme-light rounded">Browse More
                             Locations</a>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </section>
@@ -1097,11 +1097,11 @@
                                     <li class="available">Contact With Agent</li>
                                     <li class="available">3 Month Validity</li>
                                     <li>7x24 Fully Support</li>
-                                    <li>50GB Space</li>
+                                    
                                 </ul>
                             </div>
                             <div class="pricing-bottom">
-                                <a href="#" class="btn-pricing">Choose Plan</a>
+                                <a href="{{route('user.register')}}" class="btn-pricing">Choose Plan</a>
                             </div>
 
                         </div>
@@ -1121,11 +1121,11 @@
                                     <li class="available">Contact With Agent</li>
                                     <li class="available">3 Month Validity</li>
                                     <li class="available">7x24 Fully Support</li>
-                                    <li>50GB Space</li>
+                                    
                                 </ul>
                             </div>
                             <div class="pricing-bottom">
-                                <a href="#" class="btn-pricing">Choose Plan</a>
+                                <a href="{{route('user.register')}}" class="btn-pricing">Choose Plan</a>
                             </div>
 
                         </div>
@@ -1145,11 +1145,11 @@
                                     <li class="available">Contact With Agent</li>
                                     <li class="available">3 Month Validity</li>
                                     <li class="available">7x24 Fully Support</li>
-                                    <li class="available">50GB Space</li>
+                                   
                                 </ul>
                             </div>
                             <div class="pricing-bottom">
-                                <a href="#" class="btn-pricing">Choose Plan</a>
+                                <a href="{{route('user.register')}}" class="btn-pricing">Choose Plan</a>
                             </div>
 
                         </div>

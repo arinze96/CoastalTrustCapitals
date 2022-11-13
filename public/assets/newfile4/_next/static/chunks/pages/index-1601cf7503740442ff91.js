@@ -363,10 +363,10 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   i(
                     "h2",
                     null,
-                    "540 ",
+                    "1540 ",
                     i("span", { className: "target" }, "+")
                   ),
-                  i("p", null, "Expert Doctors")
+                  i("p", null, "Companies Invested in")
                 )
               ),
               i(
@@ -408,8 +408,8 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   "div",
                   { className: "single-counter" },
                   i("i", { className: "flaticon-experience" }),
-                  i("h2", null, "54 ", i("span", { className: "traget" }, "+")),
-                  i("p", null, "Experiences")
+                  i("h2", null, "23 ", i("span", { className: "traget" }, "+")),
+                  i("p", null, "Years of Experiences")
                 )
               )
             )
@@ -490,17 +490,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
             c(
               "div",
               { className: "container" },
-              c(
-                "div",
-                { className: "section-title" },
-                c("span", { className: "top-title" }, "Our Doctors"),
-                c("h2", null, "Our Specialist Doctors"),
-                c(
-                  "p",
-                  null,
-                  "A specialist is a medical doctor who is an expert in a specific area of medicine. To see a specialist, you will need to get a letter of referral from your local doctor first. Specialists work in clinics, and in both private and public hospitals."
-                )
-              ),
+              
               s
                 ? c(
                     m,
@@ -793,18 +783,10 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             p(
                               "h1",
                               null,
-                              "We are Committed to Your Best Health"
+                              "Investments in Medical Health made easy"
                             )
                           ),
-                          p(
-                            m.a,
-                            { animation: "fadeInUp", delay: "1s" },
-                            p(
-                              "p",
-                              null,
-                              "We invest in high tech medical facilities that help solve specialized medical issues"
-                            )
-                          ),
+                          
                           p(
                             m.a,
                             { animation: "fadeInUp", delay: "1s" },
@@ -820,21 +802,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                                   "Get Started"
                                 )
                               ),
-                              p(
-                                r.a,
-                                { href: "/register" },
-                                p(
-                                  "a",
-                                  {
-                                    onClick: function (e) {
-                                      e.preventDefault(), t(!s);
-                                    },
-                                    className:
-                                      "default-btn active popup-youtube",
-                                  },
-                                  "Invest Now"
-                                )
-                              )
+                             
                             )
                           )
                         )
@@ -881,11 +849,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             "div",
                             { className: "first-facility-item" },
                             p("i", { className: "flaticon-care" }),
-                            p("h3", null, "Special Service"),
+                            p("h3", null, "Investment in Health Special Service companies"),
                             p(
                               "p",
                               null,
-                              "Our Medical experts help our select the most profitable sectors"
+                              "Our Medical experts help our select the most profitable medical firms offering special services"
                             )
                           )
                         ),
@@ -896,11 +864,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             "div",
                             { className: "first-facility-item" },
                             p("i", { className: "flaticon-support" }),
-                            p("h3", null, "24/7 Advanced Care"),
+                            p("h3", null, "Seed funding rounds for early stage medical startup"),
                             p(
                               "p",
                               null,
-                              "We invest in medical facilites that have the most modern medical machines"
+                              "Over $2 billion investments in 560 companies accross North America"
                             )
                           )
                         ),
@@ -914,11 +882,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             "div",
                             { className: "first-facility-item" },
                             p("i", { className: "flaticon-online-learning" }),
-                            p("h3", null, "High Returns"),
+                            p("h3", null, "Gauranteed Mentorship"),
                             p(
                               "p",
                               null,
-                              "The medical sector is an essential part of our lives and the returns is always guaranteed"
+                              "We provide guaranteed mentorship to companies we invest in across te board"
                             )
                           )
                         )
@@ -960,15 +928,12 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   g(
                     "div",
                     { className: "second-facility-item" },
-                    g("img", {
-                      src: "/img/facility-img/facility-icon1.png",
-                      alt: "Image",
-                    }),
-                    g("h3", null, "Qualified Doctors"),
+                   
+                    g("h3", null, "Mission"),
                     g(
                       "p",
                       null,
-                      "We invest in medical establishment with the most specialized and qualified doctors"
+                      "We invest in Emerging Growth Healthcare companies where we believe the flexible application of Coastal trust Capital’s frameworks can amplify the potential and pace of growth. We actively engage with tech-enabled B2B services businesses to leverage and scale their technology and maximize the value of their data assets. We strive to increase operational efficiencies, broaden market reach, and accelerate sustainable growth. Our greatest mutual successes are the result of open dialogue, a spirit of partnership, and active engagement in deploying our flexible, time-tested value creation frameworks.s"
                     ),
                     
                   )
@@ -979,15 +944,12 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   g(
                     "div",
                     { className: "second-facility-item" },
-                    g("img", {
-                      src: "/img/facility-img/facility-icon2.png",
-                      alt: "Image",
-                    }),
-                    g("h3", null, "Emergency Helicopter"),
+                   
+                    g("h3", null, "Strategy"),
                     g(
                       "p",
                       null,
-                      "All our medical establishments provide steady emergency helicopter services"
+                      "Coastal trust capital seeks the integration software and tech-enabled services in the healthcare companies they invest, which are keen to maximize the potential of their technology and data assets to capture greater market share and expand their offering. We pursue opportunities across the United States and around the globe with a focus on founders in regions where private capital is often less accessible and where our longstanding relationships and active sourcing enable us to identify promising businesses. We invest in businesses looking for active engagement who value our guidance in building out infrastructure, implementing data strategies, and modernizing their processes to meaningfully accelerate growth."
                     ),
                     
                   )
@@ -998,15 +960,12 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   g(
                     "div",
                     { className: "second-facility-item" },
-                    g("img", {
-                      src: "/img/facility-img/facility-icon3.png",
-                      alt: "Image",
-                    }),
-                    g("h3", null, "Leading Technology"),
+                 
+                    g("h3", null, "Drive"),
                     g(
                       "p",
                       null,
-                      "Modern medical machines and equipment is a top priority in all of our facility"
+                      "Coastal trust Capital provides growth equity capital to Healthcare companies and tech-enabled health care services businesses with strong technology and data underpinnings looking to scale with the right partners. Building businesses has been our passion for 30 years. Over that time, we have invested in approximately 130 companies across eight funds.Starting from a deep respect for what it takes to build a company, we bring our investing, operational, infrastructure, technology, and business development skills to support and amplify the success of growing businesses. We choose companies carefully, just as they choose us. We invest in them, advise them, and inspire them"
                       ),
                     
                   )
@@ -1065,11 +1024,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                   N(
                     "div",
                     { className: "about-content" },
-                    N("span", { className: "top-title" }, "About Us"),
+                    N("span", { className: "top-title" }, "About the companies we invest in"),
                     N(
                       "h2",
                       null,
-                      "We are trusted The Best Certificate Healthcare"
+                      "We have a goal to better Healthcare accross the globe by our strategic investment"
                     ),
                     N(
                       "p",
@@ -1083,7 +1042,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                         "li",
                         null,
                         N("i", { className: "flaticon-tick" }),
-                        "Scientific skills for getting a better result"
+                        "They have Scientific skills for getting a better result"
                       ),
                       N(
                         "li",
@@ -1112,7 +1071,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     ),
                     N(
                       r.a,
-                      { href: "/register" },
+                      { href: "/about" },
                       N("a", { className: "default-btn" }, "Get Started")
                     )
                   )
@@ -1132,8 +1091,8 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               h(
                 "div",
                 { className: "section-title" },
-                h("span", { className: "top-title" }, "Our Services"),
-                h("h2", null, "Our Healthcare Service"),
+                h("span", { className: "top-title" }, "Investment Strategy"),
+                h("h2", null, "Categories of Health firms we invest in"),
                 h(
                   "p",
                   null,
@@ -1150,7 +1109,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-man" }),
-                    h("h3", null, "Cancer Service"),
+                    h("h3", null, "Cancer Research firm"),
                     h(
                       "p",
                       null,
@@ -1171,7 +1130,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-liver" }),
-                    h("h3", null, "Liver Transport"),
+                    h("h3", null, "Organ Transplant firms"),
                     h(
                       "p",
                       null,
@@ -1185,48 +1144,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     )
                   )
                 ),
-                h(
-                  "div",
-                  { className: "col-lg-4 col-sm-6" },
-                  h(
-                    "div",
-                    { className: "single-services" },
-                    h("span", { className: "flaticon-kidney" }),
-                    h("h3", null, "Kidney Transport"),
-                    h(
-                      "p",
-                      null,
-                      ""
-                    ),
-                   
-                    h(
-                      "div",
-                      { className: "services-shape" },
-                      
-                    )
-                  )
-                ),
-                h(
-                  "div",
-                  { className: "col-lg-4 col-sm-6" },
-                  h(
-                    "div",
-                    { className: "single-services" },
-                    h("span", { className: "flaticon-heart" }),
-                    h("h3", null, "Cardiac Arrhythmia"),
-                    h(
-                      "p",
-                      null,
-                      ""
-                    ),
-                   
-                    h(
-                      "div",
-                      { className: "services-shape" },
-                      
-                    )
-                  )
-                ),
+        
                 h(
                   "div",
                   { className: "col-lg-4 col-sm-6" },
@@ -1234,7 +1152,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-brain" }),
-                    h("h3", null, "Neurology Care"),
+                    h("h3", null, "Neurology Specialist Hospitals"),
                     h(
                       "p",
                       null,
@@ -1255,7 +1173,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-walker" }),
-                    h("h3", null, "Orthopedic Care"),
+                    h("h3", null, "Orthopedic Care Companies"),
                     h(
                       "p",
                       null,
@@ -1286,172 +1204,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
           return M(
             "div",
             { className: "appointment-area jarallax" },
-            M(
-              "div",
-              { className: "container" },
-              M(
-                "div",
-                { className: "appointment-here-form" },
-                M("span", { className: "top-title" }, "Make An Appointment"),
-                M("h2", null, "We Are Here For You"),
-                M(
-                  "form",
-                  null,
-                  M(
-                    "div",
-                    { className: "row" },
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Your Name"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M("input", {
-                          type: "text",
-                          className: "form-control",
-                          id: "Name",
-                          placeholder: "Enter Your Name",
-                        }),
-                        M("i", { className: "flaticon-account" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Your Email"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M("input", {
-                          type: "text",
-                          className: "form-control",
-                          id: "Email",
-                          placeholder: "Enter Your Email",
-                        }),
-                        M("i", { className: "flaticon-email" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Your Phone"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M("input", {
-                          type: "text",
-                          className: "form-control",
-                          id: "Phone",
-                          placeholder: "Enter Your Phone",
-                        }),
-                        M("i", { className: "flaticon-smartphone" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Select Service"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M(
-                          "select",
-                          { className: "form-control" },
-                          M("option", { value: "0" }, "Select Service"),
-                          M("option", { value: "1" }, "Surgery & Radiology"),
-                          M("option", { value: "2" }, "Children Care"),
-                          M("option", { value: "3" }, "Orthopedics"),
-                          M("option", { value: "4" }, "Nuclear Magnetic"),
-                          M("option", { value: "5" }, "Eye Treatment"),
-                          M("option", { value: "6" }, "X-Ray")
-                        ),
-                        M("i", { className: "flaticon-heart" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Appointment Date"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M(
-                          "div",
-                          { className: "input-group date" },
-                          M(_.a, {
-                            selected: a,
-                            onChange: function (e) {
-                              return s(e);
-                            },
-                            className: "form-control",
-                          })
-                        ),
-                        M("i", { className: "flaticon-appointment" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-6 col-sm-6" },
-                      M("label", null, "Time"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M(
-                          "select",
-                          { className: "form-control" },
-                          M("option", { value: "0" }, "Seclect Time"),
-                          M("option", { value: "2" }, "09.00 AM To 10.00 AM"),
-                          M("option", { value: "3" }, "10.00 AM To 11.00 AM"),
-                          M("option", { value: "3" }, "11.00 AM To 12.00 PM"),
-                          M("option", { value: "4" }, "12.00 PM To 01.00 PM"),
-                          M("option", { value: "5" }, "01.00 PM To 03.00 PM"),
-                          M("option", { value: "6" }, "04.00 PM To 06.00 PM"),
-                          M("option", { value: "7" }, "07.00 PM To 10.00 PM"),
-                          M("option", { value: "8" }, "10.00 PM To 11.00 PM")
-                        ),
-                        M("i", { className: "flaticon-clock" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-lg-12" },
-                      M("label", null, "Message"),
-                      M(
-                        "div",
-                        { className: "form-group" },
-                        M("textarea", {
-                          name: "message",
-                          className: "form-control",
-                          id: "Message",
-                          cols: "30",
-                          rows: "8",
-                          placeholder: "Your Message",
-                        }),
-                        M("i", { className: "flaticon-edit" })
-                      )
-                    ),
-                    M(
-                      "div",
-                      { className: "col-12" },
-                      M(
-                        "button",
-                        { type: "submit", className: "default-btn" },
-                        "Send Request"
-                      )
-                    )
-                  )
-                ),
-                M(
-                  "div",
-                  { className: "shape" },
-                  M("img", {
-                    src: "/img/shape/appointment-shape.png",
-                    alt: "Image",
-                  })
-                )
-              )
-            )
+          
           );
         },
         I = i.a.createElement,
@@ -1613,12 +1366,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               u(
                 "div",
                 { className: "section-title" },
-                u("span", { className: "top-title" }, "Our Works"),
-                u("h2", null, "Our Intensive Care Unit"),
+                u("h2", null, "Staff Testimonies"),
                 u(
                   "p",
                   null,
-                  "A specialist is a medical doctor who is an expert in a specific area of medicine. To see a specialist, you will need to get a letter of referral from your local doctor first. Specialists work in clinics, and in both private and public hospitals."
+                  "I am a staff of Coastal trust capital and i have made over $100,000 from my medical hedge funds portfolio. i will encourage you to invest in this platform, you will never regret it.....Martha Denis(Portland Oregon USA)"
                 )
               ),
               s

@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [UserController::class, "index"])->name("app.home");
 Route::get('/about', [UserController::class, "returnAbout"])->name("about");
-Route::get('/stocks', [UserController::class, "returnstocks"])->name("stocks");
 Route::get('/forex', [UserController::class, "returnforex"])->name("forex");
 Route::get('/shares', [UserController::class, "returnshares"])->name("shares");
 Route::get('/indices', [UserController::class, "returnindices"])->name("indices");
@@ -41,6 +40,7 @@ Route::get('/giveaway', [UserController::class, "returnGiveaway"])->name("giveaw
 Route::get('/diamondclub', [UserController::class, "returnDiamondClub"])->name("diamondclub");
 Route::get('/investmentplans', [UserController::class, "returnInvestmentPlan"])->name("investmentplans");
 Route::get("/register", [UserController::class, "register"])->name("user.register");
+Route::get("/stocks", [UserController::class, "returnStocks"])->name("user.stocks");
 Route::get("/contact", [UserController::class, "returnContact"])->name("user.contact");
 Route::get("/verifyEmail", [UserController::class, "verifyEmail"])->name("user.verifyEmail");
 Route::get("/completeverifyEmail/{token}/{id}", [UserController::class, "completeverifyEmail"])->name("user.completeverifyEmail");

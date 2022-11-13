@@ -13,15 +13,15 @@
                         <li>
                             <a href="{{ route('user.realEstate') }}">Real Estate</a>
                         </li>
-                        <li><a href="{{ route('about') }}">Crypto Market</a></li>
+                        <li><a href="{{ route('user.cryptoMarket') }}">Crypto Market</a></li>
                         <li>
-                            <a href="#!">Stocks Investments</a>
+                            <a href="{{ route('user.stocks') }}">Stocks Investments</a>
                         </li>
                         <li>
-                            <a href="#!">Medical Hedgefunds Investments</a>
+                            <a href="{{ route('user.medHedgeFunds') }}">Medical Hedgefunds Investments</a>
                         </li>
                         <li>
-                            <a href="#!">Tech Startup Investments</a>
+                            <a href="{{ route('user.techStartup') }}">Tech Startup Investments</a>
                         </li>
                     </ul>
                 </li>

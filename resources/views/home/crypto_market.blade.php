@@ -96,25 +96,22 @@
                             <div class="approach-icon-wrapper"><i
                                     class="flaticon-arrow-on-the-center-of-the-target"></i></div>
                             <div class="approach-text">
-                                <h4>Goals</h4>
-                                <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At Coastaltrustcapitals we help you.</p>
+                                <h4>Plans</h4>
+                                <p>Every Great financial dream is envisioned into a futuristic plan to be achieved, and our plan is to financially enable you starts with an understanding of your personal, financial and lifestyle goals at a variety of options.  At Coastal Trust Capital, Our plan is making you investments options the best </p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-organize"></i></div>
                             <div class="approach-text">
-                                <h4>Plans</h4>
-                                <p>Goals without a plan are just a dream – so at Coastaltrustcapitals our team of industry experts
-                                    will work with you to develop strategic plans.</p>
+                                <h4>Goals</h4>
+                                <p>Goals without a plan are just a dream – so at Coastal Trust Capital, our team of industry experts will work with you to develop strategic plans ranging from top trending business models and low risk financial opportunities. Our goal is give you the right plans and financial resources to hit your target financial goal in multi-investment opportunities</p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-reload"></i></div>
                             <div class="approach-text">
-                                <h4>Actions</h4>
-                                <p>Plans require action or they are just words – at Coastaltrustcapitals we work with you to implement
-                                    your strategic plans</p>
+                                <h4>Action</h4>
+                                <p>Plans require action or they are just words – at Coastal Trust Capital, we work with you to implement your strategic financial goals and plans through investment on value basis, long term capital deployment, high quality assets control, and generating attractive</p>
                             </div>
                         </li>
                     </ul>
@@ -207,7 +204,7 @@
                             investment. You can count on use to manage you portfolio with high return on investment
                         </h2>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="overflow: scroll">
                         <!-- TradingView Widget BEGIN -->
                         <div class="tradingview-widget-container">
                             <div id="tradingview_a9674"></div>
@@ -260,7 +257,7 @@
 
 
     <!--    blog section start   -->
-    <div class="blog-section section-padding">
+    {{-- <div class="blog-section section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -319,7 +316,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--    blog section end   -->
 
 

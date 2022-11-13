@@ -725,7 +725,7 @@
                     c(
                       "p",
                       null,
-                      "Lorem ipsum dolor, sit amet earum consectetur adipisicing elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae perspiciatis, repudiandae ipsam minus et ex, aliquid dolor molestias, earum enim officiis porro obcaecati."
+                      "We invest in Emerging Growth Healthcare companies where we believe the flexible application of Coastal trust Capital’s frameworks can amplify the potential and pace of growth. We actively engage with tech-enabled health services businesses to leverage and scale their technology and maximize the value of their data assets"
                     ),
                     c(
                       "div",
@@ -795,13 +795,14 @@
                       c(
                         "li",
                         null,
-                        c("a", { href: "#" }, "Surgery & Radiology")
+                        c("a", { href: "#" }, "Categories")
                       ),
-                      c("li", null, c("a", { href: "#" }, "Children Care")),
-                      c("li", null, c("a", { href: "#" }, "Orthopedics")),
-                      c("li", null, c("a", { href: "#" }, "Nuclear Magnetic")),
-                      c("li", null, c("a", { href: "#" }, "Eye Treatment")),
-                      c("li", null, c("a", { href: "#" }, "X-Ray"))
+                      c("li", null, c("a", { href: "/about" }, "About")),
+                      c("li", null, c("a", { href: "/contact" }, "Contact us")),
+                      c("li", null, c("a", { href: "/faq" }, "FAQs")),
+                      c("li", null, c("a", { href: "/terms" }, "Terms of Use")),
+                      c("li", null, c("a", { href: "/login" }, "Login")),
+                      c("li", null, c("a", { href: "/register" }, "Register"))
                     )
                   )
                 ),
@@ -810,35 +811,20 @@
                   { className: "col-lg-3 col-md-6" },
                   c(
                     "div",
-                    { className: "single-widget open-time" },
-                    c("h3", null, "Opening Hours"),
+                    { className: "single-widget" },
+                    c("h3", null, "All Services"),
                     c(
                       "ul",
                       null,
                       c(
                         "li",
                         null,
-                        c("span", null, "Mon-Tue:"),
-                        c("span", { className: "right" }, "6:00AM-10:00PM")
+                        c("a", { href: "/cryptoMarket" }, "Crypto Market")
                       ),
-                      c(
-                        "li",
-                        null,
-                        c("span", null, "Wed-Thu:"),
-                        c("span", { className: "right" }, "6:00AM-10:00PM")
-                      ),
-                      c(
-                        "li",
-                        null,
-                        c("span", null, "Fry:"),
-                        c("span", { className: "right" }, "6:00AM-04:00PM")
-                      ),
-                      c(
-                        "li",
-                        null,
-                        c("span", null, "Sun:"),
-                        c("span", { className: "right" }, "Closed")
-                      )
+                      c("li", null, c("a", { href: "/realEstate" }, "Real Estate")),
+                      c("li", null, c("a", { href: "/medHedgeFunds" }, "Medical Hedge Funds")),
+                      c("li", null, c("a", { href: "/stockMarket" }, "Stocks Investment")),
+                      c("li", null, c("a", { href: "/techStartup" }, "Tech Startup Investment"))
                     )
                   )
                 ),
@@ -879,7 +865,7 @@
                         null,
                         c("i", { className: "bx bx-location-plus" }),
                         c("span", null, "Address:"),
-                        "123, Western Road, Melbourne Australia"
+                        "123, Western Road, Melbourne Australia1"
                       )
                     )
                   )

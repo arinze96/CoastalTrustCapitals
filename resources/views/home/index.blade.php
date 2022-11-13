@@ -29,8 +29,8 @@
             <div class="hero-txt">
                 <div class="row">
                     <div class="col-12">
-                        <span>Finanancial planning for life</span>
-                        <h1>Trusted to help guide entrepreneurs make better financial decisions.</h1>
+                        <span>financial planning without limitation</span>
+                        <h3>With almost thirty years of experience in real estate, stocks, medical hedge funds and tech startup investment services has enabled many across the globe to develop a mutual vision for value creation.</h3>
                         <a href="{{ route('about') }}" class="hero-boxed-btn">Learn more</a>
                     </div>
                 </div>
@@ -47,36 +47,44 @@
             <div class="hero-features">
                 <div class="row">
                     <div class="col-md-3 col-sm-6 single-hero-feature">
+                        <a href="{{ route('user.realEstate') }}">
                         <div class="outer-container">
                             <div class="inner-container">
                                 <div class="icon-wrapper">
                                     <i class="flaticon-briefcase"></i>
                                 </div>
-                                <h3>Real Estate
+                                <h3 style="color:white">Real Estate
                                     Investment
                                 </h3>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-md-3 col-sm-6 single-hero-feature">
+                        <a href="{{ route('user.cryptoMarket') }}">
                         <div class="icon-wrapper">
                             <i class="flaticon-wallet"></i>
                         </div>
-                        <h3>Cryptocurrency and
+                        <h3 style="color: white">Cryptocurrency and
                             Stocks Investment
                         </h3>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 single-hero-feature">
+                        <a href="{{ route('user.medHedgeFunds') }}">
                         <div class="icon-wrapper">
                             <i class="flaticon-chart"></i>
                         </div>
-                        <h3>Medical Hedge Funds</h3>
+                        <h3 style="color:white">Medical Hedge Funds</h3>
+                        </a>
                     </div>
                     <div class="col-md-3 col-sm-6 single-hero-feature">
+                        <a href="{{ route('user.techStartup') }}">
                         <div class="icon-wrapper">
                             <i class="flaticon-profits"></i>
                         </div>
-                        <h3>Tech Startups Investment</h3>
+                        <h3 style="color: white">Tech Startups Investment</h3>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -84,9 +92,10 @@
                 <div class="col-lg-6 pr-0">
                     <div class="intro-txt">
                         <span class="section-title">Who we are</span>
-                        <h2 class="section-summary">We keep things simple, putting you in control so you can make
-                            informed choices </h2>
-                        <a href="about.html" class="intro-btn"><span>what we do</span></a>
+                        <h5 style="font-size: 14px" class="section-summary">
+                        Coastal trust capital is an investment company which is well invested in real estate, stocks, several tech startups and medical hedge funds based on years of experience spanning from multiple ownership of properties and businesses in insurance, real estate, rail transportation, energy generation and distribution, manufacturing and retailing.    
+                        </h5>
+                        <a href="{{ route('about') }}" class="intro-btn"><span>what we do</span></a>
                     </div>
                 </div>
                 <div class="col-lg-6 pl-lg-0 px-md-3 px-0">
@@ -117,25 +126,22 @@
                             <div class="approach-icon-wrapper"><i
                                     class="flaticon-arrow-on-the-center-of-the-target"></i></div>
                             <div class="approach-text">
-                                <h4>Goals</h4>
-                                <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At CoastalTrustCapital we help you.</p>
+                                <h4>Plans</h4>
+                                <p>Every Great financial dream is envisioned into a futuristic plan to be achieved, and our plan is to financially enable you starts with an understanding of your personal, financial and lifestyle goals at a variety of options.  At Coastal Trust Capital, Our plan is making you investments options the best </p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-organize"></i></div>
                             <div class="approach-text">
-                                <h4>Plans</h4>
-                                <p>Goals without a plan are just a dream – so at CoastalTrustCapital our team of industry experts
-                                    will work with you to develop strategic plans.</p>
+                                <h4>Goals</h4>
+                                <p>Goals without a plan are just a dream – so at Coastal Trust Capital, our team of industry experts will work with you to develop strategic plans ranging from top trending business models and low risk financial opportunities. Our goal is give you the right plans and financial resources to hit your target financial goal in multi-investment opportunities</p>
                             </div>
                         </li>
                         <li class="single-approach">
                             <div class="approach-icon-wrapper"><i class="flaticon-reload"></i></div>
                             <div class="approach-text">
-                                <h4>Actions</h4>
-                                <p>Plans require action or they are just words – at CoastalTrustCapital we work with you to implement
-                                    your strategic plans</p>
+                                <h4>Action</h4>
+                                <p>Plans require action or they are just words – at Coastal Trust Capital, we work with you to implement your strategic financial goals and plans through investment on value basis, long term capital deployment, high quality assets control, and generating attractive</p>
                             </div>
                         </li>
                     </ul>
@@ -432,7 +438,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <span class="section-title">Expert Team</span>
-                        <h2 class="section-summary">Meet our expert CoastalTrustCapital
+                        <h2 class="section-summary">Meet our expert Coastal Trust Capital
                             executive team
                         </h2>
                     </div>
@@ -539,7 +545,7 @@
 
 
     <!--    blog section start   -->
-    <div class="blog-section section-padding">
+    {{-- <div class="blog-section section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -555,11 +561,10 @@
                         </div>
                         <div class="blog-txt">
                             <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
-                                    2018</small> </p>
+                                    2022</small> </p>
                             <h4 class="blog-title"><a href="#">Survival Strategies to Ensure
                                     Business...</a></h4>
-                            <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.</p>
+                            <p class="blog-summary">.</p>
                             <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
@@ -570,12 +575,11 @@
                             <img src="{{ asset('assets/newfile2/img/blog/blog-2.jpg') }}" alt="">
                         </div>
                         <div class="blog-txt">
-                            <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
-                                    2018</small> </p>
+                            <p class="date"><small>By <span class="username">Admin</span></small> | <small>03 Aug,
+                                    2022</small> </p>
                             <h4 class="blog-title"><a href="#">Invest $5000 for secure your
                                     policy...</a></h4>
-                            <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.</p>
+                            <p class="blog-summary"></p>
                             <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
@@ -586,19 +590,18 @@
                             <img src="{{ asset('assets/newfile2/img/blog/blog-3.jpg') }}" alt="">
                         </div>
                         <div class="blog-txt">
-                            <p class="date"><small>By <span class="username">Admin</span></small> | <small>07 Aug,
-                                    2018</small> </p>
+                            <p class="date"><small>By <span class="username">Admin</span></small> | <small>27 Aug,
+                                    2022</small> </p>
                             <h4 class="blog-title"><a href="#">More than 3k company join this year
                                     in...</a></h4>
-                            <p class="blog-summary">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.</p>
+                            <p class="blog-summary"></p>
                             <a href="#" class="readmore-btn"><span>Read More</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--    blog section end   -->
 
 

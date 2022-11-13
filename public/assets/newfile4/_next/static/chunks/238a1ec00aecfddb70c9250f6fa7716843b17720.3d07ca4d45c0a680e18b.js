@@ -355,139 +355,15 @@
           i(
             "div",
             { className: "container" },
-            i(
-              "div",
-              { className: "section-title" },
-              i("span", { className: "top-title" }, "News"),
-              i("h2", null, "Our Latest News"),
-              i(
-                "p",
-                null,
-                ""
-              )
-            ),
+            
             i(
               "div",
               { className: "row" },
               i(
                 "div",
                 { className: "col-lg-4 col-md-6" },
-                i(
-                  "div",
-                  { className: "single-blog" },
-                  i(
-                    l.a,
-                    { href: "#" },
-                    i(
-                      "a",
-                      null,
-                      i("img", { src: "/img/blog/blog1.jpg", alt: "Image" })
-                    )
-                  ),
-                  i("span", null, "27 July 2022"),
-                  i(
-                    "div",
-                    { className: "blog-content" },
-                    i(
-                      "ul",
-                      null,
-                      i("li", null, i("a", { href: "#" }, "Medical"))
-                    ),
-                    i(
-                      l.a,
-                      { href: "#" },
-                      i(
-                        "a",
-                        null,
-                        i("h3", null, "250+ Medical Tips We just had to share")
-                      )
-                    ),
-                    
-                  )
-                )
+              
               ),
-              i(
-                "div",
-                { className: "col-lg-4 col-md-6" },
-                i(
-                  "div",
-                  { className: "single-blog" },
-                  i(
-                    l.a,
-                    { href: "#" },
-                    i(
-                      "a",
-                      null,
-                      i("img", { src: "/img/blog/blog2.jpg", alt: "Image" })
-                    )
-                  ),
-                  i("span", null, "11 May 2022"),
-                  i(
-                    "div",
-                    { className: "blog-content" },
-                    i(
-                      "ul",
-                      null,
-                      i("li", null, i("a", { href: "#" }, "Treatment"))
-                    ),
-                    i(
-                      l.a,
-                      { href: "#" },
-                      i(
-                        "a",
-                        null,
-                        i(
-                          "h3",
-                          null,
-                          "What Can I Do To Prevent Myself & prevent Disease"
-                        )
-                      )
-                    ),
-                    
-                  )
-                )
-              ),
-              i(
-                "div",
-                { className: "col-lg-4 col-md-6 offset-md-3 offset-lg-0" },
-                i(
-                  "div",
-                  { className: "single-blog" },
-                  i(
-                    l.a,
-                    { href: "#" },
-                    i(
-                      "a",
-                      null,
-                      i("img", { src: "/img/blog/blog3.jpg", alt: "Image" })
-                    )
-                  ),
-                  i("span", null, "13 Sept 2022"),
-                  i(
-                    "div",
-                    { className: "blog-content" },
-                    i(
-                      "ul",
-                      null,
-                      i("li", null, i("a", { href: "#" }, "COVID-19"))
-                    ),
-                    i(
-                      l.a,
-                      { href: "#" },
-                      i(
-                        "a",
-                        null,
-                        i(
-                          "h3",
-                          null,
-                          "CCU For Emergency  Services  & Medical support"
-                        )
-                      )
-                    ),
-                    
-                  )
-                )
-              )
             )
           )
         );

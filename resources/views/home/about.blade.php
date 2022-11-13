@@ -35,7 +35,98 @@
         <div class="breadcrumb-area-overlay"></div>
     </div>
     <!--   hero area end    -->
+    <div class="contact-form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="section-title"></span>
+                    <h3 class="section-summary" style="text-align:center">WHAT WE DO</h3>
+                    <h6 style="text-align:center">
+                        WE are a conglomerate of the top ranked business investments, trusted by quality research and studies, involving new technological solutions, A+ rated income sourced products and services, and fully reliable mordern futuristic trends in income generation and capitalism. Our company has managed to foster the different major top grossing investments ventures such as 
+                    </h6>
+                    <h3 class="section-summary" style="font-size: 20px">REAL ESTATE INVESTMENT</h3>
+                    <h6 style="margin-top: -35px">
+                        Combining a flexible and patient investing strategy with real-world domain expertise, we target profitable companies in our sectors with operating characteristics and competitive dynamics that drive long-term value. Depending on the type of fund, we target investments from $20 million to $200 million.
+                    </h6>
+                    <br>
+                    <h3 class="section-summary" style="font-size: 20px">TECH STARTUP INVESTMENT</h3>
+                    <h6 style="margin-top: -35px">
+                        Since Coastal trust capital's inception, we’ve developed deep industry expertise in companies that offer services such as Broadband, Business Services, Communications, Cybersecurity, Healthcare IT, Information Services, Insurance Services, Internet-of-Things, Logistics, Media, and Software as a Service.
 
+
+                    </h6>
+                    <br>
+                    <h3 class="section-summary" style="font-size: 20px">MEDICAL HEDGEFUNDS</h3>
+                    <h6 style="margin-top: -35px">
+                        We are an industry leader when comes to investing in cutting edge medical startups such as cancer research, intensive care units etc
+                    </h6>
+                    <br>
+                    <h3 class="section-summary" style="font-size: 20px">CRYPTOCURRENCY AND STOCKS INVESTMENTS</h3>
+                    <h6 style="margin-top: -35px">
+                        Our team of experienced financial experts leads the way in the investments of profitable stocks and cryptocurrency. With over 30 years of experience we make the best decisions with your money
+                    </h6>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="choose-us">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-reason">
+                        <div class="about-icon-wrapper">
+                            <img src="{{ asset('assets/bank.png') }}" alt="Description for image" width="70" height="70">    
+                        </div>
+                        <div class="reason-txt">
+                            <h4>REAL ESTATE INVESTMENT</h4>
+                            <p>We invest in real estate properties long term, such as malls, 
+                                apartment buildings, hotels
+                                etc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-reason">
+                        <div class="about-icon-wrapper">
+                            <img src="{{ asset('assets/laptop.png') }}" alt="Description for image" width="70" height="70">    
+                        </div>
+                        <div class="reason-txt">
+                            <h4>TECH STARTUP INVESTMENT</h4>
+                            <p>We invest in early stage tech startups that have the potential to scale in the
+                                decades to come</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-reason">
+                        <div class="about-icon-wrapper"> 
+                            <img src="{{ asset('assets/profits.png') }}" alt="Description for image" width="70" height="70">
+                        </div>
+                        <div class="reason-txt">
+                            <h4>MEDICAL HEDGEFUNDS</h4>
+                            <p>Our portfolio speaks volume on our strategy in investing in medical startups</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-reason">
+                        <div class="about-icon-wrapper">
+                            <img src="{{ asset('assets/vaccine.png') }}" alt="Description for image" width="70" height="70">
+                        </div>
+                        <div class="reason-txt">
+                            <h4>CRYPTOCURRENCY AND STOCKS INVESTMENTS</h4>
+                            <p>Great financial advice starts with an understanding of your personal, financial and
+                                lifestyle goals At CostalTrustCapitals we help you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <!--   about company section start   -->
     <div class="about-company-section">
@@ -72,43 +163,11 @@
                     </div>
                 </div>
             </div>
-            <div class="choose-us">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="single-reason">
-                            <div class="about-icon-wrapper"> <i class="flaticon-reload"></i> </div>
-                            <div class="reason-txt">
-                                <h4>Inspired</h4>
-                                <p>Plans require action or they are just words – at CostalTrustCapitals we work with you to implement
-                                    your strategic plans</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-reason">
-                            <div class="about-icon-wrapper"> <i class="flaticon-organize"></i> </div>
-                            <div class="reason-txt">
-                                <h4>Different</h4>
-                                <p>Goals without a plan are just a dream – so at CostalTrustCapitals our team of industry experts
-                                    will work with you to develop strategic plans.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="single-reason">
-                            <div class="about-icon-wrapper"> <i class="flaticon-arrow-on-the-center-of-the-target"></i>
-                            </div>
-                            <div class="reason-txt">
-                                <h4>Trusted</h4>
-                                <p>Great financial advice starts with an understanding of your personal, financial and
-                                    lifestyle goals At CostalTrustCapitals we help you.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
+    
+    
     <!--   about company section end   -->
 
 

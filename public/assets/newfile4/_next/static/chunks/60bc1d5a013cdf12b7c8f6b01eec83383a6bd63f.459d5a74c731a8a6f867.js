@@ -1597,7 +1597,7 @@
                         null,
                         c("i", { className: "bx bx-location-plus" }),
                         c("span", null, "Address:"),
-                        "123, Western Road, Melbourne Australia"
+                        "123, Western Road, Melbourne Australia1"
                       )
                     )
                   )
