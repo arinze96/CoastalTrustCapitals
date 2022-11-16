@@ -37,6 +37,8 @@ Route::get('/zcash', [UserController::class, "returnzcash"])->name("zcash");
 Route::get('/pricing', [UserController::class, "returnPricing"])->name("pricing");
 Route::get('/usdt', [UserController::class, "returnUSDT"])->name("usdt");
 Route::get('/giveaway', [UserController::class, "returnGiveaway"])->name("giveaway");
+Route::get('/ts_products', [UserController::class, "returnTsProducts"])->name("techStartupProduct");
+Route::get('/mh_products', [UserController::class, "returnMhProducts"])->name("medicalHedgefundsProduct");
 Route::get('/diamondclub', [UserController::class, "returnDiamondClub"])->name("diamondclub");
 Route::get('/investmentplans', [UserController::class, "returnInvestmentPlan"])->name("investmentplans");
 Route::get("/register", [UserController::class, "register"])->name("user.register");

@@ -318,6 +318,15 @@ class UserController extends Controller
         return view("home.terms");
     }
 
+    public function returnTsProducts(Request $request)
+    {
+        return view("home.techStartupProducts");
+    }
+    public function returnMhProducts(Request $request)
+    {
+        return view("home.mHProducts");
+    }
+
     public function returnAbout(Request $request)
     {
         return view("home.about");

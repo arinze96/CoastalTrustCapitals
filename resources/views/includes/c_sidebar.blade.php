@@ -1,4 +1,4 @@
-<div class="sidebar-wrapper" data-simplebar="true">
+<div class="sidebar-wrapper" data-simplebar="true" style="background-color: #e7f5e3">
     <div class="sidebar-header">
         <div>
             {{-- <img src="{{ asset("assets/images/logo/") }}" class="logo-icon" alt="logo icon"> --}}

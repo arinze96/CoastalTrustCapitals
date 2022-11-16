@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themeforest.kreativdev.com/CoastalTrustCapital/CoastalTrustCapital/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Oct 2022 16:46:00 GMT -->
-
 <head>
     <title>CoastalTrustCapital - Home</title>
     @include('includes.home_css')
@@ -485,7 +483,7 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Helen fox</h5>
+                                <h5 class="member-name">Alen Donald</h5>
                                 <small>Managing Director</small>
                             </div>
                         </div>
@@ -508,8 +506,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Alen Donald</h5>
-                                <small>Managing Director</small>
+                                <h5 class="member-name">Helen Fox</h5>
+                                <small>Technical Director</small>
                             </div>
                         </div>
                     </div>
@@ -531,7 +529,7 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Hrver Pual</h5>
+                                <h5 class="member-name">Hirver Pauline</h5>
                                 <small>Sales And Marketting</small>
                             </div>
                         </div>

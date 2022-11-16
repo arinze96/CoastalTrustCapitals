@@ -4,8 +4,9 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <div class="footer-logo-wrapper">
-                        <a href="index.html">
-                            <img src="{{ asset('assets/newfile2/img/logo.png') }}" alt="">
+                        <a href="{{ route('app.home') }}">
+                            {{-- <img src="{{ asset('assets/newfile2/img/logo.png') }}" alt=""> --}}
+                            <h3>LOGO</h3>
                         </a>
                     </div>
                     <p class="footer-txt">Our entire business is centred on you and your goals. Financial planning
@@ -19,7 +20,7 @@
                                 <p style="margin-bottom: 30px"></p>
                 </div>
                 <div class="col-lg-2 col-md-3">
-                    <h4>Useful Links</h4>
+                    <h4>Explore Solutions</h4>
                     <ul class="footer-links">
                         <li><a href="{{ route('app.home') }}">Home</a></li>
                         <li><a href="{{ route('about') }}">About us</a></li>
@@ -31,7 +32,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-3">
-                    <h4>Solutions</h4>
+                    <h4>Services</h4>
                     <ul class="footer-links">
                         <li><a href="{{ route('user.realEstate') }}">Real Estate</a></li>
                         <li><a href="{{ route('user.cryptoMarket') }}">Crypto Market</a></li>

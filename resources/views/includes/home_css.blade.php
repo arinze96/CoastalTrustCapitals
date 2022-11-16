@@ -30,7 +30,7 @@
         padding: 0;
         margin: 0 auto;
     }
-
+   
     .center {
         margin: 0 auto;
         max-width: 270px;

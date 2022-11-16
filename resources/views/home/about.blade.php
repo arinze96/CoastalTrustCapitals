@@ -41,30 +41,37 @@
                 <div class="col-lg-12">
                     <span class="section-title"></span>
                     <h3 class="section-summary" style="text-align:center">WHAT WE DO</h3>
-                    <h6 style="text-align:center">
-                        WE are a conglomerate of the top ranked business investments, trusted by quality research and studies, involving new technological solutions, A+ rated income sourced products and services, and fully reliable mordern futuristic trends in income generation and capitalism. Our company has managed to foster the different major top grossing investments ventures such as 
+                    <h6 style="background-color: #e6ffe6; padding: 10px">
+                        We are a conglomerate of the top ranked business investments, trusted by quality research and studies, involving new technological solutions, A+ rated income sourced products and services, and fully reliable mordern futuristic trends in income generation and capitalism. Our company has managed to foster the different major top grossing investments ventures such as 
                     </h6>
+                    <br>
+                    <div style="background-color: #e6ffe6; padding: 10px">
                     <h3 class="section-summary" style="font-size: 20px">REAL ESTATE INVESTMENT</h3>
                     <h6 style="margin-top: -35px">
                         Combining a flexible and patient investing strategy with real-world domain expertise, we target profitable companies in our sectors with operating characteristics and competitive dynamics that drive long-term value. Depending on the type of fund, we target investments from $20 million to $200 million.
                     </h6>
+                </div>
                     <br>
+                    <div style="background-color: #e6ffe6; padding: 10px">
                     <h3 class="section-summary" style="font-size: 20px">TECH STARTUP INVESTMENT</h3>
                     <h6 style="margin-top: -35px">
                         Since Coastal trust capital's inception, we’ve developed deep industry expertise in companies that offer services such as Broadband, Business Services, Communications, Cybersecurity, Healthcare IT, Information Services, Insurance Services, Internet-of-Things, Logistics, Media, and Software as a Service.
-
-
                     </h6>
+                    </div>
                     <br>
+                    <div style="background-color: #e6ffe6; padding: 10px">
                     <h3 class="section-summary" style="font-size: 20px">MEDICAL HEDGEFUNDS</h3>
                     <h6 style="margin-top: -35px">
                         We are an industry leader when comes to investing in cutting edge medical startups such as cancer research, intensive care units etc
                     </h6>
+                    </div>
                     <br>
+                    <div style="background-color: #e6ffe6; padding: 10px">
                     <h3 class="section-summary" style="font-size: 20px">CRYPTOCURRENCY AND STOCKS INVESTMENTS</h3>
                     <h6 style="margin-top: -35px">
                         Our team of experienced financial experts leads the way in the investments of profitable stocks and cryptocurrency. With over 30 years of experience we make the best decisions with your money
                     </h6>
+                    </div>
                 </div>
 
 
@@ -180,7 +187,7 @@
                         <h3>Contact us for help with your finances.</h3>
                     </div>
                     <div class="col-md-3 col-lg-5 contact-btn-wrapper">
-                        <a href="{{ route('about') }}" class="boxed-btn contact-btn"><span>Contact Us</span></a>
+                        <a href="{{ route('user.contact') }}" class="boxed-btn contact-btn"><span>Contact Us</span></a>
                     </div>
                 </div>
             </div>
@@ -239,7 +246,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <span class="section-title">Executive Team</span>
-                        <h2 class="section-summary">Meet our expert finlance executive team
+                        <h2 class="section-summary">Meet our expert Coastal Trust Capital
+                            executive team
                         </h2>
                     </div>
                 </div>
@@ -285,7 +293,7 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Helen fox</h5>
+                                <h5 class="member-name">Alen Donald</h5>
                                 <small>Managing Director</small>
                             </div>
                         </div>
@@ -308,8 +316,8 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Alen Donald</h5>
-                                <small>Managing Director</small>
+                                <h5 class="member-name">Helen fox</h5>
+                                <small>Technical Director</small>
                             </div>
                         </div>
                     </div>
@@ -331,7 +339,7 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h5 class="member-name">Hrver Pual</h5>
+                                <h5 class="member-name">Hirver Pauline</h5>
                                 <small>Sales And Marketting</small>
                             </div>
                         </div>

@@ -204,48 +204,10 @@
                             investment. You can count on use to manage you portfolio with high return on investment
                         </h2>
                     </div>
-                    <div class="col-lg-6" style="overflow: scroll">
+                    <div class="col-lg-6">
+                        <div style="height:500px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=859&pref_coin_id=1505" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
                         <!-- TradingView Widget BEGIN -->
-                        <div class="tradingview-widget-container">
-                            <div id="tradingview_a9674"></div>
-                            <div class="tradingview-widget-copyright"><a
-                                    href="https://www.tradingview.com/symbols/AAPL/" rel="noopener"
-                                    target="_blank"><span class="blue-text">Apple</span></a> by TradingView</div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                            <script type="text/javascript">
-                                new TradingView.MediumWidget({
-                                    "symbols": [
-                                        [
-                                            "Apple",
-                                            "AAPL|1D"
-                                        ],
-                                        [
-                                            "Google",
-                                            "GOOGL|1D"
-                                        ],
-                                        [
-                                            "Microsoft",
-                                            "MSFT|1D"
-                                        ]
-                                    ],
-                                    "chartOnly": false,
-                                    "width": 600,
-                                    "height": 500,
-                                    "locale": "en",
-                                    "colorTheme": "dark",
-                                    "autosize": false,
-                                    "showVolume": false,
-                                    "hideDateRanges": false,
-                                    "scalePosition": "right",
-                                    "scaleMode": "Normal",
-                                    "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-                                    "noTimeScale": false,
-                                    "valuesTracking": "1",
-                                    "chartType": "line",
-                                    "container_id": "tradingview_a9674"
-                                });
-                            </script>
-                        </div>
+                        
                         <!-- TradingView Widget END -->
                     </div>
                 </div>
@@ -376,11 +338,11 @@
 
 
     <!-- preloader section start -->
-    <div class="loader-container">
+    {{-- <div class="loader-container">
         <span class="loader">
             <span class="loader-inner"></span>
         </span>
-    </div>
+    </div> --}}
     @include('includes.home_script')
 
 </body>

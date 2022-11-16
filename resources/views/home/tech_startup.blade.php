@@ -13,7 +13,7 @@
 
     <!--====== Title ======-->
     <title>Codesk - Coworking Space HTML Template</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{{ asset('assets/newfile3/images/we-know-logo.png') }}" type="image/png">
 
@@ -43,9 +43,19 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{{ asset('assets/newfile3/css/style.css') }}">
+
     @include('includes.home_css')
 
+    <style>
+        .card {
+            margin: 5% 0%;
+        }
 
+        .card-body {
+            margin: 0% 0% 0% 3%;
+            padding: 6% 0%;
+        }
+    </style>
 </head>
 
 <body>
@@ -291,7 +301,7 @@
                                     data-wow-delay="300ms">
                                     <div class="accrodion-inner">
                                         <div class="accrodion-title">
-                                            <h4>2. Iis easy to understand</h4>
+                                            <h4>2. It's easy to understand</h4>
                                         </div>
                                         <div class="accrodion-content">
                                             <div class="inner">
@@ -343,26 +353,27 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-services mt-30">
-                        <a href="#">
+                        <span>
                             <h4 class="title" style="color: black">27/7 Assistance</h4>
-                        </a>
+                        </span>
                         <p>We have a didicated team on standby to help you with anything.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-services mt-30">
-                        <a href="#">
+                        <span>
                             <h4 class="title" style="color: black">Flexible investment packages</h4>
-                        </a>
+                        </span>
                         <p>Our investment packages are structured to give you better returns.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-services mt-30">
-                        <a href="#">
-                            <h4 class="title" style="color: black">Huge parking space</h4>
-                        </a>
-                        <p>There are many new variations of pasages of available text.</p>
+                        <span>
+                            <h4 class="title" style="color: black">High scale investment vehicle</h4>
+                        </span>
+                        <p>Our various tech investments vehicles are long term guaranteed with multiple options for
+                            scaling your returns.</p>
                     </div>
                 </div>
             </div>
@@ -384,7 +395,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="gallery-title text-center">
-                        <h3 class="title">Our photo gallery</h3>
+                        <h3 class="title">Our media portfolio</h3>
                     </div>
                 </div>
             </div>
@@ -484,10 +495,12 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="we-knows-content">
-                        <h3 class="title">We tsrget emerging startups that are making a big impact on the tech space.</h3>
+                        <h3 class="title">We target emerging startups that are making a big impact on the tech space.
+                        </h3>
                         <p>Almost every industry has created a subset of companies with a tech component.
-                            AgTech, HealthTech, FinTech, and InsurTech are just some examples of this phenomenon.According to Pitchbook,
-                             tech companies tracked by this database raised an impressive $600B
+                            AgTech, HealthTech, FinTech, and InsurTech are just some examples of this
+                            phenomenon.According to Pitchbook,
+                            tech companies tracked by this database raised an impressive $600B
                             in VC funding in 2021 (representing a 2x increase over 2020).</p>
                         <img src="{{ asset('assets/newfile3/images/we-know-thumb.jpg') }}" alt="thumb">
                     </div>
@@ -567,6 +580,9 @@
     </div>
     <section class="testimonial-area">
         <div class="container">
+            <div class="gallery-title text-center" style="margin-bottom: 50px">
+                <h3 class="title">Testimonials</h3>
+            </div>
             <div class="row testimonial-active">
                 <div class="col-lg-4">
                     <div class="testimonial-item text-center">
@@ -582,7 +598,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item text-center">
-                        <p>Investing in this tech startup investment is the most satisfying investment i have since the pandemic</p>
+                        <p>Investing in this tech startup investment is the most satisfying investment i have since the
+                            pandemic</p>
                         <h4 class="title">Sarah albert</h4>
                         <span>Developer</span>
                         <img src="{{ asset('assets/newfile3/images/testimonial-3.jpg') }}" alt="testimonial">
@@ -622,17 +639,18 @@
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="cta-text">
-                                    <h3 class="title">Fully funded Tech Startups can operate with different systems</h3>
-                                    <a class="main-btn" href="{{ route('user.register') }}">Invest</a>
+                                    <h3 class="title">Fully funded Tech Startups can operate with different systems
+                                    </h3>
+                                    <a class="main-btn" href="{{ route('techStartupProduct') }}">View all products</a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="cta-text">
                                     <p>Tech companies tries to differentiate themselves through
-                                         two main features: cloud and AI. A cloud-based software
-                                          lets businesses access their registry from any device.
-                                           Whereas AI capabilities help stores conduct inventory
-                                            analysis and come up with sales forecasts.</p>
+                                        two main features: cloud and AI. A cloud-based software
+                                        lets businesses access their registry from any device.
+                                        Whereas AI capabilities help stores conduct inventory
+                                        analysis and come up with sales forecasts.</p>
                                 </div>
                             </div>
                         </div>
@@ -650,80 +668,9 @@
             </div>
         </div>
     </section>
+   
 
-    <!--====== CTA PART ENDS ======-->
-
-    <!--====== NEWS PART START ======-->
-
-    <section class="news-area pb-150">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="news-title text-center">
-                        <h3 class="title">News & articles.</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7">
-                    <div class="mt-30">
-                        <div class="news-item bg_cover"
-                            style="background-image: url(assets/newfile3/images/news-item-bg.jpg);">
-                            <div class="item">
-                                <img src="{{ asset('assets/newfile3/images/news-user-1.jpg') }}" alt="">
-                                <ul>
-                                    <li><i class="fa fa-user-o"></i> by admin</li>
-                                    <li><i class="fa fa-comments-o"></i> 2 comments</li>
-                                </ul>
-                            </div>
-                            <h3 class="title">Why your business absolutely needs a virtual office</h3>
-                            <a href="single-news.html"><i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7">
-                    <div class="mt-30">
-                        <div class="news-item active bg_cover"
-                            style="background-image: url(assets/newfile3/images/news-item-bg.jpg);">
-                            <div class="item">
-                                <img src="{{ asset('assets/newfile3/images/news-user-2.jpg') }}" alt="">
-                                <ul>
-                                    <li><i class="fa fa-user-o"></i> by admin</li>
-                                    <li><i class="fa fa-comments-o"></i> 2 comments</li>
-                                </ul>
-                            </div>
-                            <h3 class="title">Why your business absolutely needs a virtual office</h3>
-                            <a href="single-news.html"><i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7">
-                    <div class="mt-30">
-                        <div class="news-item bg_cover"
-                            style="background-image: url(assets/newfile3/images/news-item-bg.jpg);">
-                            <div class="item">
-                                <img src="{{ asset('assets/newfile3/images/news-user-3.jpg') }}" alt="">
-                                <ul>
-                                    <li><i class="fa fa-user-o"></i> by admin</li>
-                                    <li><i class="fa fa-comments-o"></i> 2 comments</li>
-                                </ul>
-                            </div>
-                            <h3 class="title">Why your business absolutely needs a virtual office</h3>
-                            <a href="single-news.html"><i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="shape-pattern">
-            <img src="{{ asset('assets/newfile3/images/shape-pattern.png') }}" alt="">
-        </div>
-    </section>
-
-
-    <!--====== COMPANY LOGOS PART ENDS ======-->
-
-    <!--====== FOOTER PART START ======-->
+    
 
     @include('includes.home_footer')
 

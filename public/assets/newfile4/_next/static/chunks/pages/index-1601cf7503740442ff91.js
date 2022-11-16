@@ -1109,7 +1109,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-man" }),
-                    h("h3", null, "Cancer Research firm"),
+                    h("h3", null, "Medical Equipments Companies"),
                     h(
                       "p",
                       null,
@@ -1130,7 +1130,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-liver" }),
-                    h("h3", null, "Organ Transplant firms"),
+                    h("h3", null, "Health Insurance Firms"),
                     h(
                       "p",
                       null,
@@ -1152,7 +1152,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-brain" }),
-                    h("h3", null, "Neurology Specialist Hospitals"),
+                    h("h3", null, "Nutritional Company"),
                     h(
                       "p",
                       null,
@@ -1173,7 +1173,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-walker" }),
-                    h("h3", null, "Orthopedic Care Companies"),
+                    h("h3", null, "Diagnostic and Labouratory firm"),
                     h(
                       "p",
                       null,

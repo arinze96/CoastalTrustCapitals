@@ -23,7 +23,7 @@
                      <h1>Need information? contact us</h1>
                      <ul class="breadcumb">
                         <li><a href="{{ route('app.home') }}">Home</a></li>
-                        <li>Contact Us</li>
+                        <li><a href="{{ route('user.contact') }}">Contact us</a></li>
                      </ul>
                   </div>
                </div>
@@ -116,7 +116,7 @@
                      <h3>Contact us for help with your finances.</h3>
                   </div>
                   <div class="col-md-3 col-lg-5 contact-btn-wrapper">
-                     <a href="contact.html" class="boxed-btn contact-btn"><span>Contact Us</span></a>
+                     <a href="{{ route('user.contact') }}" class="boxed-btn contact-btn"><span>Contact Us</span></a>
                   </div>
                </div>
             </div>
