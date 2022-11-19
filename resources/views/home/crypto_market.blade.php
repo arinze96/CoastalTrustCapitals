@@ -157,92 +157,18 @@
                                                 src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=859&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
-                                                style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div>
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
                                         <div
                                             style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
                                             <a href="https://coinlib.io" target="_blank"
                                                 style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                                Prices</a>&nbsp;by Coinlib</div>
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
                                     </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
-	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
-
-                                </div>
-
-                            </div>
-                            <!-- Card -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <!-- Card -->
-                            <div class="card mb-4">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/Parsley-Logo.png') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
-                                <!--Card content-->
-                                <div class="card-body"
-                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
-
-                                    <!--Title-->
-                                    <h4 class="card-title">Parsley Health</h4>
-                                    <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Parsley Health is
-                                        an innovative take on modern healthcare and primary care. By offering a platform
-                                        that integrates cutting-edge medical testing and technology as well as impactful
-                                        nutrition, wellness, and prevention research, Parsley Health provides customers
-                                        with a holistic medical experience.We are devoted to bring you a better health
-                                    </h6>
-                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
-	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
-
-                                </div>
-
-                            </div>
-                            <!-- Card -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <!-- Card -->
-                            <div class="card mb-4">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/circles_health.png') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
-                                <!--Card content-->
-                                <div class="card-body"
-                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
-
-                                    <!--Title-->
-                                    <h4 class="card-title">Circles</h4>
-                                    <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Circles is a
-                                        mental healthcare startup that is revolutionizing the way consumers access
-                                        support groups. Through the company’s laser-focused, professionally-led
-                                        groupings and accessible pricing, users are able to more easily access the care
-                                        and support they need. Circle focuses more on the improvement on the life of our
-                                        patients</h6>
-                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -254,32 +180,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/NervGen-new-logo.jpg') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> NervGen Pharma
-                                    </h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2"> Nerve damage and
-                                        neurodegenerative diseases can have long-lasting impacts that change a person’s
-                                        life. NervGen Pharma is attempting to tackle the problem by providing solutions
-                                        and treatments to help relieve and heal the symptoms.</h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=860&pref_coin_id=1506"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -291,32 +216,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/EntradaLogo-Color.jpg') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Entrada Therapeutics</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Devasting
-                                        diseases not only affect the person involved, they affect the entire community
-                                        they live in. Entrada Therapeutics is attempting to overcome the challenges of
-                                        intracellular target access so they can treat and heal those suffering from
-                                        these devasting diseases.</h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=861&pref_coin_id=1507"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -328,31 +252,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/corvus.png') }}" alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Corvus Pharmaceuticals</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Corvus
-                                        Pharmaceuticals works in the clinical stage of biopharmaceutical drugs. Their
-                                        intent is to develop new immunology-focused medicines that can target critical
-                                        cellular elements of the immune system. Their main focus is one treating cancer
-                                        and immune disorders</h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -364,32 +288,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/bicycle-health-logo.jpg') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> Bicycle Health</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Bicycle Health is
-                                        a telemedicine startup that offers personalized recovery treatment for opioid
-                                        addiction virtually changing the way we see addiction recovery and making
-                                        treatment more accessible. Bicycle health operates in almost all major American
-                                        cities and we respond quickly to all emergencies</h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -401,32 +324,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/felmo_logo_1200x800.png') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> Felmo</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Felmo is a pet
-                                        tech startup that provides a variety of veterinary services for pets from the
-                                        comfort of customers’ homes. By offering fast, flexible, and affordable
-                                        scheduling, as well as a stress-free veterinary experience for pets, Felmo is
-                                        changing the way pet owners care for their pet’s health.</h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -438,33 +360,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/HelloBello-KD9-1-1200x800.jpg') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> HelloBello</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        HelloBello is a subscription-based pet tech startup that crafts fresh,
-                                        human-grade food tailored to each dog’s nutritional needs as determined by their
-                                        veterinarian-developed algorithm. All HelloBello products are free of
-                                        by-products, portioned, and delivered directly to the customer’s door.
-                                    </h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -476,32 +396,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/loyal.jpg') }}" alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Loyal</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        Loyal develops medicines to help dogs live longer and healthier lives. Composed
-                                        of a team of veterinarians, scientists, and dog-lovers, the goal of this startup
-                                        is to produce the first drugs to combat the negative effects of aging in dogs
-                                        and also boost their immune system
-                                    </h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -513,33 +432,31 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/gw-jazz-pharmaceuticals.jpg') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> GW Pharmaceuticals</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        GW has established a world leading position in the development of plant-derived
-                                        cannabinoid therapeutics through its proven drug discovery and development
-                                        processes, intellectual property portfolio and regulatory and manufacturing
-                                        expertise..
-                                    </h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -551,33 +468,103 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <!-- Card -->
                             <div class="card">
-
-                                <!--Card image-->
-                                <div class="view overlay">
-                                    <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/Medopad-Logo1.png') }}"
-                                        alt="Card image cap">
-                                    <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-
                                 <!--Card content-->
                                 <div class="card-body"
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title"> Medopad</h4>
+                                    <h4 class="card-title">Bitcoin</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        Medopad connects patients and providers in real time. It also collects data
-                                        through wearables and lets patients send their data to healthcare professionals.
-                                        The platform also offers providers and insurers ways to analyze large amounts of
-                                        data using artificial intelligence and machine learning.
-                                    </h6>
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
+	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <!-- Card -->
+                            <div class="card">
+                                <!--Card content-->
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Bitcoin</h4>
+                                    <!--Text-->
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <a href="{{ route('user.register') }}"
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
+	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <!-- Card -->
+                            <div class="card">
+                                <!--Card content-->
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Bitcoin</h4>
+                                    <!--Text-->
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <a href="{{ route('user.register') }}"
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
 	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
 
                                 </div>
@@ -668,7 +655,8 @@
                                 style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
                                 <a href="https://coinlib.io" target="_blank"
                                     style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                    Prices</a>&nbsp;by Coinlib</div>
+                                    Prices</a>&nbsp;by Coinlib
+                            </div>
                         </div>
                         <!-- TradingView Widget BEGIN -->
 
