@@ -795,16 +795,17 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                               { className: "banner-btn" },
                               p(
                                 r.a,
-                                { href: "/register" },
+                                { href: "/mh_products" },
                                 p(
                                   "a",
                                   { className: "default-btn" },
-                                  "Get Started"
+                                  "View All Products"
                                 )
                               ),
                              
                             )
                           )
+                          
                         )
                       ),
                       p(
@@ -1069,11 +1070,6 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                         "Emergency services"
                       )
                     ),
-                    N(
-                      r.a,
-                      { href: "/about" },
-                      N("a", { className: "default-btn" }, "Get Started")
-                    )
                   )
                 )
               )
@@ -1110,6 +1106,90 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     { className: "single-services" },
                     h("span", { className: "flaticon-man" }),
                     h("h3", null, "Medical Equipments Companies"),
+                    h(
+                      "p",
+                      null,
+                      ""
+                    ),
+                   
+                    h(
+                      "div",
+                      { className: "services-shape" },
+                      
+                    )
+                  )
+                ),
+                h(
+                  "div",
+                  { className: "col-lg-4 col-sm-6" },
+                  h(
+                    "div",
+                    { className: "single-services" },
+                    h("span", { className: "flaticon-man" }),
+                    h("h3", null, "Cancer Research Firms"),
+                    h(
+                      "p",
+                      null,
+                      ""
+                    ),
+                   
+                    h(
+                      "div",
+                      { className: "services-shape" },
+                      
+                    )
+                  )
+                ),
+                h(
+                  "div",
+                  { className: "col-lg-4 col-sm-6" },
+                  h(
+                    "div",
+                    { className: "single-services" },
+                    h("span", { className: "flaticon-man" }),
+                    h("h3", null, "Organ Transplant Firms"),
+                    h(
+                      "p",
+                      null,
+                      ""
+                    ),
+                   
+                    h(
+                      "div",
+                      { className: "services-shape" },
+                      
+                    )
+                  )
+                ),
+                h(
+                  "div",
+                  { className: "col-lg-4 col-sm-6" },
+                  h(
+                    "div",
+                    { className: "single-services" },
+                    h("span", { className: "flaticon-man" }),
+                    h("h3", null, "Neurology Specialist Hospitals"),
+                    h(
+                      "p",
+                      null,
+                      ""
+                    ),
+                   
+                    h(
+                      "div",
+                      { className: "services-shape" },
+                      
+                    )
+                  )
+                ),
+                h(
+                  "div",
+                  { className: "col-lg-4 col-sm-6" },
+                  h(
+                    "div",
+                    { className: "single-services" },
+                    h("span", { className: "flaticon-man" }),
+                    h("h3", null, "Orthopedic Care Companies"),
                     h(
                       "p",
                       null,
