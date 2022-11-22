@@ -132,7 +132,7 @@
     <!--   how we do section end   -->
 
 
-    <section class="cta-area animated wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+    <section class="cta-area animated wow fadeInUp" style="margin-bottom: 250px" data-wow-duration="1500ms" data-wow-delay="0ms">
         <div class="container">
 
             <div class="row">
@@ -592,7 +592,7 @@
 
 
     <!--   Testimonial section start    -->
-    <div class="testimonial-section pb-115" style="margin-top: 250px">
+    <div class="testimonial-section pb-115" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
