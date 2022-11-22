@@ -1253,7 +1253,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                     "div",
                     { className: "single-services" },
                     h("span", { className: "flaticon-walker" }),
-                    h("h3", null, "Diagnostic and Labouratory firm"),
+                    h("h3", null, "Diagnostic and Laboratory firm"),
                     h(
                       "p",
                       null,

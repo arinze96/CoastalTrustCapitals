@@ -88,7 +88,8 @@
                             <span data-animation="fadeInDown" data-delay=".1s"><img
                                     src="{{ asset('assets/newfile3/images/banner-icon.png') }}" alt=""> Welcome
                                 to CostalTrustCapitals</span>
-                            <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">Medical Hedgefunds Investment
+                            <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">Medical Hedgefunds
+                                Investment
                                 Platform</h1>
                             <a data-animation="fadeInLeft" data-delay="1s" class="main-btn"
                                 href="{{ route('user.register') }}">Get Started</a>
@@ -120,7 +121,8 @@
                             <span data-animation="fadeInDown" data-delay=".1s"><img
                                     src="{{ asset('assets/newfile3/images/banner-icon.png') }}" alt=""> Welcome
                                 to CostalTrustCapitals</span>
-                            <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">Redefining Medical Hedgefunds
+                            <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">Redefining Medical
+                                Hedgefunds
                                 Investment
                             </h1>
                             <a data-animation="fadeInLeft" data-delay="1s" class="main-btn"
@@ -179,12 +181,18 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Headspace</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Headspace is an accessible digital health platform and app known primarily for its meditation and mindfulness exercises. This platform boasts hundreds of hours of content for users and a free introduction to the basics of meditation. App users also have access to a variety of videos and chat options to optimize their mental health and wellbeing.</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Headspace is an
+                                        accessible digital health platform and app known primarily for its meditation
+                                        and mindfulness exercises. This platform boasts hundreds of hours of content for
+                                        users and a free introduction to the basics of meditation. App users also have
+                                        access to a variety of videos and chat options to optimize their mental health
+                                        and wellbeing.</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -211,12 +219,18 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Parsley Health</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Parsley Health is an innovative take on modern healthcare and primary care. By offering a platform that integrates cutting-edge medical testing and technology as well as impactful nutrition, wellness, and prevention research, Parsley Health provides customers with a holistic medical experience.We are devoted to bring you a better health</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Parsley Health is
+                                        an innovative take on modern healthcare and primary care. By offering a platform
+                                        that integrates cutting-edge medical testing and technology as well as impactful
+                                        nutrition, wellness, and prevention research, Parsley Health provides customers
+                                        with a holistic medical experience.We are devoted to bring you a better health
+                                    </h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -243,12 +257,18 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Circles</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Circles is a mental healthcare startup that is revolutionizing the way consumers access support groups. Through the company’s laser-focused, professionally-led groupings and accessible pricing, users are able to more easily access the care and support they need. Circle focuses more on the improvement on the life of our patients</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Circles is a
+                                        mental healthcare startup that is revolutionizing the way consumers access
+                                        support groups. Through the company’s laser-focused, professionally-led
+                                        groupings and accessible pricing, users are able to more easily access the care
+                                        and support they need. Circle focuses more on the improvement on the life of our
+                                        patients</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -275,13 +295,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title"> NervGen Pharma
                                     </h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2"> Nerve damage and neurodegenerative diseases can have long-lasting impacts that change a person’s life. NervGen Pharma is attempting to tackle the problem by providing solutions and treatments to help relieve and heal the symptoms.</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2"> Nerve damage and
+                                        neurodegenerative diseases can have long-lasting impacts that change a person’s
+                                        life. NervGen Pharma is attempting to tackle the problem by providing solutions
+                                        and treatments to help relieve and heal the symptoms.</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -308,12 +332,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Entrada Therapeutics</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Devasting diseases not only affect the person involved, they affect the entire community they live in. Entrada Therapeutics is attempting to overcome the challenges of intracellular target access so they can treat and heal those suffering from these devasting diseases.</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Devasting
+                                        diseases not only affect the person involved, they affect the entire community
+                                        they live in. Entrada Therapeutics is attempting to overcome the challenges of
+                                        intracellular target access so they can treat and heal those suffering from
+                                        these devasting diseases.</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -332,20 +361,24 @@
                                 <!--Card image-->
                                 <div class="view overlay">
                                     <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/corvus.png') }}"
-                                        alt="Card image cap">
+                                        src="{{ asset('assets/newfile3/images/corvus.png') }}" alt="Card image cap">
                                     <a href="#!">
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Corvus Pharmaceuticals</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Corvus Pharmaceuticals works in the clinical stage of biopharmaceutical drugs. Their intent is to develop new immunology-focused medicines that can target critical cellular elements of the immune system. Their main focus is one treating cancer and immune disorders</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Corvus
+                                        Pharmaceuticals works in the clinical stage of biopharmaceutical drugs. Their
+                                        intent is to develop new immunology-focused medicines that can target critical
+                                        cellular elements of the immune system. Their main focus is one treating cancer
+                                        and immune disorders</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -372,12 +405,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">  Bicycle Health</h4>
+                                    <h4 class="card-title"> Bicycle Health</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Bicycle Health is a telemedicine startup that offers personalized recovery treatment for opioid addiction virtually changing the way we see addiction recovery and making treatment more accessible. Bicycle health operates in almost all major American cities and we respond quickly to all emergencies</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Bicycle Health is
+                                        a telemedicine startup that offers personalized recovery treatment for opioid
+                                        addiction virtually changing the way we see addiction recovery and making
+                                        treatment more accessible. Bicycle health operates in almost all major American
+                                        cities and we respond quickly to all emergencies</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -404,12 +442,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title"> Felmo</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Felmo is a pet tech startup that provides a variety of veterinary services for pets from the comfort of customers’ homes. By offering fast, flexible, and affordable scheduling, as well as a stress-free veterinary experience for pets, Felmo is changing the way pet owners care for their pet’s health.</h6>
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Felmo is a pet
+                                        tech startup that provides a variety of veterinary services for pets from the
+                                        comfort of customers’ homes. By offering fast, flexible, and affordable
+                                        scheduling, as well as a stress-free veterinary experience for pets, Felmo is
+                                        changing the way pet owners care for their pet’s health.</h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
                                         style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex;
@@ -436,13 +479,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title"> HelloBello</h4>
                                     <!--Text-->
                                     <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        HelloBello is a subscription-based pet tech startup that crafts fresh, human-grade food tailored to each dog’s nutritional needs as determined by their veterinarian-developed algorithm. All HelloBello products are free of by-products, portioned, and delivered directly to the customer’s door.
+                                        HelloBello is a subscription-based pet tech startup that crafts fresh,
+                                        human-grade food tailored to each dog’s nutritional needs as determined by their
+                                        veterinarian-developed algorithm. All HelloBello products are free of
+                                        by-products, portioned, and delivered directly to the customer’s door.
                                     </h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
@@ -462,21 +509,24 @@
                                 <!--Card image-->
                                 <div class="view overlay">
                                     <img class="card-img-top" style="height:150px"
-                                        src="{{ asset('assets/newfile3/images/loyal.jpg') }}"
-                                        alt="Card image cap">
+                                        src="{{ asset('assets/newfile3/images/loyal.jpg') }}" alt="Card image cap">
                                     <a href="#!">
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title">Loyal</h4>
                                     <!--Text-->
                                     <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        Loyal develops medicines to help dogs live longer and healthier lives. Composed of a team of veterinarians, scientists, and dog-lovers, the goal of this startup is to produce the first drugs to combat the negative effects of aging in dogs and also boost their immune system
+                                        Loyal develops medicines to help dogs live longer and healthier lives. Composed
+                                        of a team of veterinarians, scientists, and dog-lovers, the goal of this startup
+                                        is to produce the first drugs to combat the negative effects of aging in dogs
+                                        and also boost their immune system
                                     </h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
@@ -504,13 +554,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title"> GW Pharmaceuticals</h4>
                                     <!--Text-->
                                     <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        GW has established a world leading position in the development of plant-derived cannabinoid therapeutics through its proven drug discovery and development processes, intellectual property portfolio and regulatory and manufacturing expertise..
+                                        GW has established a world leading position in the development of plant-derived
+                                        cannabinoid therapeutics through its proven drug discovery and development
+                                        processes, intellectual property portfolio and regulatory and manufacturing
+                                        expertise..
                                     </h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"
@@ -538,13 +592,17 @@
                                 </div>
 
                                 <!--Card content-->
-                                <div class="card-body" style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
                                     <h4 class="card-title"> Medopad</h4>
                                     <!--Text-->
                                     <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
-                                        Medopad connects patients and providers in real time. It also collects data through wearables and lets patients send their data to healthcare professionals. The platform also offers providers and insurers ways to analyze large amounts of data using artificial intelligence and machine learning.
+                                        Medopad connects patients and providers in real time. It also collects data
+                                        through wearables and lets patients send their data to healthcare professionals.
+                                        The platform also offers providers and insurers ways to analyze large amounts of
+                                        data using artificial intelligence and machine learning.
                                     </h6>
                                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                                     <a href="{{ route('user.register') }}"

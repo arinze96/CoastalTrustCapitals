@@ -154,7 +154,8 @@
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=859&pref_coin_id=1505"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=859&pref_coin_id=1505"
+
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -185,12 +186,49 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Ethereum</h4>
+                                    <!--Text-->
+                                    <div
+                                    style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                    <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                        src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=145&pref_coin_id=1505"
+
+                                            width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                            marginheight="0" frameborder="0" border="0"
+                                            style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                    </div>
+                                    <div
+                                        style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                        <a href="https://coinlib.io" target="_blank"
+                                            style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+                                            Prices</a>&nbsp;by Coinlib
+                                    </div>
+                                </div>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <a href="{{ route('user.register') }}"
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
+	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <!-- Card -->
+                            <div class="card">
+                                <!--Card content-->
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Binance Coin</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=860&pref_coin_id=1506"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=1209&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -221,12 +259,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Ripple</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=861&pref_coin_id=1507"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=619&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -257,12 +295,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Algorand</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=1511107&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -293,12 +331,48 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Litecoin</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=359&pref_coin_id=1505"
+                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
+                                                marginheight="0" frameborder="0" border="0"
+                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
+                                        </div>
+                                        <div
+                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                            <a href="https://coinlib.io" target="_blank"
+                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency1
+                                                Prices</a>&nbsp;by Coinlib
+                                        </div>
+                                    </div>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <a href="{{ route('user.register') }}"
+                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
+	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <!-- Card -->
+                            <div class="card">
+                                <!--Card content-->
+                                <div class="card-body"
+                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">DodgeCoin</h4>
+                                    <!--Text-->
+                                    <div
+                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=280&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -329,12 +403,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Polkadot</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=250&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -365,12 +439,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">ChainLink</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=7618&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -401,12 +475,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Cosmas Atom</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=392&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -437,12 +511,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">OKB Token</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=735538&pref_coin_id=1505"
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
@@ -473,84 +547,12 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
+                                    <h4 class="card-title">Tron</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
                                         <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
-                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
-                                                marginheight="0" frameborder="0" border="0"
-                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
-                                        </div>
-                                        <div
-                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
-                                            <a href="https://coinlib.io" target="_blank"
-                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                                Prices</a>&nbsp;by Coinlib
-                                        </div>
-                                    </div>
-                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
-	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
-
-                                </div>
-
-                            </div>
-                            <!-- Card -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <!-- Card -->
-                            <div class="card">
-                                <!--Card content-->
-                                <div class="card-body"
-                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
-
-                                    <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
-                                    <!--Text-->
-                                    <div
-                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
-                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
-                                                width="100%" height="196px" scrolling="auto" marginwidth="0"
-                                                marginheight="0" frameborder="0" border="0"
-                                                style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
-                                        </div>
-                                        <div
-                                            style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
-                                            <a href="https://coinlib.io" target="_blank"
-                                                style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
-                                                Prices</a>&nbsp;by Coinlib
-                                        </div>
-                                    </div>
-                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                    <a href="{{ route('user.register') }}"
-                                        style="width: 60%; height: 40px; background-color: darkcyan;border-radius: 15; align-items:center; justify-content:center;display: flex; margin-top: 20px;
-	flex-direction: column; border-color:darkcyan; color: white">Invest</a>
-
-                                </div>
-
-                            </div>
-                            <!-- Card -->
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <!-- Card -->
-                            <div class="card">
-                                <!--Card content-->
-                                <div class="card-body"
-                                    style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
-
-                                    <!--Title-->
-                                    <h4 class="card-title">Bitcoin</h4>
-                                    <!--Text-->
-                                    <div
-                                        style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
-                                        <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
-                                                src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=858&pref_coin_id=1504"
+                                            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=8550&pref_coin_id=1505" 
                                                 width="100%" height="196px" scrolling="auto" marginwidth="0"
                                                 marginheight="0" frameborder="0" border="0"
                                                 style="border:0;margin:0;padding:0;line-height:14px;overflow: hidden;"></iframe>
