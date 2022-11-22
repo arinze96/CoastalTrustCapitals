@@ -596,8 +596,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6" style="margin-top: 250px">
-                    <span class="section-title" >Testimonial</span>
-                    <h2 class="section-summary">What people say about finlance planning</h2>
+                    {{-- <span class="section-title" >Testimonial</span> --}}
+                    <h2 class="section-summary">Testimonial</h2>
                 </div>
             </div>
             <div class="row">
