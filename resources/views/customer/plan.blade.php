@@ -32,100 +32,114 @@
                     </div>
                 </div>
 
-                
+
 
             </div>
             <div class="container">
-                <div class="card-deck">
-                    <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">View All Cryptocurrency Invesment Plans</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="{{ route('user.plan1.view', ['all']) }}"
-                                    class="btn btn-sm">Continue</a>
+                <div class="container">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Investment Category</option>
+                                        <option value="1">Real Estate</option>
+                                        <option value="1">Cryptocurrency Investment</option>
+                                        <option value="2">Stocks Investments</option>
+                                        <option value="3">Medical Hedgefunds Investments</option>
+                                        <option value="4">Tech Startups Investments</option>
+                                    </select>
+                                </div>
                             </div>
+                            <!--  col-md-6   -->
                         </div>
-                    </div>
-    
-    
-                    <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">View All Stocks Investment Plans</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="{{ route('user.plan2.view', ['all']) }}"
-                                    class="btn btn-sm">Continue</a>
+                        {{-- <h2>Contact Us</h2> --}}
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Investment Category</option>
+                                        <option value="1">Real Estate</option>
+                                        <option value="1">Cryptocurrency Investment</option>
+                                        <option value="2">Stocks Investments</option>
+                                        <option value="3">Medical Hedgefunds Investments</option>
+                                        <option value="4">Tech Startups Investments</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-    
-                    <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">View All Real Estate Investment Plans</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="{{ route('user.plan3.view', ['all']) }}"
-                                    class="btn btn-sm">Continue</a>
+                            <!--  col-md-6   -->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="company">Duration</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Duration</option>
+                                        <option value="1">7 Days</option>
+                                        <option value="1">14 Days</option>
+                                        <option value="2">30 Days</option>
+                                        <option value="3">60 Days</option>
+                                        <option value="4">90 Days</option>
+                                    </select>
+                                </div>
                             </div>
+                            <!--  col-md-6   -->
                         </div>
-                    </div>
-    
-                    <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">View All Medical Hedgefunds Investment Plans</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="{{ route('user.plan4.view', ['all']) }}"
-                                    class="btn btn-sm">Continue</a>
+
+
+                        <div class="row">
+                            <div class="col-md-44">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" class="form-control" placeholder="" id="company">
+                                </div>
+
+
                             </div>
-                        </div>
-                    </div>
-    
-                    <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">View All Tech Startup Investment Plans</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="{{ route('user.plan5.view', ['all']) }}"
-                                    class="btn btn-sm">Continue</a>
+                            <!--  col-md-6   -->
+
+                            <div class="col-md-4">
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="phone">
+                                </div>
                             </div>
+                            <!--  col-md-6   -->
                         </div>
-                    </div>
-    
-                    {{-- <div style="margin-top: 10px;">
-                        <div class="card" style="width: 18rem;">
-    
-                            <div class="card-body">
-                                <small>Coastal Trust Capitals</small>
-                                <h5 class="card-title">Semester 1- First Year Engineering</h5>
-                                <small>PRESET PACKAGES</small>
-                                <p style="font-size:30px;" class="card-text"></p>
-                                <a style="background-color: #006849; color: white;" href="#"
-                                    class="btn btn-sm">Continue</a>
+                        <!--  row   -->
+
+
+                        <div class="row">
+                            <div class="col-md-4">
+
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="email">
+                                </div>
                             </div>
+                            <!--  col-md-6   -->
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="url">Your Website <small>Please include http://</small></label>
+                                    <input type="url" class="form-control" id="url" placeholder="url">
+                                </div>
+
+                            </div>
+                            <!--  col-md-6   -->
                         </div>
-                    </div> --}}
+                        <!--  row   -->
+
+                        <button type="submit" style="background-color: #006849" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
+
             </div>
         </div>
 
-       
+
         <!--end page wrapper -->
         <!--start overlay-->
         <div class="overlay toggle-icon"></div>
