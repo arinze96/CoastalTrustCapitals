@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>Resido - Residence & Real Estate HTML Template</title>
-    <link href="{{ asset('assets/newfile1/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/styles.css') }}" rel="stylesheet">
     <!-- Custom Color Option -->
-    <link href="{{ asset('assets/newfile1/css/colors.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/colors.css') }}" rel="stylesheet">
     @include('includes.home_css')
     <script>
         (function($) { // Begin jQuery
