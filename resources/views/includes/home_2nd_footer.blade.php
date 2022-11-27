@@ -5,7 +5,7 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="footer-widget">
-                        <img src="{{ asset('assets/newfile1/img/logo-light.png') }}" class="img-footer"
+                        <img src="{{ asset('assets/newFile1/img/logo-light.png') }}" class="img-footer"
                             alt="" />
                         <div class="footer-add">
                             <p>Collins Street West, Victoria 8007, Australia.</p>

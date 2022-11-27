@@ -631,7 +631,7 @@
 
     <!--    team section start   -->
     <div class="team-section section-padding" data-parallax="scroll" data-speed="0.2"
-        data-image-src="{{ asset('assets/newfile1/img/new1.gif') }}">
+        data-image-src="{{ asset('assets/newFile1/img/new1.gif') }}">
         <div class="team-content">
             <div class="container">
                 <div class="row">

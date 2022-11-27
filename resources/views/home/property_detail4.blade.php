@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>Resido - Residence & Real Estate HTML Template</title>
-    <link href="{{ asset('assets/newfile1/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/styles.css') }}" rel="stylesheet">
     <!-- Custom Color Option -->
-    <link href="{{ asset('assets/newfile1/css/colors.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/newFile1/css/colors.css') }}" rel="stylesheet">
     @include('includes.home_css')
     <script>
         (function($) { // Begin jQuery
@@ -290,17 +290,17 @@
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bed.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bed.svg') }}" width="13"
                                                 alt=""></div>3 Beds
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/bathtub.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/bathtub.svg') }}" width="13"
                                                 alt=""></div>1 Bath
                                     </div>
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
-                                                src="{{ asset('assets/newfile1/img/move.svg') }}" width="13"
+                                                src="{{ asset('assets/newFile1/img/move.svg') }}" width="13"
                                                 alt=""></div>800 sqft
                                     </div>
                                 </div>
@@ -418,7 +418,7 @@
                                             <div id="firstfloor" class="collapse" aria-labelledby="firstFloor"
                                                 data-parent="#floor-option">
                                                 <div class="card-body">
-                                                    <img src="{{ asset('assets/newfile1/img/floor.jpg') }}"
+                                                    <img src="{{ asset('assets/newFile1/img/floor.jpg') }}"
                                                         class="img-fluid" alt="" />
                                                 </div>
                                             </div>
@@ -435,7 +435,7 @@
                                             <div id="secondfloor" class="collapse" aria-labelledby="seconfFloor"
                                                 data-parent="#floor-option">
                                                 <div class="card-body">
-                                                    <img src="{{ asset('assets/newfile1/img/floor.jpg') }}"
+                                                    <img src="{{ asset('assets/newFile1/img/floor.jpg') }}"
                                                         class="img-fluid" alt="" />
                                                 </div>
                                             </div>
@@ -451,7 +451,7 @@
                                             <div id="garages" class="collapse" aria-labelledby="third-garage"
                                                 data-parent="#floor-option">
                                                 <div class="card-body">
-                                                    <img src="{{ asset('assets/newfile1/img/floor.jpg') }}"
+                                                    <img src="{{ asset('assets/newFile1/img/floor.jpg') }}"
                                                         class="img-fluid" alt="" />
                                                 </div>
                                             </div>
@@ -476,39 +476,39 @@
                                 <div class="block-body">
                                     <ul class="list-gallery-inline">
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-1.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-1.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-1.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-1.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-2.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-2.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-2.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-2.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-3.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-3.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-3.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-3.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-4.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-4.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-4.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-4.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-5.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-5.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-5.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-5.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="{{ asset('assets/newfile1/img/p-6.jpg') }}"
+                                            <a href="{{ asset('assets/newFile1/img/p-6.jpg') }}"
                                                 class="mfp-gallery"><img
-                                                    src="{{ asset('assets/newfile1/img/p-6.jpg') }}"
+                                                    src="{{ asset('assets/newFile1/img/p-6.jpg') }}"
                                                     class="img-fluid mx-auto" alt="" /></a>
                                         </li>
                                     </ul>
@@ -587,7 +587,7 @@
                                                 <li class="article_comments_wrap">
                                                     <article>
                                                         <div class="article_comments_thumb">
-                                                            <img src="{{ asset('assets/newfile1/img/user-1.jpg') }}"
+                                                            <img src="{{ asset('assets/newFile1/img/user-1.jpg') }}"
                                                                 alt="">
                                                         </div>
                                                         <div class="comment-details">
@@ -608,7 +608,7 @@
                                                 <li class="article_comments_wrap">
                                                     <article>
                                                         <div class="article_comments_thumb">
-                                                            <img src="{{ asset('assets/newfile1/img/user-5.jpg') }}"
+                                                            <img src="{{ asset('assets/newFile1/img/user-5.jpg') }}"
                                                                 alt="">
                                                         </div>
                                                         <div class="comment-details">
@@ -657,7 +657,7 @@
                                             </div>
                                             <div class="nearby_header_last">
                                                 <div class="nearby_powerd">
-                                                    Powerd by <img src="{{ asset('assets/newfile1/img/edu.png') }}"
+                                                    Powerd by <img src="{{ asset('assets/newFile1/img/edu.png') }}"
                                                         class="img-fluid" alt="" />
                                                 </div>
                                             </div>
@@ -726,7 +726,7 @@
                                             </div>
                                             <div class="nearby_header_last">
                                                 <div class="nearby_powerd">
-                                                    Powerd by <img src="{{ asset('assets/newfile1/img/food.png') }}"
+                                                    Powerd by <img src="{{ asset('assets/newFile1/img/food.png') }}"
                                                         class="img-fluid" alt="" />
                                                 </div>
                                             </div>
@@ -796,7 +796,7 @@
                             <!-- Agent Detail -->
                             <div class="sides-widget">
                                 <div class="sides-widget-header">
-                                    <div class="agent-photo"><img src="{{ asset('assets/newfile1/img/user-6.jpg') }}"
+                                    <div class="agent-photo"><img src="{{ asset('assets/newFile1/img/user-6.jpg') }}"
                                             alt=""></div>
                                     <div class="sides-widget-details">
                                         <h4><a href="#">Jonathan Mitch</a></h4>
@@ -833,7 +833,7 @@
                                     <!-- List Sibar Property -->
                                     <div class="sides_list_property">
                                         <div class="sides_list_property_thumb">
-                                            <img src="{{ asset('assets/newfile1/img/p-1.jpg') }}" class="img-fluid"
+                                            <img src="{{ asset('assets/newFile1/img/p-1.jpg') }}" class="img-fluid"
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
@@ -854,7 +854,7 @@
                                     <!-- List Sibar Property -->
                                     <div class="sides_list_property">
                                         <div class="sides_list_property_thumb">
-                                            <img src="{{ asset('assets/newfile1/img/p-4.jpg') }}" class="img-fluid"
+                                            <img src="{{ asset('assets/newFile1/img/p-4.jpg') }}" class="img-fluid"
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
@@ -875,7 +875,7 @@
                                     <!-- List Sibar Property -->
                                     <div class="sides_list_property">
                                         <div class="sides_list_property_thumb">
-                                            <img src="{{ asset('assets/newfile1/img/p-7.jpg') }}" class="img-fluid"
+                                            <img src="{{ asset('assets/newFile1/img/p-7.jpg') }}" class="img-fluid"
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
@@ -896,7 +896,7 @@
                                     <!-- List Sibar Property -->
                                     <div class="sides_list_property">
                                         <div class="sides_list_property_thumb">
-                                            <img src="{{ asset('assets/newfile1/img/p-5.jpg') }}" class="img-fluid"
+                                            <img src="{{ asset('assets/newFile1/img/p-5.jpg') }}" class="img-fluid"
                                                 alt="">
                                         </div>
                                         <div class="sides_list_property_detail">
