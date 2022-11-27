@@ -239,7 +239,7 @@
         <!-- End Navigation -->
         <div class="clearfix"></div>
 
-        <div class="featured_slick_gallery gray">
+           <div class="featured_slick_gallery gray">
             <div class="featured_slick_gallery-slide">
                 <div class="featured_slick_padd"><a href="{{ asset('assets/newFile1/img/0mg8.webp') }}"
                     class="mfp-gallery"><img src="{{ asset('assets/newFile1/img/0mg8.webp') }}"
