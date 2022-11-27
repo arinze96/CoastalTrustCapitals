@@ -22,7 +22,7 @@
             <div class="hero-txt">
                 <div class="row">
                     <div class="col-12">
-                        <span>Finanancial planning for life</span>
+                        <span>Financial planning for life</span>
                         <h1>Best Platform for Investing in stocks and other financial instruments</h1>
                     </div>
                 </div>
@@ -449,7 +449,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <span class="section-title">Testimonial</span>
-                    <h2 class="section-summary">What people say about finlance planning</h2>
+                    <h2 class="section-summary">What our investors are saying about stock options in coastal trust capitals</h2>
                 </div>
             </div>
             <div class="row">
@@ -459,20 +459,18 @@
                             <div class="img-wrapper"><img src="assets/img/testimonial/client-1.jpg" alt="">
                             </div>
                             <div class="client-desc">
-                                <p class="comment">They provide innovative solutions with the best. tempor incididunt
-                                    utla bore et dolor tempor incididunt .</p>
-                                <h6 class="name">Jonathon doe</h6>
-                                <p class="rank">Director, art media</p>
+                                <p class="comment">They provide innovative solutions with the best services and investment instruments unmatched in North America.</p>
+                                <h6 class="name">Jonathon Glud</h6>
+                                <p class="rank">Potland Oregon</p>
                             </div>
                         </div>
                         <div class="single-testimonial">
                             <div class="img-wrapper"><img src="assets/img/testimonial/client-2.jpg" alt="">
                             </div>
                             <div class="client-desc">
-                                <p class="comment">They provide innovative solutions with the best. tempor incididunt
-                                    utla bore et dolor tempor incididunt .</p>
-                                <h6 class="name">Jonathon doe</h6>
-                                <p class="rank">Director, art media</p>
+                                <p class="comment">Investing in Coastal Trust Capital is the single best decision that i have made in a couple of decades.</p>
+                                <h6 class="name">Grace Welch</h6>
+                                <p class="rank">Columbus Ohio</p>
                             </div>
                         </div>
                     </div>

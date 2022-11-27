@@ -883,8 +883,8 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                             "div",
                             { className: "first-facility-item" },
                             p("i", { className: "flaticon-online-learning" }),
-                            p("h3", null, "Gauranteed Mentorship"),
-                            p(
+                            p("h3", null, "Guaranteed Mentorship"),
+                            p(             
                               "p",
                               null,
                               "We provide guaranteed mentorship to companies we invest in across te board"

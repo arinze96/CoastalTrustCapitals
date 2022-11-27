@@ -187,7 +187,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Headspace</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Headspace is an
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Headspace is an
                                         accessible digital health platform and app known primarily for its meditation
                                         and mindfulness exercises. This platform boasts hundreds of hours of content for
                                         users and a free introduction to the basics of meditation. App users also have
@@ -225,7 +225,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Parsley Health</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Parsley Health is
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Parsley Health is
                                         an innovative take on modern healthcare and primary care. By offering a platform
                                         that integrates cutting-edge medical testing and technology as well as impactful
                                         nutrition, wellness, and prevention research, Parsley Health provides customers
@@ -263,7 +263,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Circles</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Circles is a
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Circles is a
                                         mental healthcare startup that is revolutionizing the way consumers access
                                         support groups. Through the company’s laser-focused, professionally-led
                                         groupings and accessible pricing, users are able to more easily access the care
@@ -302,7 +302,7 @@
                                     <h4 class="card-title"> NervGen Pharma
                                     </h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2"> Nerve damage and
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px"> Nerve damage and
                                         neurodegenerative diseases can have long-lasting impacts that change a person’s
                                         life. NervGen Pharma is attempting to tackle the problem by providing solutions
                                         and treatments to help relieve and heal the symptoms.</h6>
@@ -338,7 +338,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Entrada Therapeutics</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Devasting
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Devasting
                                         diseases not only affect the person involved, they affect the entire community
                                         they live in. Entrada Therapeutics is attempting to overcome the challenges of
                                         intracellular target access so they can treat and heal those suffering from
@@ -374,7 +374,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Corvus Pharmaceuticals</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Corvus
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Corvus
                                         Pharmaceuticals works in the clinical stage of biopharmaceutical drugs. Their
                                         intent is to develop new immunology-focused medicines that can target critical
                                         cellular elements of the immune system. Their main focus is one treating cancer
@@ -411,7 +411,7 @@
                                     <!--Title-->
                                     <h4 class="card-title"> Bicycle Health</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Bicycle Health is
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Bicycle Health is
                                         a telemedicine startup that offers personalized recovery treatment for opioid
                                         addiction virtually changing the way we see addiction recovery and making
                                         treatment more accessible. Bicycle health operates in almost all major American
@@ -448,7 +448,7 @@
                                     <!--Title-->
                                     <h4 class="card-title"> Felmo</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">Felmo is a pet
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">Felmo is a pet
                                         tech startup that provides a variety of veterinary services for pets from the
                                         comfort of customers’ homes. By offering fast, flexible, and affordable
                                         scheduling, as well as a stress-free veterinary experience for pets, Felmo is
@@ -485,7 +485,7 @@
                                     <!--Title-->
                                     <h4 class="card-title"> HelloBello</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">
                                         HelloBello is a subscription-based pet tech startup that crafts fresh,
                                         human-grade food tailored to each dog’s nutritional needs as determined by their
                                         veterinarian-developed algorithm. All HelloBello products are free of
@@ -522,7 +522,7 @@
                                     <!--Title-->
                                     <h4 class="card-title">Loyal</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">
                                         Loyal develops medicines to help dogs live longer and healthier lives. Composed
                                         of a team of veterinarians, scientists, and dog-lovers, the goal of this startup
                                         is to produce the first drugs to combat the negative effects of aging in dogs
@@ -560,7 +560,7 @@
                                     <!--Title-->
                                     <h4 class="card-title"> GW Pharmaceuticals</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">
                                         GW has established a world leading position in the development of plant-derived
                                         cannabinoid therapeutics through its proven drug discovery and development
                                         processes, intellectual property portfolio and regulatory and manufacturing
@@ -598,7 +598,7 @@
                                     <!--Title-->
                                     <h4 class="card-title"> Medopad</h4>
                                     <!--Text-->
-                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2">
+                                    <h6 class="card-text" style="margin-bottom: 20px; line-height:2; letter-spacing: 0.5px; font-size: 14px">
                                         Medopad connects patients and providers in real time. It also collects data
                                         through wearables and lets patients send their data to healthcare professionals.
                                         The platform also offers providers and insurers ways to analyze large amounts of

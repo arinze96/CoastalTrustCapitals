@@ -267,7 +267,7 @@
                             class="img-fluid mx-auto" alt="" /></a>
                 </div>
             </div>
-            <a href="JavaScript:Void(0);" class="btn-view-pic">View photos</a>
+            
         </div>
         <!-- ============================ Hero Banner End ================================== -->
 
@@ -286,7 +286,7 @@
                                     Fremont, CA 94538</h3>
                                 <span style="margin-bottom: 10px"><i class="lni-map-marker"></i>8343 Canterbury St.
                                     Fremont, CA 94538</span>
-                                <h3 class="prt-price-fix">$7,600<sub>/month</sub></h3>
+                                <h3 class="prt-price-fix" style="margin-top: 10px">$7,600/month</h3>
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
@@ -594,7 +594,7 @@
                                                             <div class="comment-meta">
                                                                 <div class="comment-left-meta">
                                                                     <h4 class="author-name">Rosalina Kelian</h4>
-                                                                    <div class="comment-date">19th May 2018</div>
+                                                                    <div class="comment-date">19th may 2022</div>
                                                                 </div>
                                                             </div>
                                                             <div class="comment-text">
@@ -615,7 +615,7 @@
                                                             <div class="comment-meta">
                                                                 <div class="comment-left-meta">
                                                                     <h4 class="author-name">Rosalina Kelian</h4>
-                                                                    <div class="comment-date">19th May 2018</div>
+                                                                    <div class="comment-date">19th may 2022</div>
                                                                 </div>
                                                             </div>
                                                             <div class="comment-text">
@@ -630,7 +630,7 @@
                                         </div>
                                     </div>
                                     <a href="#" class="reviews-checked theme-cl"><i
-                                            class="fas fa-arrow-alt-circle-down mr-2"></i>See More Reviews</a>
+                                            class="fas fa-arrow-alt-circle-down mr-2"></i></a>
                                 </div>
                             </div>
 
@@ -799,7 +799,7 @@
                                     <div class="agent-photo"><img src="{{ asset('assets/newfile1/img/user-6.jpg') }}"
                                             alt=""></div>
                                     <div class="sides-widget-details">
-                                        <h4><a href="#">Shivangi Preet</a></h4>
+                                        <h4><a href="#">Jonathan Mitch</a></h4>
                                         <span><i class="lni-phone-handset"></i>(91) 123 456 7895</span>
                                     </div>
                                     <div class="clearfix"></div>
@@ -818,7 +818,7 @@
                                         <label>Description</label>
                                         <textarea class="form-control">I'm interested in this property.</textarea>
                                     </div>
-                                    <button class="btn btn-black btn-md rounded full-width">Send Message</button>
+                                    <button style="background-color: #0fca98" class="btn btn-black btn-md rounded full-width">Send Message</button>
                                 </div>
                             </div>
 
@@ -927,7 +927,7 @@
 
                         <div class="call-to-act">
                             <div class="call-to-act-head">
-                                <h3>Want to Become a Real Estate Agent?</h3>
+                                <h3>Do you wish to invest in this property</h3>
                                 <span>We'll help you to grow your career and growth.</span>
                             </div>
                             <a href="{{ route('user.register') }}" class="btn btn-call-to-act">SignUp Today</a>

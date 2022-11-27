@@ -100,13 +100,11 @@
             <div class="container">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-10 text-center">
-                        <div style="margin-top: 100px" class="sec-heading ">
+                    <div class="col-lg-7 col-md-10 text-center"  style="background-color: #ccffcc; margin-top: 50px; margin-bottom: 50px" >
+                        <div style="margin-top: 30px" class="sec-heading">
                             <h2>Explore Good places</h2>
-                            <p style="margin-top: 50px">We deal on any property used for residential purposes. Examples
-                                include
-                                single-family homes, condos, cooperatives, duplexes, townhouses, and multifamily
-                                residences.</p>
+                            <p style="margin-top: 30px">We specifically invest and look out on deals  for any property that is used exclusively for business and residential purposes, such as apartment complexes, gas stations, grocery stores, hospitals, hotels, offices, parking facilities, restaurants, shopping centers, stores, and theaters. 
+                                And then we buy into them and grow investment gains by capitalising on the rents and leases while properly maintaining and keeping it functional and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -509,10 +507,10 @@
             <div class="container">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-10 text-center">
-                        <div style="margin-top: 100px" class="sec-heading">
+                    <div class="col-lg-7 col-md-10 text-center"  style="background-color: #ccffcc; margin-top: 50px; margin-bottom: 50px">
+                        <div style="margin-top: 30px" class="sec-heading">
                             <h2>Find By Locations</h2>
-                            <p style="margin-top: 50px">We deal on any property used exclusively for business purposes,
+                            <p style="margin-top: 30px">We deal on any property used exclusively for business purposes,
                                 such as
                                 apartment complexes, gas stations, grocery stores, hospitals, hotels, offices, parking
                                 facilities, restaurants, shopping centers, stores, and theaters.</p>
@@ -645,10 +643,10 @@
             <div class="container">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-10 text-center">
-                        <div style="margin-top: 100px" class="sec-heading">
+                    <div class="col-lg-7 col-md-10 text-center"  style="background-color: #ccffcc; margin-top: 50px; margin-bottom: 50px">
+                        <div style="margin-top: 30px" class="sec-heading">
                             <h2>Featured Property For Sale</h2>
-                            <p style="margin-top: 50px">Investors and analysts keep a close eye on housing starts
+                            <p style="margin-top: 30px">Investors and analysts keep a close eye on housing starts
                                 because the numbers can provide a general sense of economic direction. Moreover, the
                                 types of new housing starts can give clues about how the economy is developing</p>
                         </div>
@@ -964,10 +962,10 @@
             <div class="container">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-10 text-center">
-                        <div style="margin-top: 100px" class="sec-heading ">
+                    <div class="col-lg-7 col-md-10 text-center"  style="background-color: #ccffcc; margin-top: 50px; margin-bottom: 50px">
+                        <div style="margin-top: 30px" class="sec-heading ">
                             <h2>Good Reviews by Customers</h2>
-                            <p style="margin-top: 50px">Ultimately, while we always hope our clients will be completely
+                            <p style="margin-top: 30px">Ultimately, while we always hope our clients will be completely
                                 satisfied, some may have unmet expectations and some may be downright unhappy. At the
                                 end of the day, both types of clients are able to give testimonials. these are some of
                                 what our client says</p>
@@ -1070,10 +1068,10 @@
             <div class="container">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 col-md-10 text-center">
-                        <div style="margin-top: 100px" class="sec-heading">
+                    <div class="col-lg-7 col-md-10 text-center"  style="background-color: #ccffcc; margin-top: 50px; margin-bottom: 50px">
+                        <div style="margin-top: 30px" class="sec-heading">
                             <h2>See our packages</h2>
-                            <p style="margin-top: 50px">Having something to fallback on in times of crises or
+                            <p style="margin-top: 30px">Having something to fallback on in times of crises or
                                 post-retirement is a major reason to have an investment. It is never advisable to spend
                                 every cash you have whenever it comes in. it is prudent to save and invest a percentage
                                 of your income, no matter how little.</p>

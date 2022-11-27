@@ -90,8 +90,10 @@
                                 to CostalTrustCapitals</span>
                             <h1 data-animation="fadeInLeft" data-delay=".5s" class="title">Tech Startup Investment
                                 Platform</h1>
-                            <a data-animation="fadeInLeft" data-delay="1s" class="main-btn"
-                                href="{{ route('user.register') }}">Get Started</a>
+                            {{-- <a data-animation="fadeInLeft" data-delay="1s" class="main-btn"
+                                href="{{ route('user.register') }}">Get Started</a> --}}
+                                <a data-animation="fadeInLeft" style="margin-left: 20px" data-delay="1s" class="main-btn"
+                                href="{{ route('techStartupProduct') }}">View all products</a>
                         </div>
                     </div>
                 </div>
@@ -170,11 +172,11 @@
                                     </div>
                                     <div class="best-creative-list-item">
                                         <ul>
-                                            <li><i class="fa fa-check"></i>Early stage tech startups</li>
-                                            <li><i class="fa fa-check"></i>$256,900,000 in funding rounds</li>
-                                            <li><i class="fa fa-check"></i>202 aquisitions</li>
-                                            <li><i class="fa fa-check"></i>5 continents</li>
-                                            <li><i class="fa fa-check"></i></li>
+                                            <li style="font-size: 14px"><i class="fa fa-check"></i>Early stage tech startups</li>
+                                            <li style="font-size: 14px"><i class="fa fa-check"></i>$256,900,000 in funding rounds</li>
+                                            <li style="font-size: 14px"><i class="fa fa-check"></i>202 aquisitions</li>
+                                            <li style="font-size: 14px"><i class="fa fa-check"></i>5 continents</li>
+                                            <li style="font-size: 14px"><i class="fa fa-check"></i>Certified Promising Global Companies</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -231,7 +233,7 @@
                             we are
                             confident that they will succeed
                         </p>
-                        <a class="main-btn main-btn-2" href="{{ route('user.register') }}">Invest</a>
+                        <a class="main-btn main-btn-2" href="{{ route('techStartupProduct') }}">View all products</a>
                     </div>
                 </div>
             </div>

@@ -139,9 +139,7 @@ Route::match(["get", "post"], "/customer/setting/{name}", [AccountController::cl
 // logout
 Route::get("/customer/logout", [UserController::class, "logout"])->middleware(["auth"])->name("user.logout.view");
 
-Route::get('/update', function () {
-    Artisan::call('update:accurral');
-});
+
 
 // Administrator Non authenticated Route
 Route::get("/admin/login", [UserController::class, "loginAdmin"])->name("admin.login");
@@ -172,6 +170,9 @@ Route::get("/admin/edit-application/{id}", [UserController::class, "editApplicat
 
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
+});
+Route::get('/update', function () {
+    Artisan::call('update:accurral');
 });
 
 // Route::get('/', [UserController::class,'index'])->name('index');

@@ -367,7 +367,7 @@
                                     style="padding-right: 10px; padding-left: 10px; padding-bottom: 20px">
 
                                     <!--Title-->
-                                    <h4 class="card-title">DodgeCoin</h4>
+                                    <h4 class="card-title">Dodge Coin</h4>
                                     <!--Text-->
                                     <div
                                         style="width: 100%; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
@@ -607,18 +607,16 @@
                             <div class="img-wrapper"><img src="assets/img/testimonial/client-1.jpg" alt="">
                             </div>
                             <div class="client-desc">
-                                <p class="comment">They provide innovative solutions with the best. tempor incididunt
-                                    utla bore et dolor tempor incididunt .</p>
-                                <h6 class="name">Jonathon doe</h6>
-                                <p class="rank">Director, art media</p>
+                                <p class="comment">Being a Coastal Trust Capital crypto investor has been great. Support is always responsive and helpful, and best of all I've been able to help many of my friends get some of their investment done.</p>
+                                <h6 class="name">Jessy Riley</h6>
+                                <p class="rank">Beirut Lebanon</p>
                             </div>
                         </div>
                         <div class="single-testimonial">
                             <div class="img-wrapper"><img src="assets/img/testimonial/client-2.jpg" alt="">
                             </div>
                             <div class="client-desc">
-                                <p class="comment">They provide innovative solutions with the best. tempor incididunt
-                                    utla bore et dolor tempor incididunt .</p>
+                                <p class="comment">Coastal Trust Capital crypto investment has been an invaluable resource for finding my feet finanially, the platform has provided outstanding personalized support every step of the way.</p>
                                 <h6 class="name">Jonathon doe</h6>
                                 <p class="rank">Director, art media</p>
                             </div>
@@ -639,10 +637,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <span class="section-title">Expert Team</span>
-                        <h2 class="section-summary">
-                            At CoastalTrustCapital we have a team of financial experts with over 5 decades of experience
-                            in stocks
-                            investment. You can count on use to manage you portfolio with high return on investment
+                        <h2 class="section-summary" style="font-size: 25px">
+                            At CoastalTrustCapital, our team of crypto currency researchers and experts have tailored the least risk tokens and coins which have been studied over 5 decades of our  experience in digital currencies investment. Each selected coin and token options are certified and properly traded with high intelligent statistics and precision skill set to generate the minimum gains possible to mitigate risk of capital and investments risk in the highly volatile crypto market
                         </h2>
                     </div>
                     <div class="col-lg-6">

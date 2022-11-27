@@ -1,42 +1,12 @@
-<div class="col-md-12">
-    <div class="single-reason">
-        <div class="about-icon-wrapper"> <i class="flaticon-reload"></i> </div>
-        <div class="reason-txt">
-            <h4>REAL ESTATE INVESTMENT</h4>
-            <p>We invest in real estate properties long term, such as malls, 
-                apartment buildings, hotels
-                etc</p>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="single-reason">
-            <div class="about-icon-wrapper"> <i class="flaticon-organize"></i> </div>
-            <div class="reason-txt">
-                <h4>TECH STARTUP INVESTMENT</h4>
-                <p>We invest in early stage tech startups that have the potential to scale in the
-                    decades to come</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="single-reason">
-            <div class="about-icon-wrapper"> <i class="flaticon-arrow-on-the-center-of-the-target"></i>
-            </div>
-            <div class="reason-txt">
-                <h4>MEDICAL HEDGEFUNDS</h4>
-                <p>Our portfolio speaks volume on our strategy in investing in medical startups</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="single-reason">
-            <div class="about-icon-wrapper"> <i class="flaticon-arrow-on-the-center-of-the-target"></i>
-            </div>
-            <div class="reason-txt">
-                <h4>CRYPTOCURRENCY AND STOCKS INVESTMENTS</h4>
-                <p>Great financial advice starts with an understanding of your personal, financial and
-                    lifestyle goals At CostalTrustCapitals we help you.</p>
-            </div>
-        </div>
-    </div>
+<div
+    style="width: 250px; height:220px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; block-size:220px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px;">
+    <div style="height:200px; padding:0px; margin:0px; width: 100%;"><iframe
+            src="https://widget.coinlib.io/widget?type=single_v2&theme=dark&coin_id=8550&pref_coin_id=1505" width="250"
+            height="196px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0"
+            style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div>
+    <div
+        style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+        <a href="https://coinlib.io" target="_blank"
+            style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency
+            Prices</a>&nbsp;by Coinlib</div>
 </div>
