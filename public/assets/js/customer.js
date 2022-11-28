@@ -2,6 +2,7 @@ $(document).ready(function(){
 
   $(".deposit_cash").click(processDeposit);
   $("#buysell-amount").val("");
+  $(".real_estate").click(alerTT)
 
   $("#buysell-amount").keyup(function(){
     console.log("dsd")
@@ -32,7 +33,9 @@ $(document).ready(function(){
 
 })
 
-
+function alerTT(){
+  alert("here now")
+}
 
 function processWithdraw(e){
   e.preventDefault();
@@ -360,7 +363,6 @@ function processDeposit(e){
   if(jQuery.inArray($method,["BTC","BCH","ETH","LTC","BNB","USDT","DODGE"]) != -1){
    $btn.html("<div class='spinner-grow spinner-grow-sm' role='status'><span class='sr-only'>Loading...</span></div> Processing...");
    $dataObj = {usd_to_crypto:true,amount:$value,convert:$method};
-
    // set endpoint and your API access key
      $.ajax({
          url: $url,   

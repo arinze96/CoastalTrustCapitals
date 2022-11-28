@@ -281,9 +281,9 @@
 
                         <div class="property_block_wrap style-2 p-4">
                             <div class="prt-detail-title-desc">
-                                <span class="prt-types sale" style="margin-bottom: 10px">For Sale</span>
-                                <h3 style="margin-bottom: 10px">9151 Third St.
-                                    Vallejo, CA 94591</h3>
+                                <span class="prt-types sale" style="margin-bottom: 10px">For Rent</span>
+                                <h3 style="margin-bottom: 10px">Adobe Property
+                                    Advisors</h3>
                                 <span style="margin-bottom: 10px"><i class="lni-map-marker"></i>9151 Third St.
                                     Vallejo, CA 94591</span>
                                 <h3 class="prt-price-fix" style="margin-top: 10px">$23,400/month</h3>

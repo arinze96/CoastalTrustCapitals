@@ -22,7 +22,7 @@
             <div class="hero-txt">
                 <div class="row">
                     <div class="col-12">
-                        <span>Finanancial planning for life</span>
+                        <span>Financial planning for life</span>
                         <h1>Trusted to help guide entrepreneurs make better financial decisions.</h1>
                     </div>
                 </div>

@@ -281,11 +281,10 @@
                         
                         <div class="property_block_wrap style-2 p-4">
                             <div class="prt-detail-title-desc">
-                                <span class="prt-types sale" style="margin-bottom: 10px">For Sale</span>
-                                <h3 style="margin-bottom: 10px">9572 Trusel Ave.
-                                    Hopewell, VA 23860</h3>
+                                <span class="prt-types sale" style="margin-bottom: 10px">For Rent</span>
+                                <h3 style="margin-bottom: 10px">Blue Reef Properties</h3>
                                 <span style="margin-bottom: 10px"><i class="lni-map-marker"></i>9572 Trusel Ave.
-                                    Hopewell, VA 23860</span>
+                                    VA</span>
                                 <h3 class="prt-price-fix" style="margin-top: 10px">$17,600/month</h3>
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">

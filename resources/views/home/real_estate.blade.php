@@ -134,7 +134,7 @@
                                                 class="prt-link-detail">Banyon Tree Realty</a></h4>
                                     </div>
                                     <div class="listing-short-detail-flex">
-                                        <h6 class="listing-card-info-price">$7,000</h6>
+                                        <h6 class="listing-card-info-price">$7,600</h6>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@
                                                 class="prt-link-detail">Blue Reef Properties</a></h4>
                                     </div>
                                     <div class="listing-short-detail-flex">
-                                        <h6 class="listing-card-info-price">$8,400</h6>
+                                        <h6 class="listing-card-info-price">$17,600</h6>
                                     </div>
                                 </div>
                             </div>
@@ -757,7 +757,7 @@
                                             <span class="prt-types rent">For Rent</span>
                                         </div>
                                         <div class="list-price">
-                                            <h6 class="listing-card-info-price">$64,800</h6>
+                                            <h6 class="listing-card-info-price">$23,400</h6>
                                         </div>
                                     </div>
                                 </div>

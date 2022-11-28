@@ -281,12 +281,11 @@
 
                         <div class="property_block_wrap style-2 p-4">
                             <div class="prt-detail-title-desc">
-                                <span class="prt-types sale" style="margin-bottom: 10px">For Sale</span>
-                                <h3 style="margin-bottom: 10px">83 Vale Street
-                                    Elgin, IL 60120</h3>
+                                <span class="prt-types sale" style="margin-bottom: 10px">For Rent</span>
+                                <h3 style="margin-bottom: 10px">Bluebell Real Estat</h3>
                                 <span style="margin-bottom: 10px"><i class="lni-map-marker"></i> 83 Vale Street
                                     Elgin, IL 60120</span>
-                                <h3 class="prt-price-fix" style="margin-top: 10px">$60,600/month</h3>
+                                <h3 class="prt-price-fix" style="margin-top: 10px">$60,500/month</h3>
                                 <div class="list-fx-features">
                                     <div class="listing-card-info-icon">
                                         <div class="inc-fleat-icon"><img
