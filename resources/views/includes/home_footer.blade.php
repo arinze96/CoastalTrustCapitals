@@ -45,10 +45,9 @@
                     <h4>Contact Us</h4>
                     <div class="footer-contact-info">
                         <ul>
-                            <li><i class="fa fa-home"></i><span>143 castle road 517 district, kiyev
-                                    port south Canada</span>
+                            <li><i class="fa fa-home"></i><span>Youngsville, NC 27596 United States</span>
                             </li>
-                            <li><i class="fa fa-phone"></i><span>+3 123 456 789</span></li>
+                            <li><i class="fa fa-phone"></i><span>+19194211323</span></li>
                             <li><i class="far fa-envelope"></i><span>support@coastaltrustcapital.com</span></li>
                         </ul>
                     </div>
