@@ -95,7 +95,7 @@ Route::match(["get", "post"], "/master/reset-password/{email}/{token}", [UserCon
 Route::get("/customer/dashboard", [UserController::class, "dashboard"])->middleware(["auth"])->name("user.dashboard.view");
 Route::get("/customer/deposit/{account}", [AccountController::class, "deposit"])->middleware(["auth"])->name("user.deposit.view");
 Route::post("/account/process-deposit", [AccountController::class, "currencyConverter"])->middleware(["auth"])->name("user.deposit.post");
-Route::post("/account/process-deposit", [AccountController::class, "bankAccount"])->middleware(["auth"])->name("user.deposit.bank.post");
+// Route::post("/account/process-deposit", [AccountController::class, "bankAccount"])->middleware(["auth"])->name("user.deposit.bank.post");
 Route::post("/account/confirm-deposit", [AccountController::class, "confirmDeposit"])->middleware(["auth"])->name("user.deposit.confirm.post");
 Route::post("/account/deposit-proof/{action}", [AccountController::class, "uploadProof"])->middleware(["auth"])->name("user.deposit.proof.post");
 Route::get('/testmail', [UserController::class, "testmail"])->name("testmail");

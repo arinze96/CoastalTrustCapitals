@@ -84,3 +84,16 @@
         </div>
     </div> --}}
 </div>
+
+
+
+{{-- ////////////////
+    MAIL_MAILER=smtp
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587 
+MAIL_USERNAME=apikey
+MAIL_PASSWORD=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
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=noreply@coastalvest.com
+MAIL_FROM_NAME="${APP_NAME}"
+    ////////////////// --}}
