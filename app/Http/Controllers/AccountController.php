@@ -72,7 +72,15 @@ class AccountController extends Controller
         echo json_encode($response);
     }
 
-    
+    public function bankAccount(Request $request)
+    {
+        if ($request->method()  == "GET") {
+            $user = $request->user();
+            $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            $application = Application::where("id", "=", "1")->get()->first();
+            return view("customer.deposit", ["application" => $application, "account" => $userAccount]);
+        }
+    }
 
     /**
      * This function  is used to upload something
