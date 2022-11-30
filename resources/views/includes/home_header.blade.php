@@ -3,8 +3,8 @@
         <div class="support-bar-area">
             <div class="row">
                 <div class="col-lg-6 support-contact-info">
-                    <span class="address"><i class="flaticon-placeholder"></i> 143 castle road 517 district</span>
-                    <span class="phone"><i class="flaticon-chat"></i> + 00 123 234 567</span>
+                    <span class="address"><i class="flaticon-placeholder"></i>Youngsville, NC 27596, United States</span>
+                    <span class="phone"><i class="flaticon-chat"></i> +19194211323</span>
                 </div>
                 <div class="col-lg-6 text-right">
                     <ul class="social-links">

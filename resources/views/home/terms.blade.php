@@ -126,7 +126,7 @@
                     <h6>
                         If your personal information changes, or if you no longer desire our service, you may correct,
                         update, amend, delete or request deletion by making the change in your registered account
-                        settings page, by emailing our Customer Support at remove@cardonecapital.com or by contacting us
+                        settings page, by emailing our Customer Support at support@coastalvest.com or by contacting us
                         at the contact information listed on the website.
                     </h6>
                     <br><br>
@@ -140,7 +140,7 @@
                         When you sign up for our services, we may send periodic emails to you regarding our services or
                         to tell you about services we believe will be of interest to you. If you prefer not to receive
                         such marketing or promotional e-mails from us, you may unsubscribe completely by emailing us at
-                        remove@cardonecapital.com. Please note that opt-out requests may take up to two (2) weeks to
+                        support@coastalvest.com. Please note that opt-out requests may take up to two (2) weeks to
                         process. Please also note that at times we may need to send you e-mail communications that are
                         transactional in nature such as service or termination announcements or payment confirmations
                         which are communications you will not be able to opt-out of.
@@ -206,8 +206,7 @@
                         responsible for the availability of such external sites or their content, and Coastaltrustcapitals
                         does not adopt, endorse or nor is responsible or liable for any such sites or content, including
                         advertising, products or other materials, on or available through such sites or resources. Other
-                        web sites may provide links to the Site or Content with or without our authorization. CARDONE
-                        CAPITAL does not endorse such sites and shall not be responsible or liable for any links from
+                        web sites may provide links to the Site or Content with or without our authorization. COASTAL TRUST CAPITAL does not endorse such sites and shall not be responsible or liable for any links from
                         those sites to the Site or Content, or for any content, advertising, products or other materials
                         available on or through such other sites, or any loss or damages incurred in connection
                         therewith. Coastaltrustcapitals may, in its sole discretion, block links to the Site and Content
@@ -318,35 +317,35 @@
                         <div class="single-partner-item">
                             <div class="outer-container">
                                 <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-1.png') }}" alt="">
+                                    <img src="{{ asset('assets/newfile2/img/partners/accorns.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="single-partner-item">
                             <div class="outer-container">
                                 <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-2.png') }}" alt="">
+                                    <img src="{{ asset('assets/newfile2/img/partners/br.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="single-partner-item">
                             <div class="outer-container">
                                 <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-3.png') }}" alt="">
+                                    <img src="{{ asset('assets/newfile2/img/partners/bridgewaters.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="single-partner-item">
                             <div class="outer-container">
                                 <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-4.png') }}" alt="">
+                                    <img src="{{ asset('assets/newfile2/img/partners/Zillow-Logo.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="single-partner-item">
                             <div class="outer-container">
                                 <div class="inner-container">
-                                    <img src="{{ asset('assets/newfile2/img/partners/partner-5.png') }}" alt="">
+                                    <img src="{{ asset('assets/newfile2/img/partners/JP-Morgan-Chase-Emblem.png') }}" alt="">
                                 </div>
                             </div>
                         </div>

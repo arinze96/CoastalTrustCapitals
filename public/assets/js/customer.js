@@ -2,7 +2,11 @@ $(document).ready(function(){
 
   $(".deposit_cash").click(processDeposit);
   $("#buysell-amount").val("");
-  $(".real_estate").click(alerTT)
+  $(".real_estate").click(alerTT);
+  $(".plan_change").change(planChange);
+  $(".roi_change").change(roiChange);
+  $(".roi_change_by_capital").change(roiChangeByCapital);
+
 
   $("#buysell-amount").keyup(function(){
     console.log("dsd")
@@ -32,6 +36,127 @@ $(document).ready(function(){
 }); 
 
 })
+
+
+ // function completes the deposit
+ const investment_plan = [
+  ["Jannat Graynight Mood In Siver Colony, London ($7,000)",
+  "9572 Trusel Ave. Hopewell, VA 23860 ($17,600)",
+  "83 Vale Street Elgin, IL 60120 ($60,500)",
+  "481 High Dr. Media, PA 19063 ($25,850)",
+  "8 S. San Pablo St. New Kensington, PA 15068 ($37,100)",
+  "70 E. Meadowbrook Lane Chula Vista, CA 91910 ($70,000)",
+  "9151 Third St. Vallejo, CA 94591 ($23,400)",
+  "8343 Canterbury St. Fremont, CA 94538 ($35,000)",
+  "8508 Country Club Lane Los Angeles, CA 90019 ($80,100)"
+],
+  ["Bitcoin",
+  "Ethereum",
+  "Binance",
+  "Ripple",
+  "Algorand",
+  "LiteCoin",
+  "DodgeCoin",
+  "Polkadot",
+  "ChainLink",
+  "Cosmas Atom",
+  "OKB Token",
+  "Tron"
+]
+  ,["Tesla",
+  "Microsoft",
+  "Google",
+  "Lockhead Martins",
+  "Boeing",
+  "Airbus",
+  "Zoom",
+  "Apple",
+  "Samsung",
+  "Foxconn",
+  "Alibaba",
+  "Dell"
+]
+  ,[
+    "Headspace",
+  "Parsley Health",
+  "Circles",
+  "NervGen Pharma",
+  "Entrada Therapeutics",
+  "Corvus Pharmaceuticals",
+  "Bicycle Health",
+  "Felmo",
+  "HelloBello",
+  "Loyal",
+  "GW Pharmaceuticals",
+  "Medopad"
+  ]
+  ,[
+    "Chainalysise",
+    "Paxful",
+    "Spring Labs",
+    "Dragonchain",
+    "Axis Security",
+    "Confluera",
+    "Illumio",
+    "Verishop",
+    "TinyTap"
+
+]
+]
+ function planChange(e,$param){
+  e.preventDefault();
+  const investment = $( ".plan_change option:selected" ).val();
+  const index = investment-1;
+  const data = investment_plan[index];
+  console.log(data);
+  let options = "";
+  if(data){
+    for (let x = 0; x < data.length; x++) {
+      options += `<option value="${x+1}">${data[x]}</option>`;
+    }
+  }
+
+  document.querySelector(".second_plan_change").innerHTML = options
+
+}
+
+const roi_list = [["5%"], ["7%"], ["10%"], ["15%"], ["20%"], ["35%"], ["60%"]];
+function roiChange(e,$param){
+  e.preventDefault();
+  const roi = $( ".roi_change option:selected" ).val();
+  const index = roi-1;
+  const data = roi_list[index];
+  console.log(data);
+  let options = "";
+  if(data){
+    for (let x = 0; x < data.length; x++) {
+      options += `${data[x]}`;
+    }
+  }
+
+  document.querySelector(".second_roi_change").value = options
+
+}
+
+const roi_list_by_capital = [["5%"], ["9%"], ["13%"], ["18%"], ["25%"], ["45%"], ["65%"], ["80%"], ["89%"]];
+
+function roiChangeByCapital(e,$param){
+  e.preventDefault();
+  const roi = $( ".roi_change_by_capital option:selected" ).val();
+  const index = roi-1;
+  const data = roi_list_by_capital[index];
+  console.log(data);
+  let options = "";
+  if(data){
+    for (let x = 0; x < data.length; x++) {
+      options += `${data[x]}`;
+    }
+  }
+
+  document.querySelector(".second_roi_change").value = options
+
+}
+
 
 function alerTT(){
   alert("here now")

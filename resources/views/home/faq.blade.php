@@ -80,7 +80,7 @@
                             <div class="answers">
                                 <br><br>
                                 <p>
-                                    That depends on which vehicle you decide to invest in. If you invest in our new
+                                    That depends on which investment vehicle you decide to invest in. If you invest in our new
                                     accredited fund, you will receive a Form K-1. A Form K-1 is a tax form used by
                                     partnerships to provide investors with detailed information on their share of a
                                     partnership’s taxable income. Our goal is to finalize all Form K-1s annually by
@@ -91,9 +91,9 @@
                                 </p>
                                 <br><br>
                                 <p>
-                                    If you invest in our new non-accredited vehicle, you will receive a Form 1099-DIV. A
+                                    If you invest in our new non-accredited investment vehicle, you will receive a Form 1099-DIV. A
                                     Form 1099-DIV is a tax form that records income earned from entities or persons
-                                    other than your employer. For our non-accredited vehicle, it will record the amount
+                                    other than your employer. For our non-accredited investment vehicle, it will record the amount
                                     of distributions you receive and whether those distributions are income or a return
                                     of capital. We will provide you with a Form 1099-DIV by January 31st each year.
 
@@ -104,10 +104,10 @@
                             <input type="checkbox" id="question5" name="q" class="questions">
                             <div class="plus">+</div>
                             <label for="question5" class="question">
-                                How long is the term of the vehicle?
+                                How long is the term of the investment vehicle?
                             </label>
                             <div class="answers">
-                                The term of our vehicles are generally 10 years, but we have sole discretion to extend
+                                The term of our investment investment vehicles are generally 10 years, but we have sole discretion to extend
                                 the life or even decrease the life after you have invested. The reason for this is we
                                 want to maximize the value of the real estate investments. We do not want to be forced
                                 to sell investments when the market is bad, nor do we want to pass up the opportunity to
@@ -151,15 +151,15 @@
                             <div class="answers">
                                 <br><br>
                                 <p>
-                                    That depends on the vehicle you decide to invest in. For our accredited vehicle, we
+                                    That depends on the investment vehicle you decide to invest in. For our accredited investment investment vehicle, we
                                     intend to pay distributions monthly but may change the frequency at our sole
-                                    discretion during the term of the fund. For our non-accredited vehicle, we intend to
+                                    discretion during the term of the fund. For our non-accredited investment investment vehicle, we intend to
                                     pay distributions at least annually and our target is quarterly.
                                 </p>
                                 <br><br>
 
                                 <p>
-                                    Regardless of the vehicle, the change in distribution frequency can depend on many
+                                    Regardless of the investment vehicle, the change in distribution frequency can depend on many
                                     factors such as the property’s cash flow level or needed capital expenditures.
                                     Sometimes the cash flow of the property may not support a distribution.
                                     Additionally, our funds may investment in a property with the plan of not paying any

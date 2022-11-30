@@ -72,6 +72,8 @@ class AccountController extends Controller
         echo json_encode($response);
     }
 
+    
+
     /**
      * This function  is used to upload something
      */

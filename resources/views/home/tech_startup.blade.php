@@ -166,7 +166,7 @@
                                 <div class="best-creative-list">
                                     <div class="best-creative-seats">
                                         <i class="flaticon-computer"></i>
-                                        <h3 class="title counter">3400</h3>
+                                        <h3 class="title">3k+</h3>
                                         <p>Succesful tech startups across seven 5 continets</p>
                                         <span>40 startups at round 4 of investment</span>
                                     </div>

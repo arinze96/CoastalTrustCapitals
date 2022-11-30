@@ -47,11 +47,6 @@
                                     type="button" role="tab" aria-controls="profile"
                                     aria-selected="false">Pay to bank account</button>
                             </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                                    type="button" role="tab" aria-controls="contact"
-                                    aria-selected="false">Pay with Payment Processor</button>
-                            </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel"
@@ -152,132 +147,10 @@
                                                 <input type="text" class="form-control" id="buysell-amount"
                                                     name="bs-amount" placeholder="Enter Amount (USD)">
                                             </div>
-                                            <div class="col-md-12">
-                                                <label for="inputState" class="form-label ">Select Bankt</label>
-                                                <select name="method" id="method"
-                                                    class="form-select form-control-number">
-                                                    @if ($application->bitcoin_address)
-                                                        <option value="BTC">
-                                                            Barclays Bank </option>
-                                                    @endif
-                                                    @if ($application->litecoin_address)
-                                                        <option value="LTC">Wells Fargo</option>
-                                                    @endif
-        
-                                                    @if ($application->btc_cash_address)
-                                                        <option value="BCH">Bank of America</option>
-                                                    @endif
-        
-                                                    @if ($application->binancecoin_address)
-                                                        <option value="BNB">JPMorgan Chase</option>
-                                                    @endif
-        
-                                                    @if ($application->perfectmoney_address)
-                                                        <option value="BNB">Citygroup</option>
-                                                    @endif
-        
-                                                    @if ($application->ethereum_address)
-                                                        <option value="ETH">	Capital One </option>
-                                                    @endif
-                                                    @if ($application->usdt_address)
-                                                        <option value="USDT">	TD Bank </option>
-                                                    @endif
-                                                </select>
-                                                {{-- <div class="container">
-                                                    <div class="row">
-                                                      <div class="col-md-4">
-                                                        <div class="p-3 border bg-light">Row column</div>
-                                                      </div>
-                                                      <div class="col-md-4">
-                                                        <div class="p-3 border bg-light">Row column</div>
-                                                      </div>
-                                                      <div class="col-md-4">
-                                                        <div class="p-3 border bg-light">Row column</div>
-                                                      </div>
-                                                     
-                                                    </div>
-                                                  </div> --}}
-                                            </div>
-        
-                                            <div class="col-md-12 ">
-                                                <button class="btn btn-outline-primary px-5 w-100">final balance
-                                                    <span class="_display">0</span>USD</button>
-                                            </div>
         
                                             <div class="col-md-12">
                                                 <button type="submit" data-url="{{ route('user.deposit.post') }}"
-                                                    class="btn btn-primary px-5 w-100 deposit_cash">+ add Funds</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                <div class="card border-top border-0 border-4 border-primary">
-                                    <div class="card-body p-5">
-                                        <p id="error_box" class="text-danger"></p>
-                                        <p id="error_box1" class="text-danger"></p>
-                                        <form class="row g-3">
-                                           
-                                            <div class="col-md-12">
-                                                <label for="inputState" class="form-label">Choose Payment Method</label>
-                                                <span class="error_box text-center text-danger"></span>
-                                                <select name="currency" id="currency"
-                                                    class="form-select form-control  form-control-number">
-                                                    <option {{ request()->account == 'usd' ? 'selected' : '' }} value="usd"
-                                                        class="small">Crypto transfer</option>
-                                                    <option value="bank" class="small">Bank Transfer</option>
-                                                    <option value="credit" class="small">Credit Card Transfer</option>
-        
-                                                </select>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <label for="inputLastName" class="form-label" for="buysell-amount">Amount to
-                                                    deposit</label>
-                                                <span class=" text-center text-danger" id="error_box"></span>
-                                                <input type="text" class="form-control" id="buysell-amount"
-                                                    name="bs-amount" placeholder="Enter Amount (USD)">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <label for="inputState" class="form-label ">Select Payment Proccessor</label>
-                                                <select name="method" id="method"
-                                                    class="form-select form-control-number">
-                                                    @if ($application->bitcoin_address)
-                                                        <option value="BTC">Perfect Money </option>
-                                                    @endif
-                                                    @if ($application->litecoin_address)
-                                                        <option value="LTC">Astropay </option>
-                                                    @endif
-        
-                                                    @if ($application->btc_cash_address)
-                                                        <option value="BCH">BITCOIN CASH </option>
-                                                    @endif
-        
-                                                    @if ($application->binancecoin_address)
-                                                        <option value="BNB">BINANCE COIN </option>
-                                                    @endif
-        
-                                                    @if ($application->perfectmoney_address)
-                                                        <option value="BNB">PERFECT MONEY </option>
-                                                    @endif
-        
-                                                    @if ($application->ethereum_address)
-                                                        <option value="ETH">ETHEREUM </option>
-                                                    @endif
-                                                    @if ($application->usdt_address)
-                                                        <option value="USDT">TETHER (USDT) </option>
-                                                    @endif
-                                                </select>
-                                            </div>
-        
-                                            <div class="col-md-12 ">
-                                                <button class="btn btn-outline-primary px-5 w-100">final balance
-                                                    <span class="_display">0</span>USD</button>
-                                            </div>
-        
-                                            <div class="col-md-12">
-                                                <button type="submit" data-url="{{ route('user.deposit.post') }}"
-                                                    class="btn btn-primary px-5 w-100 deposit_cash">+ add Funds</button>
+                                                    class="btn btn-primary px-5 w-100 deposit_cash">generate Bank</button>
                                             </div>
                                         </form>
                                     </div>
