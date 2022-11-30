@@ -5,8 +5,8 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="footer-logo-wrapper">
                         <a href="{{ route('app.home') }}">
-                            {{-- <img src="{{ asset('assets/newfile2/img/logo.png') }}" alt=""> --}}
-                            <h3>LOGO</h3>
+                            <img src="{{ asset('assets/CT.png') }}" alt="" style="width: 80px; height: 80px; margin-bottom: 50px">
+                            {{-- <h3>LOGO</h3> --}}
                         </a>
                     </div>
                     <p class="footer-txt">Our entire business is centred on you and your goals. Financial planning

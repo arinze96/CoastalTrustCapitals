@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-2 col-6">
                     <div class="logo-wrapper">
-                        <a href="{{ route('app.home') }}"><img src="assets/img/logo.png" alt=""></a>
+                        <a href="{{ route('app.home') }}"><img src="assets/CT.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-10 col-6 text-right position-static">
