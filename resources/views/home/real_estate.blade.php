@@ -27,8 +27,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-md-11 col-sm-12">
                         <div class="inner-banner-text text-center">
-                            <p class="lead-i" style="color: #fff">Amet consectetur adipisicing <span
-                                    class="badge badge-success">New</span></p>
+                            {{-- <p class="lead-i" style="color: #fff">Amet consectetur adipisicing <span
+                                    class="badge badge-success">New</span></p> --}}
                             <h2 style="color: #fff; margin-top: 40px"><span style="color: #fff" class="font-normal">Find
                                     Your</span> Perfect Place.</h2>
                         </div>
@@ -53,7 +53,7 @@
                                                     <li>
                                                         <input id="cp-3" class="checkbox-custom" name="cpt"
                                                             type="radio">
-                                                        <label for="cp-3" class="checkbox-custom-label">Sold</label>
+                                                        <label for="cp-3" class="checkbox-custom-label">Sale</label>
                                                     </li>
                                                 </ul>
                                             </div>

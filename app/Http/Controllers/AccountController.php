@@ -355,6 +355,8 @@ class AccountController extends Controller
         }
 
         $data = (object) $request->all();
+
+        dd($data);
      
         $user = $request->user();
         $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
